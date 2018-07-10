@@ -1,0 +1,271 @@
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='06/07/2018 19:32:56' ---
+	srsue() [0x4e693a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7ff32b1f74b0]
+	srsue(_ZN5srsue3rrc9write_sduEjPN6srslte13byte_buffer_tE+0x24) [0x49aaf4]
+	srsue(_ZN5srsue3nas28parse_authentication_requestEjPN6srslte13byte_buffer_tE+0x1ac) [0x48852c]
+	srsue(_ZN5srsue3nas9write_pduEjPN6srslte13byte_buffer_tE+0x1d8) [0x48a858]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7ff32c9bd6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7ff32b2c941d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='06/07/2018 19:38:58' ---
+	srsue() [0x4e68fa]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f00367774b0]
+	srsue(_ZN5srsue3rrc9write_sduEjPN6srslte13byte_buffer_tE+0x24) [0x49aab4]
+	srsue(_ZN5srsue3nas28parse_authentication_requestEjPN6srslte13byte_buffer_tE+0x1ac) [0x48852c]
+	srsue(_ZN5srsue3nas9write_pduEjPN6srslte13byte_buffer_tE+0x18f) [0x48a80f]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f0037f3d6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f003684941d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='07/07/2018 10:50:12' ---
+	srsue() [0x4e691a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7fdcc4b174b0]
+	srsue(_ZN5srsue3rrc9write_sduEjPN6srslte13byte_buffer_tE+0x24) [0x49aad4]
+	srsue(_ZN5srsue3nas28parse_authentication_requestEjPN6srslte13byte_buffer_tE+0x1c9) [0x488549]
+	srsue(_ZN5srsue3nas9write_pduEjPN6srslte13byte_buffer_tE+0x18f) [0x48a82f]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7fdcc62dd6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7fdcc4be941d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='07/07/2018 10:52:09' ---
+	srsue() [0x4e694a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f81a01b74b0]
+	srsue(_ZN5srsue3rrc9write_sduEjPN6srslte13byte_buffer_tE+0x24) [0x49ab04]
+	srsue(_ZN5srsue3nas28parse_authentication_requestEjPN6srslte13byte_buffer_tE+0x1f3) [0x488573]
+	srsue(_ZN5srsue3nas9write_pduEjPN6srslte13byte_buffer_tE+0x18f) [0x48a85f]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f81a197d6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f81a028941d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='07/07/2018 11:36:42' ---
+	srsue() [0x4e690a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f553a7834b0]
+	srsue(_ZN5srsue3rrc9write_sduEjPN6srslte13byte_buffer_tE+0x24) [0x49aac4]
+	srsue(_ZN5srsue3nas25send_security_mode_rejectEh+0x88) [0x489808]
+	srsue(_ZN5srsue3nas27parse_security_mode_commandEjPN6srslte13byte_buffer_tE+0xa07) [0x48a257]
+	srsue(_ZN5srsue3nas9write_pduEjPN6srslte13byte_buffer_tE+0x476) [0x48ab06]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f553bf496ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f553a85541d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='07/07/2018 11:41:01' ---
+	srsue() [0x4e690a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f94c54c34b0]
+	srsue(_ZN5srsue3rrc9write_sduEjPN6srslte13byte_buffer_tE+0x24) [0x49aac4]
+	srsue(_ZN5srsue3nas25send_security_mode_rejectEh+0x88) [0x489808]
+	srsue(_ZN5srsue3nas27parse_security_mode_commandEjPN6srslte13byte_buffer_tE+0xa07) [0x48a257]
+	srsue(_ZN5srsue3nas9write_pduEjPN6srslte13byte_buffer_tE+0x476) [0x48ab06]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f94c6c896ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f94c559541d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='07/07/2018 13:53:15' ---
+	srsue() [0x4e687a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f995da194b0]
+	srsue(_ZN5srsue3phy19configure_ul_paramsEb+0x17) [0x475767]
+	srsue(_ZN5srsue3rrc26apply_phy_config_dedicatedEP43LIBLTE_RRC_PHYSICAL_CONFIG_DEDICATED_STRUCTb+0x231) [0x4941d1]
+	srsue(_ZN5srsue3rrc15set_phy_defaultEv+0x38) [0x4948d8]
+	srsue(_ZN5srsue3rrc4initEPNS_17phy_interface_rrcEPNS_17mac_interface_rrcEPNS_17rlc_interface_rrcEPNS_18pdcp_interface_rrcEPNS_17nas_interface_rrcEPNS_18usim_interface_rrcEPN6srslte20mac_interface_timersEPNSD_3logE+0x196) [0x495c66]
+	srsue(_ZN5srsue2ue4initEPNS_10all_args_tE+0xd98) [0x4632d8]
+	srsue(main+0x4e9) [0x450e99]
+	/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0) [0x7f995da04830]
+	srsue(_start+0x29) [0x4514c9]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 10:27:48' ---
+	srsue() [0x4e678a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f18ed5a44b0]
+	srsue(_ZN5srsue3rrc13parse_dl_ccchEPN6srslte13byte_buffer_tE+0x5e) [0x49a63e]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f18eed6a6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f18ed67641d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 10:32:29' ---
+	srsue() [0x4e678a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7fdd03b7b4b0]
+	srsue(_ZN5srsue3rrc13parse_dl_ccchEPN6srslte13byte_buffer_tE+0x5e) [0x49a63e]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7fdd053416ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7fdd03c4d41d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 11:23:01' ---
+	srsue() [0x4e674a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f128c8cd4b0]
+	srsue(_ZN5srsue3rrc13parse_dl_dcchEjPN6srslte13byte_buffer_tE+0x113) [0x49c243]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f128e0936ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f128c99f41d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 11:41:30' ---
+	srsue() [0x4e679a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f5c234b74b0]
+	srsue(_ZN5srsue3rrc13parse_dl_dcchEjPN6srslte13byte_buffer_tE+0x113) [0x49c293]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f5c24c7d6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f5c2358941d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 11:45:07' ---
+	srsue() [0x4e67ca]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f99c25064b0]
+	srsue(_ZN5srsue3rrc13parse_dl_dcchEjPN6srslte13byte_buffer_tE+0x113) [0x49c293]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f99c3ccc6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f99c25d841d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 11:46:37' ---
+	srsue() [0x4e67fa]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f2ea0b2d4b0]
+	srsue(_ZN5srsue3rrc13parse_dl_dcchEjPN6srslte13byte_buffer_tE+0x113) [0x49c2a3]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f2ea22f36ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f2ea0bff41d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 11:48:05' ---
+	srsue() [0x4e66ea]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f8f90e544b0]
+	srsue(_ZN5srsue3rrc13parse_dl_dcchEjPN6srslte13byte_buffer_tE+0xa1) [0x49c231]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f8f9261a6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f8f90f2641d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 11:51:41' ---
+	srsue() [0x4e66ba]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f5d9bc254b0]
+	srsue(_ZN5srsue3rrc13parse_dl_dcchEjPN6srslte13byte_buffer_tE+0x11f) [0x49c2af]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f5d9d3eb6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f5d9bcf741d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 11:54:33' ---
+	srsue() [0x4e64ea]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f29bb4724b0]
+	srsue(_ZN5srsue3rrc27send_security_mode_completeEv+0x11) [0x49ad11]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f29bcc386ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f29bb54441d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 11:58:43' ---
+	srsue() [0x4e671a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7faf75bb74b0]
+	srsue(_ZN5srsue3rrc8rrc_meas5resetEv+0xa6) [0x495b66]
+	srsue(_ZN5srsue3rrc4initEPNS_17phy_interface_rrcEPNS_17mac_interface_rrcEPNS_17rlc_interface_rrcEPNS_18pdcp_interface_rrcEPNS_17nas_interface_rrcEPNS_18usim_interface_rrcEPN6srslte20mac_interface_timersEPNSD_3logE+0x166) [0x495e86]
+	srsue(_ZN5srsue2ue4initEPNS_10all_args_tE+0xd98) [0x4632d8]
+	srsue(main+0x4e9) [0x450e99]
+	/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0) [0x7faf75ba2830]
+	srsue(_start+0x29) [0x4514c9]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 11:58:43' ---
+	srsue() [0x4e671a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7faf75bb74b0]
+	srsue(_ZN5srsue3rrc10run_threadEv+0x204) [0x49d514]
+	srsue(_ZN6thread21thread_function_entryEPv+0x9) [0x46f699]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7faf7737d6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7faf75c8941d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 12:00:21' ---
+	srsue() [0x4e680a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7fb084cd74b0]
+	srsue(_ZN5srsue3rrc10run_threadEv+0x204) [0x49d604]
+	srsue(_ZN6thread21thread_function_entryEPv+0x9) [0x46f789]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7fb08649d6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7fb084da941d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 12:02:45' ---
+	srsue() [0x4e63ca]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f4d3b59f4b0]
+	srsue(_ZN5srsue3rrc19byte_align_and_packEv+0x5a) [0x49a35a]
+	srsue(_ZN5srsue3rrc16send_ul_dcch_msgEv+0x21) [0x49a681]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f4d3cd656ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f4d3b67141d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 12:38:53' ---
+	srsue() [0x4e63ca]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f4f51b354b0]
+	srsue(_ZN5srsue3rrc19byte_align_and_packEv+0x5a) [0x49a35a]
+	srsue(_ZN5srsue3rrc16send_ul_dcch_msgEv+0x21) [0x49a681]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f4f532fb6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f4f51c0741d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 12:43:05' ---
+	srsue() [0x4e64da]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f05d84464b0]
+	srsue(_ZN5srsue3rrc19byte_align_and_packEv+0x5a) [0x49a35a]
+	srsue(_ZN5srsue3rrc16send_ul_dcch_msgEv+0x63) [0x49a6c3]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f05d9c0c6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f05d851841d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 12:45:02' ---
+	srsue() [0x4e64ba]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7efd4c7764b0]
+	srsue(_ZN5srsue3rrc19byte_align_and_packEv+0x5a) [0x49a35a]
+	srsue(_ZN5srsue3rrc16send_ul_dcch_msgEv+0x4d) [0x49a6ad]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7efd4df3c6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7efd4c84841d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 12:49:07' ---
+	srsue() [0x4e63fa]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f58129804b0]
+	srsue(_ZN5srsue3rrc19byte_align_and_packEv+0x6d) [0x49a35d]
+	srsue(_ZN5srsue3rrc16send_ul_dcch_msgEv+0x21) [0x49a6b1]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x451849]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f58141466ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f5812a5241d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 13:40:21' ---
+	srsue() [0x4e657a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7ff7420384b0]
+	srsue(_ZN5srsue3rrc26apply_phy_config_dedicatedEP43LIBLTE_RRC_PHYSICAL_CONFIG_DEDICATED_STRUCTb+0x33) [0x4941c3]
+	srsue(_ZN5srsue3rrc25apply_rr_config_dedicatedEP37LIBLTE_RRC_RR_CONFIG_DEDICATED_STRUCT+0xde) [0x49a1de]
+	srsue(_ZN5srsue3rrc23handle_rrc_con_reconfigEjP44LIBLTE_RRC_CONNECTION_RECONFIGURATION_STRUCT+0x1a4) [0x49c1f4]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x4518c9]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7ff7437fe6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7ff74210a41d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 13:47:28' ---
+	srsue() [0x4e65ca]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f56fef064b0]
+	srsue(_ZN5srsue3rrc26apply_phy_config_dedicatedEP43LIBLTE_RRC_PHYSICAL_CONFIG_DEDICATED_STRUCTb+0x33) [0x4941c3]
+	srsue(_ZN5srsue3rrc25apply_rr_config_dedicatedEP37LIBLTE_RRC_RR_CONFIG_DEDICATED_STRUCT+0xde) [0x49a1de]
+	srsue(_ZN5srsue3rrc23handle_rrc_con_reconfigEjP44LIBLTE_RRC_CONNECTION_RECONFIGURATION_STRUCT+0x1e2) [0x49c232]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x4518c9]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f57006cc6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f56fefd841d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 13:50:31' ---
+	srsue() [0x4e660a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f0a38a824b0]
+	srsue(_ZN5srsue3rrc26apply_phy_config_dedicatedEP43LIBLTE_RRC_PHYSICAL_CONFIG_DEDICATED_STRUCTb+0x33) [0x4941c3]
+	srsue(_ZN5srsue3rrc25apply_rr_config_dedicatedEP37LIBLTE_RRC_RR_CONFIG_DEDICATED_STRUCT+0xde) [0x49a1de]
+	srsue(_ZN5srsue3rrc23handle_rrc_con_reconfigEjP44LIBLTE_RRC_CONNECTION_RECONFIGURATION_STRUCT+0x20a) [0x49c25a]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x4518c9]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f0a3a2486ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f0a38b5441d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 13:52:22' ---
+	srsue() [0x4e65da]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f21938b84b0]
+	srsue(_ZN5srsue2gw7init_ifEPc+0x87) [0x48d107]
+	srsue(_ZN5srsue2gw13setup_if_addrEjPc+0x26) [0x48d2c6]
+	srsue(_ZN5srsue3nas19parse_attach_acceptEjPN6srslte13byte_buffer_tE+0x539) [0x4890f9]
+	srsue(_ZN5srsue3nas9write_pduEjPN6srslte13byte_buffer_tE+0x426) [0x48a9f6]
+	srsue(_ZN5srsue3rrc23handle_rrc_con_reconfigEjP44LIBLTE_RRC_CONNECTION_RECONFIGURATION_STRUCT+0xc6) [0x49c116]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x4518c9]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f219507e6ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f219398a41d]
+
+--- command='srsue ue.conf' version=18.3.1 signal=11 date='09/07/2018 14:58:52' ---
+	srsue() [0x4e65da]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7f7edb58b4b0]
+	srsue(_ZN5srsue2gw7init_ifEPc+0x87) [0x48d107]
+	srsue(_ZN5srsue2gw13setup_if_addrEjPc+0x26) [0x48d2c6]
+	srsue(_ZN5srsue3nas19parse_attach_acceptEjPN6srslte13byte_buffer_tE+0x539) [0x4890f9]
+	srsue(_ZN5srsue3nas9write_pduEjPN6srslte13byte_buffer_tE+0x426) [0x48a9f6]
+	srsue(_ZN5srsue3rrc23handle_rrc_con_reconfigEjP44LIBLTE_RRC_CONNECTION_RECONFIGURATION_STRUCT+0xc6) [0x49c116]
+	srsue(_Z10sock_rx_dlPv+0xf9) [0x4518c9]
+	/lib/x86_64-linux-gnu/libpthread.so.0(+0x76ba) [0x7f7edcd516ba]
+	/lib/x86_64-linux-gnu/libc.so.6(clone+0x6d) [0x7f7edb65d41d]
+

@@ -1,0 +1,4 @@
+Notes:
+------
+
+-> The ip address and port of mme are hardcoded as of now
