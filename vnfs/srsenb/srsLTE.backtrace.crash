@@ -818,3 +818,12 @@
 	/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0) [0x7f5f0b914830]
 	srsenb(_start+0x29) [0x474529]
 
+--- command='srsenb enb.conf' version=18.3.1 signal=11 date='25/07/2018 08:38:06' ---
+	srsenb() [0x50043a]
+	/lib/x86_64-linux-gnu/libc.so.6(+0x354b0) [0x7fea92dda4b0]
+	/usr/local/lib/libsrslte_rf.so(srslte_rf_close+0x7) [0x7fea93e238a7]
+	srsenb(_ZN6srsenb3enb4stopEv+0x89) [0x483639]
+	srsenb(main+0x46d) [0x4741ed]
+	/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0) [0x7fea92dc5830]
+	srsenb(_start+0x29) [0x474529]
+

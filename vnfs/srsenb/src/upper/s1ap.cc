@@ -834,7 +834,7 @@ void s1ap::handle_ulnastransport(char *msg, int len)
   else if (msg_type == 0)
     rrc->parse_ul_dcch(1, 1, buf);
   else if (msg_type == 5)
-    gtpu->write_pdu(1, 1, buf);
+    //gtpu->write_pdu(1, 1, buf);
     printf("Ping received at eNodeB\n");
 }
 
