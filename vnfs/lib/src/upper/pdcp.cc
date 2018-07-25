@@ -83,6 +83,7 @@ void pdcp::reset()
 *******************************************************************************/
 bool pdcp::is_drb_enabled(uint32_t lcid)
 {
+  return true; // Mallesh for now.
   if(lcid >= SRSLTE_N_RADIO_BEARERS) {
     pdcp_log->error("Radio bearer id must be in [0:%d] - %d\n", SRSLTE_N_RADIO_BEARERS, lcid);
     return false;
@@ -93,6 +94,7 @@ bool pdcp::is_drb_enabled(uint32_t lcid)
 void pdcp::write_sdu(uint32_t lcid, byte_buffer_t *sdu)
 {
   if(valid_lcid(lcid)) {
+          printf("Before send sdu2 \n");
     pdcp_array[lcid].write_sdu(sdu);
   } else {
     pdcp_log->warning("Writing sdu: lcid=%d. Deallocating sdu\n", lcid);
@@ -180,6 +182,7 @@ void pdcp::write_pdu_pcch(byte_buffer_t *sdu)
 *******************************************************************************/
 bool pdcp::valid_lcid(uint32_t lcid)
 {
+  return true; // Mallesh for now
   if(lcid >= SRSLTE_N_RADIO_BEARERS) {
     pdcp_log->error("Radio bearer id must be in [0:%d] - %d", SRSLTE_N_RADIO_BEARERS, lcid);
     return false;

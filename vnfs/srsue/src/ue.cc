@@ -189,15 +189,15 @@ bool ue::init(all_args_t *args_)
   //radio.set_freq_offset(args->rf.freq_offset);
 
   //mac.init(&phy, &rlc, &rrc, &mac_log);
-  //rlc.init(&pdcp, &rrc, this, &rlc_log, &mac, 0 /* RB_ID_SRB0 */);
-  //pdcp.init(&rlc, &rrc, &gw, &pdcp_log, 0 /* RB_ID_SRB0 */, SECURITY_DIRECTION_UPLINK);
+  rlc.init(&pdcp, &rrc, this, &rlc_log, &mac, 0 /* RB_ID_SRB0 */);
+  pdcp.init(&rlc, &rrc, &gw, &pdcp_log, 0 /* RB_ID_SRB0 */, SECURITY_DIRECTION_UPLINK);
 
   usim.init(&args->usim, &usim_log);
   srslte_nas_config_t nas_cfg(1, args->apn); /* RB_ID_SRB1 */
   nas.init(&usim, &rrc, &gw, &nas_log, nas_cfg);
-  //gw.init(&pdcp, &nas, &gw_log, 3 /* RB_ID_DRB1 */);
+  gw.init(&pdcp, &nas, &gw_log, 3 /* RB_ID_DRB1 */);
 
-  //gw.set_netmask(args->expert.ip_netmask);
+  gw.set_netmask(args->expert.ip_netmask);
 
   rrc.myinit(&nas, &usim, &rrc_log);
   //rrc.init(&phy, &mac, &rlc, &pdcp, &nas, &usim, &mac, &rrc_log);
@@ -255,9 +255,9 @@ void ue::stop()
 
     
     // Stop RLC and PDCP before GW to avoid locking on queue
-   // rlc.stop();
-   // pdcp.stop();
-   // gw.stop();
+   rlc.stop();
+   pdcp.stop();
+   gw.stop();
 
     // PHY must be stopped before radio otherwise it will lock on rf_recv()
     //mac.stop();

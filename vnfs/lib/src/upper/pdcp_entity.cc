@@ -135,6 +135,7 @@ void pdcp_entity::write_sdu(byte_buffer_t *sdu)
   }
   tx_count++;
 
+  printf("Before RLC write sdu\n");
   rlc->write_sdu(lcid, sdu);
 }
 

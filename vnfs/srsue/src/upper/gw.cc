@@ -56,6 +56,8 @@ void gw::init(pdcp_interface_gw *pdcp_, nas_interface_gw *nas_, srslte::log *gw_
   cfg     = cfg_;
   run_enable = true;
 
+  printf("Initialized gw interface at UE\n");
+
   gettimeofday(&metrics_time[1], NULL);
   dl_tput_bytes = 0;
   ul_tput_bytes = 0;
@@ -248,6 +250,9 @@ void gw::run_thread()
     return;
   }
 
+  printf("INSIDE GW RECEIVE THREAD################### cfg lcid id: %d \n",cfg.lcid);
+  cfg.lcid = 0;
+
   const static uint32_t ATTACH_TIMEOUT_MS   = 10000;
   const static uint32_t ATTACH_MAX_ATTEMPTS = 3;
   uint32_t attach_cnt = 0;
@@ -265,7 +270,7 @@ void gw::run_thread()
       gw_log->console("GW pdu buffer full - gw receive thread exiting.\n");
       break;
     }
-    gw_log->debug("Read %d bytes from TUN fd=%d, idx=%d\n", N_bytes, tun_fd, idx);
+    printf("Read %d bytes from TUN fd=%d, idx=%d\n", N_bytes, tun_fd, idx);
     if(N_bytes > 0)
     {
       pdu->N_bytes = idx + N_bytes;
@@ -280,7 +285,8 @@ void gw::run_thread()
 
           while(run_enable && !pdcp->is_drb_enabled(cfg.lcid) && attach_attempts < ATTACH_MAX_ATTEMPTS) {
             if (attach_cnt == 0) {
-              gw_log->info("LCID=%d not active, requesting NAS attach (%d/%d)\n", cfg.lcid, attach_attempts, ATTACH_MAX_ATTEMPTS);
+              printf("LCID=%d not active, requesting NAS attach (%d/%d)\n", cfg.lcid, attach_attempts, ATTACH_MAX_ATTEMPTS);
+          printf("seding attach request again \n");
               nas->attach_request();
               attach_attempts++;
             }
@@ -306,7 +312,8 @@ void gw::run_thread()
           if (pdcp->is_drb_enabled(cfg.lcid)) {
             pdu->set_timestamp();
             ul_tput_bytes += pdu->N_bytes;
-            pdcp->write_sdu(cfg.lcid, pdu);
+            //pdcp->write_sdu(cfg.lcid, pdu);
+            nas->write_pdu_sock(pdu->msg, pdu->N_bytes, 5);
 
             do {
               pdu = pool_allocate;

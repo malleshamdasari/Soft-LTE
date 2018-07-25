@@ -571,7 +571,7 @@ void s1ap::write_pdu_sock(uint8_t *msg, int N_bytes, uint8_t msg_type)
   memset(&serveraddr, 0, sizeof(serveraddr));
   serveraddr.sin_family = AF_INET;
   serveraddr.sin_port = htons(9997);
-  serveraddr.sin_addr.s_addr = inet_addr("135.207.129.133");
+  serveraddr.sin_addr.s_addr = inet_addr("135.207.143.44");
 
   bytes_sent = sendto(dl_sock_fd, temp, N_bytes+1, 0, (struct sockaddr *)&serveraddr, sizeof(serveraddr));
   if (bytes_sent < 0)
@@ -833,9 +833,7 @@ void s1ap::handle_ulnastransport(char *msg, int len)
     send_ulnastransport(1, buf);
   else if (msg_type == 0)
     rrc->parse_ul_dcch(1, 1, buf);
-  else if (msg_type == 5)
-    //gtpu->write_pdu(1, 1, buf);
-    printf("Ping received at eNodeB\n");
+  
 }
 
 bool s1ap::send_initialuemessage(uint16_t rnti, srslte::byte_buffer_t *pdu, bool has_tmsi, uint32_t m_tmsi, uint8_t mmec)

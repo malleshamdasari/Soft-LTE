@@ -137,6 +137,7 @@ class nas_interface_gw
 {
 public:
   virtual void attach_request() = 0;
+  virtual void write_pdu_sock(uint8_t *msg, int N_bytes, uint8_t msg_type) = 0;
 };
 
 // RRC interface for MAC
