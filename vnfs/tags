@@ -5866,7 +5866,7 @@ PLMN_SELECTED	srsue/hdr/upper/nas.h	/^  PLMN_SELECTED$/;"	e	enum:srsue::__anon4
 PMI_SELECT_TEST_H	lib/src/phy/mimo/test/pmi_select_test.h	28;"	d
 PMI_SELECT_TEST_NOF_CASES	lib/src/phy/mimo/test/pmi_select_test.h	30;"	d
 PMI_SEL_PRECISION	lib/src/phy/mimo/precoding.c	1844;"	d	file:
-POOL_SIZE	lib/include/srslte/common/buffer_pool.h	/^  static const int       POOL_SIZE = 2048;$/;"	m	class:srslte::buffer_pool
+POOL_SIZE	lib/include/srslte/common/buffer_pool.h	/^  static const int       POOL_SIZE = 8096; \/\/Mallesh 2048;$/;"	m	class:srslte::buffer_pool
 PPID	srsenb/hdr/upper/s1ap.h	/^  static const int PPID             = 18;$/;"	m	class:srsenb::s1ap
 PRACHCFG	lib/src/phy/phch/test/prach_detect_test_mex.c	38;"	d	file:
 PRACHCFG	lib/src/phy/phch/test/prach_test_mex.c	36;"	d	file:
@@ -7856,7 +7856,7 @@ buffer_size_tx	lib/src/phy/rf/rf_blade_imp.c	/^const unsigned int buffer_size_tx
 buffer_tx	lib/include/srslte/common/pdu.h	/^  uint8_t*   buffer_tx; $/;"	m	class:srslte::pdu
 build_data_pdu	lib/src/upper/rlc_am.cc	/^int  rlc_am::build_data_pdu(uint8_t *payload, uint32_t nof_bytes)$/;"	f	class:srslte::rlc_am
 build_data_pdu	lib/src/upper/rlc_um.cc	/^int  rlc_um::build_data_pdu(uint8_t *payload, uint32_t nof_bytes)$/;"	f	class:srslte::rlc_um
-build_info	build/lib/include/srslte/build_info.h	/^static char build_info[] = "commit 7c89937 on branch master";$/;"	v
+build_info	build/lib/include/srslte/build_info.h	/^static char build_info[] = "commit 7547700 on branch master";$/;"	v
 build_mode	build/lib/include/srslte/build_info.h	/^      static char build_mode[] = "RelWithDebInfo";$/;"	v
 build_mode	build/lib/include/srslte/build_info.h	/^      static char build_mode[] = "unknown";$/;"	v
 build_mode	build/lib/include/srslte/build_info.h	/^    static char build_mode[] = "Debug";$/;"	v

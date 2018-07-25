@@ -58,6 +58,7 @@ public:
   // non-static methods
   buffer_pool(uint32_t nof_buffers = POOL_SIZE)
   {
+    nof_buffers = POOL_SIZE;
     pthread_mutex_init(&mutex, NULL);
     for(uint32_t i=0;i<nof_buffers;i++) {
       buffer_t *b = new buffer_t;
@@ -146,7 +147,7 @@ public:
 
   
 private:  
-  static const int       POOL_SIZE = 2048;
+  static const int       POOL_SIZE = 8096; //Mallesh 2048;
   std::stack<buffer_t*>  available;
   std::vector<buffer_t*> used; 
   pthread_mutex_t        mutex;  
