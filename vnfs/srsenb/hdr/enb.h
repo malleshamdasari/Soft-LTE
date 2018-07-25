@@ -146,6 +146,7 @@ typedef struct {
 class enb
     :public enb_metrics_interface {
 public:
+
   static enb *get_instance(void);
 
   static void cleanup(void);

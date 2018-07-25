@@ -29,6 +29,8 @@
 #include "srsue/hdr/upper/usim.h"
 #include "srslte/common/bcd_helpers.h"
 
+#include <inttypes.h>
+
 using namespace srslte;
 
 namespace srsue{
@@ -119,6 +121,8 @@ bool usim::get_imsi_vec(uint8_t* imsi_, uint32_t n)
     return false;
   }
 
+  //imsi = 0010101234567;
+  imsi = random();
   uint64_t temp = imsi;
   for(int i=14;i>=0;i--) {
     imsi_[i] = temp % 10;

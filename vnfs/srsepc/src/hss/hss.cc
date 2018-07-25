@@ -527,6 +527,20 @@ hss::gen_auth_info_answer_xor(uint64_t imsi, uint8_t *k_asme, uint8_t *autn, uin
 bool
 hss::get_k_amf_op_sqn(uint64_t imsi, uint8_t *k, uint8_t *amf, uint8_t *op, uint8_t *sqn)
 {
+  std::vector<std::string> split = split_string("ue2,001010123456780,00112233445566778899aabbccddeeaa,63bfa50ee6523365ff14c1f45f88737d,8000,000000001235", ',');
+  if(split.size()!=6)
+  { 
+    m_hss_log->error("Error parsing UE database\n");
+    return false;
+  }
+  hss_ue_ctx_t *ue_ctx = new hss_ue_ctx_t;
+  ue_ctx->name = split[0];
+  ue_ctx->imsi = imsi;
+  get_uint_vec_from_hex_str(split[2],ue_ctx->key,16);
+  get_uint_vec_from_hex_str(split[3],ue_ctx->op,16);
+  get_uint_vec_from_hex_str(split[4],ue_ctx->amf,2);
+  get_uint_vec_from_hex_str(split[5],ue_ctx->sqn,6);
+  m_imsi_to_ue_ctx.insert(std::pair<uint64_t,hss_ue_ctx_t*>(ue_ctx->imsi,ue_ctx));
 
   std::map<uint64_t,hss_ue_ctx_t*>::iterator ue_ctx_it = m_imsi_to_ue_ctx.find(imsi);
   if(ue_ctx_it == m_imsi_to_ue_ctx.end())
@@ -535,7 +549,8 @@ hss::get_k_amf_op_sqn(uint64_t imsi, uint8_t *k, uint8_t *amf, uint8_t *op, uint
     m_hss_log->console("User not found. IMSI: %015lu\n",imsi);
     return false;
   }
-  hss_ue_ctx_t *ue_ctx = ue_ctx_it->second;
+  //hss_ue_ctx_t *ue_ctx = ue_ctx_it->second;
+  ue_ctx = ue_ctx_it->second;
   m_hss_log->info("Found User %015lu\n",imsi);
   memcpy(k, ue_ctx->key, 16);
   memcpy(amf, ue_ctx->amf, 2);

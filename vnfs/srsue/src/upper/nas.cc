@@ -584,11 +584,11 @@ void nas::parse_attach_accept(uint32_t lcid, byte_buffer_t *pdu) {
                        act_def_eps_bearer_context_req.pdn_addr.addr[2],
                        act_def_eps_bearer_context_req.pdn_addr.addr[3]);
 
-       // Setup GW
-       char *err_str = NULL;
-       if (gw->setup_if_addr(ip_addr, err_str)) {
-         nas_log->error("Failed to set gateway address - %s\n", err_str);
-       }
+       //Mallesh // Setup GW
+       //Mallesh char *err_str = NULL;
+       //Mallesh if (gw->setup_if_addr(ip_addr, err_str)) {
+       //Mallesh   nas_log->error("Failed to set gateway address - %s\n", err_str);
+       //Mallesh }
     } else {
       nas_log->error("Not handling IPV6 or IPV4V6\n");
       pool->deallocate(pdu);

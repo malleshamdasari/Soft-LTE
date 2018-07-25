@@ -228,6 +228,7 @@ bool ue::init(all_args_t *args_)
 
   //nas.attach_request();
   nas.sock_attach();
+  nas.sock_attach();
 
   started = true;
   return true;

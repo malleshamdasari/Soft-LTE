@@ -1393,6 +1393,8 @@ srsue/hdr/upper/usim.h
 /home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srsue/hdr/upper/usim.h
 srslte/common/bcd_helpers.h
 /home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srslte/common/bcd_helpers.h
+inttypes.h
+-
 
 lib/include/srslte/version.h
 srslte/config.h
