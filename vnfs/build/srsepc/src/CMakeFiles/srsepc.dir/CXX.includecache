@@ -1400,7 +1400,7 @@ srsepc/hdr/hss/hss.h
 mme_gtpc.h
 ../srsepc/hdr/mme/mme_gtpc.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/main.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/main.cc
 iostream
 -
 fstream
@@ -1414,13 +1414,13 @@ boost/program_options.hpp
 boost/algorithm/string.hpp
 -
 srslte/common/bcd_helpers.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/srslte/common/bcd_helpers.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/srslte/common/bcd_helpers.h
 srsepc/hdr/mme/mme.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/srsepc/hdr/mme/mme.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/srsepc/hdr/mme/mme.h
 srsepc/hdr/hss/hss.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/srsepc/hdr/hss/hss.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/srsepc/hdr/hss/hss.h
 srsepc/hdr/spgw/spgw.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/srsepc/hdr/spgw/spgw.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/srsepc/hdr/spgw/spgw.h
 
 lib/include/srslte/version.h
 srslte/config.h

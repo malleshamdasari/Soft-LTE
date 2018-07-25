@@ -1224,11 +1224,11 @@ map
 queue
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/upper/rlc_um_data_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/upper/rlc_um_data_test.cc
 iostream
 -
 srslte/upper/rlc_um.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/upper/srslte/upper/rlc_um.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/upper/srslte/upper/rlc_um.h
 assert.h
 -
 

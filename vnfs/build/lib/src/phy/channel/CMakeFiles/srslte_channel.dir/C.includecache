@@ -16,7 +16,7 @@ stdint.h
 srslte/config.h
 ../lib/include/srslte/phy/channel/srslte/config.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/channel/ch_awgn.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/channel/ch_awgn.c
 complex.h
 -
 stdlib.h
@@ -26,11 +26,11 @@ strings.h
 math.h
 -
 gauss.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/channel/gauss.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/channel/gauss.h
 srslte/phy/channel/ch_awgn.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/channel/srslte/phy/channel/ch_awgn.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/channel/srslte/phy/channel/ch_awgn.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/channel/gauss.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/channel/gauss.c
 string.h
 -
 stdlib.h
@@ -38,5 +38,5 @@ stdlib.h
 math.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/channel/gauss.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/channel/gauss.h
 

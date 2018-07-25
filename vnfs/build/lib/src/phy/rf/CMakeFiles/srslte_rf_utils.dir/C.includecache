@@ -1126,7 +1126,7 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/rf_utils.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_utils.c
 stdio.h
 -
 stdlib.h
@@ -1144,11 +1144,11 @@ sys/time.h
 unistd.h
 -
 srslte/srslte.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/srslte/srslte.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/srslte/srslte.h
 srslte/phy/rf/rf.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/srslte/phy/rf/rf.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/srslte/phy/rf/rf.h
 srslte/phy/rf/rf_utils.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/srslte/phy/rf/rf_utils.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/srslte/phy/rf/rf_utils.h
 
 lib/include/srslte/version.h
 srslte/config.h

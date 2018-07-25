@@ -142,5 +142,5 @@ srsenb/test/upper/CMakeFiles/ip_test_enb.dir/ip_test.cc.o
  ../srsenb/hdr/phy/prach_worker.h
  ../srsenb/hdr/phy/txrx.h
  ../srsenb/hdr/upper/common_enb.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/upper/ip_test.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsenb/test/upper/ip_test.cc
  lib/include/srslte/version.h

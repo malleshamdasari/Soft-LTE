@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_cell_search.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_cell_search.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_dl.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_dl.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_mib.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_mib.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_sync.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_sync.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_ul.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_ul.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_cell_search.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_cell_search.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_dl.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_dl.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_mib.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_mib.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_sync.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_sync.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_ul.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_ul.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -19,6 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/usr/include/SoapySDR"
   "lib/include"
   "../lib/include"
   )

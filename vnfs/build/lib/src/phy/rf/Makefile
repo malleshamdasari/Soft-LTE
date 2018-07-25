@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -125,7 +125,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CPackSourceConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/mdasari/Lte-setup-bell/vnfs/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -135,8 +135,8 @@ package_source/fast: package_source
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -147,7 +147,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -157,14 +157,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf/CMakeFiles/progress.marks
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf/CMakeFiles/progress.marks
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/clean
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rule
 .PHONY : lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rule
 
 # Convenience name for target.
@@ -199,12 +199,12 @@ srslte_rf: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rule
 
 # fast build rule for target.
 srslte_rf/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build
 .PHONY : srslte_rf/fast
 
 # Convenience name for target.
 lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/rule
 .PHONY : lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ srslte_rf_utils: lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/rule
 
 # fast build rule for target.
 srslte_rf_utils/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/build
 .PHONY : srslte_rf_utils/fast
 
 rf_blade_imp.o: rf_blade_imp.c.o
@@ -223,7 +223,7 @@ rf_blade_imp.o: rf_blade_imp.c.o
 
 # target to build an object file
 rf_blade_imp.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o
 .PHONY : rf_blade_imp.c.o
 
 rf_blade_imp.i: rf_blade_imp.c.i
@@ -232,7 +232,7 @@ rf_blade_imp.i: rf_blade_imp.c.i
 
 # target to preprocess a source file
 rf_blade_imp.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.i
 .PHONY : rf_blade_imp.c.i
 
 rf_blade_imp.s: rf_blade_imp.c.s
@@ -241,7 +241,7 @@ rf_blade_imp.s: rf_blade_imp.c.s
 
 # target to generate assembly for a file
 rf_blade_imp.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.s
 .PHONY : rf_blade_imp.c.s
 
 rf_imp.o: rf_imp.c.o
@@ -250,7 +250,7 @@ rf_imp.o: rf_imp.c.o
 
 # target to build an object file
 rf_imp.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.o
 .PHONY : rf_imp.c.o
 
 rf_imp.i: rf_imp.c.i
@@ -259,7 +259,7 @@ rf_imp.i: rf_imp.c.i
 
 # target to preprocess a source file
 rf_imp.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.i
 .PHONY : rf_imp.c.i
 
 rf_imp.s: rf_imp.c.s
@@ -268,8 +268,35 @@ rf_imp.s: rf_imp.c.s
 
 # target to generate assembly for a file
 rf_imp.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.s
 .PHONY : rf_imp.c.s
+
+rf_soapy_imp.o: rf_soapy_imp.c.o
+
+.PHONY : rf_soapy_imp.o
+
+# target to build an object file
+rf_soapy_imp.c.o:
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o
+.PHONY : rf_soapy_imp.c.o
+
+rf_soapy_imp.i: rf_soapy_imp.c.i
+
+.PHONY : rf_soapy_imp.i
+
+# target to preprocess a source file
+rf_soapy_imp.c.i:
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.i
+.PHONY : rf_soapy_imp.c.i
+
+rf_soapy_imp.s: rf_soapy_imp.c.s
+
+.PHONY : rf_soapy_imp.s
+
+# target to generate assembly for a file
+rf_soapy_imp.c.s:
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.s
+.PHONY : rf_soapy_imp.c.s
 
 rf_uhd_imp.o: rf_uhd_imp.c.o
 
@@ -277,7 +304,7 @@ rf_uhd_imp.o: rf_uhd_imp.c.o
 
 # target to build an object file
 rf_uhd_imp.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o
 .PHONY : rf_uhd_imp.c.o
 
 rf_uhd_imp.i: rf_uhd_imp.c.i
@@ -286,7 +313,7 @@ rf_uhd_imp.i: rf_uhd_imp.c.i
 
 # target to preprocess a source file
 rf_uhd_imp.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.i
 .PHONY : rf_uhd_imp.c.i
 
 rf_uhd_imp.s: rf_uhd_imp.c.s
@@ -295,7 +322,7 @@ rf_uhd_imp.s: rf_uhd_imp.c.s
 
 # target to generate assembly for a file
 rf_uhd_imp.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.s
 .PHONY : rf_uhd_imp.c.s
 
 rf_utils.o: rf_utils.c.o
@@ -304,7 +331,7 @@ rf_utils.o: rf_utils.c.o
 
 # target to build an object file
 rf_utils.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/rf_utils.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/rf_utils.c.o
 .PHONY : rf_utils.c.o
 
 rf_utils.i: rf_utils.c.i
@@ -313,7 +340,7 @@ rf_utils.i: rf_utils.c.i
 
 # target to preprocess a source file
 rf_utils.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/rf_utils.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/rf_utils.c.i
 .PHONY : rf_utils.c.i
 
 rf_utils.s: rf_utils.c.s
@@ -322,7 +349,7 @@ rf_utils.s: rf_utils.c.s
 
 # target to generate assembly for a file
 rf_utils.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/rf_utils.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf_utils.dir/rf_utils.c.s
 .PHONY : rf_utils.c.s
 
 uhd_c_api.o: uhd_c_api.cpp.o
@@ -331,7 +358,7 @@ uhd_c_api.o: uhd_c_api.cpp.o
 
 # target to build an object file
 uhd_c_api.cpp.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o
 .PHONY : uhd_c_api.cpp.o
 
 uhd_c_api.i: uhd_c_api.cpp.i
@@ -340,7 +367,7 @@ uhd_c_api.i: uhd_c_api.cpp.i
 
 # target to preprocess a source file
 uhd_c_api.cpp.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.i
 .PHONY : uhd_c_api.cpp.i
 
 uhd_c_api.s: uhd_c_api.cpp.s
@@ -349,7 +376,7 @@ uhd_c_api.s: uhd_c_api.cpp.s
 
 # target to generate assembly for a file
 uhd_c_api.cpp.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.s
 .PHONY : uhd_c_api.cpp.s
 
 # Help Target
@@ -375,6 +402,9 @@ help:
 	@echo "... rf_imp.o"
 	@echo "... rf_imp.i"
 	@echo "... rf_imp.s"
+	@echo "... rf_soapy_imp.o"
+	@echo "... rf_soapy_imp.i"
+	@echo "... rf_soapy_imp.s"
 	@echo "... rf_uhd_imp.o"
 	@echo "... rf_uhd_imp.i"
 	@echo "... rf_uhd_imp.s"
@@ -395,6 +425,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

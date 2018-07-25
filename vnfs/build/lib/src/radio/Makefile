@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -80,8 +80,8 @@ package/fast: package
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -103,7 +103,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CPackSourceConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/mdasari/Lte-setup-bell/vnfs/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/radio/CMakeFiles/progress.marks
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/radio/CMakeFiles/progress.marks
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/clean
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/radio/CMakeFiles/srslte_radio.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/CMakeFiles/srslte_radio.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/radio/CMakeFiles/srslte_radio.dir/rule
 .PHONY : lib/src/radio/CMakeFiles/srslte_radio.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ srslte_radio: lib/src/radio/CMakeFiles/srslte_radio.dir/rule
 
 # fast build rule for target.
 srslte_radio/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/build
 .PHONY : srslte_radio/fast
 
 radio.o: radio.cc.o
@@ -208,7 +208,7 @@ radio.o: radio.cc.o
 
 # target to build an object file
 radio.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/radio.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/radio.cc.o
 .PHONY : radio.cc.o
 
 radio.i: radio.cc.i
@@ -217,7 +217,7 @@ radio.i: radio.cc.i
 
 # target to preprocess a source file
 radio.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/radio.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/radio.cc.i
 .PHONY : radio.cc.i
 
 radio.s: radio.cc.s
@@ -226,7 +226,7 @@ radio.s: radio.cc.s
 
 # target to generate assembly for a file
 radio.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/radio.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/radio.cc.s
 .PHONY : radio.cc.s
 
 radio_multi.o: radio_multi.cc.o
@@ -235,7 +235,7 @@ radio_multi.o: radio_multi.cc.o
 
 # target to build an object file
 radio_multi.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/radio_multi.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/radio_multi.cc.o
 .PHONY : radio_multi.cc.o
 
 radio_multi.i: radio_multi.cc.i
@@ -244,7 +244,7 @@ radio_multi.i: radio_multi.cc.i
 
 # target to preprocess a source file
 radio_multi.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/radio_multi.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/radio_multi.cc.i
 .PHONY : radio_multi.cc.i
 
 radio_multi.s: radio_multi.cc.s
@@ -253,7 +253,7 @@ radio_multi.s: radio_multi.cc.s
 
 # target to generate assembly for a file
 radio_multi.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/radio_multi.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/radio/CMakeFiles/srslte_radio.dir/build.make lib/src/radio/CMakeFiles/srslte_radio.dir/radio_multi.cc.s
 .PHONY : radio_multi.cc.s
 
 # Help Target
@@ -289,6 +289,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

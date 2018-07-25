@@ -83,5 +83,5 @@ lib/src/phy/ch_estimation/test/CMakeFiles/refsignal_ul_test_all.dir/refsignal_ul
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ch_estimation/test/refsignal_ul_test.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ch_estimation/test/refsignal_ul_test.c
  lib/include/srslte/version.h

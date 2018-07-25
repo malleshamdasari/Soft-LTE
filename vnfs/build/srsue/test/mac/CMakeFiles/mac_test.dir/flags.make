@@ -6,5 +6,5 @@ CXX_FLAGS =  -march=native -Wall -Wno-comment -Wno-reorder -Wno-unused-but-set-v
 
 CXX_DEFINES = -DHAVE_MBEDTLS
 
-CXX_INCLUDES = -I/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/include -I/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/include -I/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs 
+CXX_INCLUDES = -I/usr/include/SoapySDR -I/home/mdasari/Lte-setup-bell/vnfs/build/lib/include -I/home/mdasari/Lte-setup-bell/vnfs/lib/include -I/home/mdasari/Lte-setup-bell/vnfs 
 

@@ -84,5 +84,5 @@ lib/examples/CMakeFiles/pdsch_enodeb.dir/pdsch_enodeb.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/pdsch_enodeb.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/examples/pdsch_enodeb.c
  lib/include/srslte/version.h

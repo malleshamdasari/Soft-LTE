@@ -54,7 +54,7 @@ stdint.h
 srslte/config.h
 ../lib/include/srslte/phy/utils/srslte/config.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/agc/agc.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/agc/agc.c
 string.h
 -
 strings.h
@@ -66,11 +66,11 @@ math.h
 complex.h
 -
 srslte/phy/utils/debug.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/agc/srslte/phy/utils/debug.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/agc/srslte/phy/utils/debug.h
 srslte/phy/agc/agc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/agc/srslte/phy/agc/agc.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/agc/srslte/phy/agc/agc.h
 srslte/phy/utils/vector.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/agc/srslte/phy/utils/vector.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/agc/srslte/phy/utils/vector.h
 srslte/phy/utils/debug.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/agc/srslte/phy/utils/debug.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/agc/srslte/phy/utils/debug.h
 

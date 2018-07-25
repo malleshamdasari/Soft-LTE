@@ -110,5 +110,5 @@ srsepc/src/CMakeFiles/srsepc.dir/main.cc.o
  ../srsepc/hdr/mme/s1ap_ctx_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/main.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/main.cc
  lib/include/srslte/version.h

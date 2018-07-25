@@ -62,7 +62,7 @@ stdint.h
 srslte/config.h
 ../lib/include/srslte/phy/utils/srslte/config.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/mimo/test/pmi_select_test.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/mimo/test/pmi_select_test.c
 stdio.h
 -
 stdlib.h
@@ -82,13 +82,13 @@ stdbool.h
 complex.h
 -
 srslte/phy/utils/vector.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/mimo/test/srslte/phy/utils/vector.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/mimo/test/srslte/phy/utils/vector.h
 srslte/phy/mimo/precoding.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/mimo/test/srslte/phy/mimo/precoding.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/mimo/test/srslte/phy/mimo/precoding.h
 pmi_select_test.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/mimo/test/pmi_select_test.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/mimo/test/pmi_select_test.h
 srslte/phy/utils/debug.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/mimo/test/srslte/phy/utils/debug.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/mimo/test/srslte/phy/utils/debug.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/mimo/test/pmi_select_test.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/mimo/test/pmi_select_test.h
 

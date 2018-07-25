@@ -1108,7 +1108,7 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_cell_search.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_cell_search.c
 stdlib.h
 -
 string.h
@@ -1122,21 +1122,21 @@ unistd.h
 srslte/srslte.h
 -
 srslte/phy/ue/ue_cell_search.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/phy/ue/ue_cell_search.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/phy/ue/ue_cell_search.h
 srslte/phy/utils/debug.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/phy/utils/debug.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/phy/utils/debug.h
 srslte/phy/utils/vector.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/phy/utils/vector.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/phy/utils/vector.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_dl.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_dl.c
 srslte/phy/ue/ue_dl.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/phy/ue/ue_dl.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/phy/ue/ue_dl.h
 string.h
 -
 srslte/srslte.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_mib.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_mib.c
 stdlib.h
 -
 string.h
@@ -1148,13 +1148,13 @@ assert.h
 unistd.h
 -
 srslte/phy/ue/ue_mib.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/phy/ue/ue_mib.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/phy/ue/ue_mib.h
 srslte/phy/utils/debug.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/phy/utils/debug.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/phy/utils/debug.h
 srslte/phy/utils/vector.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/phy/utils/vector.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/phy/utils/vector.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_sync.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_sync.c
 stdlib.h
 -
 string.h
@@ -1166,17 +1166,17 @@ assert.h
 unistd.h
 -
 srslte/srslte.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/srslte.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/srslte.h
 srslte/phy/ue/ue_sync.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/phy/ue/ue_sync.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/phy/ue/ue_sync.h
 srslte/phy/io/filesource.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/phy/io/filesource.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/phy/io/filesource.h
 srslte/phy/utils/debug.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/phy/utils/debug.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/phy/utils/debug.h
 srslte/phy/utils/vector.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/phy/utils/vector.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/phy/utils/vector.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_ul.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_ul.c
 complex.h
 -
 math.h
@@ -1184,7 +1184,7 @@ math.h
 string.h
 -
 srslte/phy/ue/ue_ul.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/srslte/phy/ue/ue_ul.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/srslte/phy/ue/ue_ul.h
 
 lib/include/srslte/version.h
 srslte/config.h

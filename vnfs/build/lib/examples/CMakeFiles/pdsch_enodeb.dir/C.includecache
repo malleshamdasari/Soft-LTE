@@ -1120,7 +1120,7 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/pdsch_enodeb.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/examples/pdsch_enodeb.c
 stdio.h
 -
 stdlib.h
@@ -1144,11 +1144,11 @@ srslte/phy/common/phy_common.h
 srslte/phy/phch/pdsch_cfg.h
 -
 srslte/srslte.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/srslte/srslte.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/examples/srslte/srslte.h
 srslte/phy/rf/rf.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/srslte/phy/rf/rf.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/examples/srslte/phy/rf/rf.h
 srslte/phy/common/phy_common.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/srslte/phy/common/phy_common.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/examples/srslte/phy/common/phy_common.h
 
 lib/include/srslte/version.h
 srslte/config.h

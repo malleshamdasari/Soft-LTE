@@ -1490,9 +1490,9 @@ common_enb.h
 
 ../srsenb/hdr/upper/s1ap_metrics.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/gtpu.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/gtpu.cc
 srsenb/hdr/upper/gtpu.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/srsenb/hdr/upper/gtpu.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/srsenb/hdr/upper/gtpu.h
 unistd.h
 -
 sys/socket.h
@@ -1502,37 +1502,37 @@ fcntl.h
 errno.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/pdcp.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/pdcp.cc
 srsenb/hdr/upper/pdcp.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/srsenb/hdr/upper/pdcp.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/srsenb/hdr/upper/pdcp.h
 srsenb/hdr/upper/common_enb.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/srsenb/hdr/upper/common_enb.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/srsenb/hdr/upper/common_enb.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/rlc.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/rlc.cc
 srsenb/hdr/upper/rlc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/srsenb/hdr/upper/rlc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/srsenb/hdr/upper/rlc.h
 srsenb/hdr/upper/common_enb.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/srsenb/hdr/upper/common_enb.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/srsenb/hdr/upper/common_enb.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/rrc.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/rrc.cc
 srslte/interfaces/sched_interface.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/srslte/interfaces/sched_interface.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/srslte/interfaces/sched_interface.h
 srslte/asn1/liblte_rrc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/srslte/asn1/liblte_rrc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/srslte/asn1/liblte_rrc.h
 srsenb/hdr/upper/rrc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/srsenb/hdr/upper/rrc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/srsenb/hdr/upper/rrc.h
 srslte/srslte.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/srslte/srslte.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/srslte/srslte.h
 srslte/asn1/liblte_mme.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/srslte/asn1/liblte_mme.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/srslte/asn1/liblte_mme.h
 iostream
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/s1ap.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/s1ap.cc
 srsenb/hdr/upper/s1ap.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/srsenb/hdr/upper/s1ap.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/srsenb/hdr/upper/s1ap.h
 srsenb/hdr/upper/common_enb.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/srsenb/hdr/upper/common_enb.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/srsenb/hdr/upper/common_enb.h
 stdio.h
 -
 string.h

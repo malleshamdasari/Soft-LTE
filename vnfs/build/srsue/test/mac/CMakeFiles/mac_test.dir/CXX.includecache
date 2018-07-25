@@ -1602,25 +1602,25 @@ srslte/common/log.h
 srslte/interfaces/ue_interfaces.h
 ../srsue/hdr/phy/srslte/interfaces/ue_interfaces.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/mac/mac_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/mac/mac_test.cc
 unistd.h
 -
 signal.h
 -
 srslte/asn1/liblte_rrc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/mac/srslte/asn1/liblte_rrc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/mac/srslte/asn1/liblte_rrc.h
 srslte/radio/radio_multi.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/mac/srslte/radio/radio_multi.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/mac/srslte/radio/radio_multi.h
 srsue/hdr/phy/phy.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/mac/srsue/hdr/phy/phy.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/mac/srsue/hdr/phy/phy.h
 srslte/interfaces/ue_interfaces.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/mac/srslte/interfaces/ue_interfaces.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/mac/srslte/interfaces/ue_interfaces.h
 srslte/common/log_filter.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/mac/srslte/common/log_filter.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/mac/srslte/common/log_filter.h
 srsue/hdr/mac/mac.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/mac/srsue/hdr/mac/mac.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/mac/srsue/hdr/mac/mac.h
 srslte/common/mac_pcap.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/mac/srslte/common/mac_pcap.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/mac/srslte/common/mac_pcap.h
 
 lib/include/srslte/version.h
 srslte/config.h

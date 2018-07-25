@@ -76,7 +76,7 @@ stdio.h
 srslte/config.h
 ../lib/include/srslte/phy/utils/srslte/config.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/io/binsource.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/io/binsource.c
 sys/time.h
 -
 stdlib.h
@@ -84,11 +84,11 @@ stdlib.h
 strings.h
 -
 srslte/phy/io/binsource.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/io/srslte/phy/io/binsource.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/io/srslte/phy/io/binsource.h
 srslte/phy/utils/bit.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/io/srslte/phy/utils/bit.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/io/srslte/phy/utils/bit.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/io/filesink.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/io/filesink.c
 stdio.h
 -
 stdlib.h
@@ -98,9 +98,9 @@ math.h
 strings.h
 -
 srslte/phy/io/filesink.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/io/srslte/phy/io/filesink.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/io/srslte/phy/io/filesink.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/io/filesource.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/io/filesource.c
 stdio.h
 -
 stdlib.h
@@ -108,9 +108,9 @@ stdlib.h
 strings.h
 -
 srslte/phy/io/filesource.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/io/srslte/phy/io/filesource.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/io/srslte/phy/io/filesource.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/io/netsink.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/io/netsink.c
 sys/socket.h
 -
 netinet/in.h
@@ -132,9 +132,9 @@ errno.h
 fcntl.h
 -
 srslte/phy/io/netsink.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/io/srslte/phy/io/netsink.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/io/srslte/phy/io/netsink.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/io/netsource.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/io/netsource.c
 sys/socket.h
 -
 netinet/in.h
@@ -154,5 +154,5 @@ strings.h
 errno.h
 -
 srslte/phy/io/netsource.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/io/srslte/phy/io/netsource.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/io/srslte/phy/io/netsource.h
 

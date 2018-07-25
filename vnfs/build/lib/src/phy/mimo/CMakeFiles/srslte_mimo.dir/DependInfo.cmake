@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/mimo/layermap.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/mimo/CMakeFiles/srslte_mimo.dir/layermap.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/mimo/precoding.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/mimo/CMakeFiles/srslte_mimo.dir/precoding.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/mimo/layermap.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/mimo/CMakeFiles/srslte_mimo.dir/layermap.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/mimo/precoding.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/mimo/CMakeFiles/srslte_mimo.dir/precoding.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -16,6 +16,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/usr/include/SoapySDR"
   "lib/include"
   "../lib/include"
   )

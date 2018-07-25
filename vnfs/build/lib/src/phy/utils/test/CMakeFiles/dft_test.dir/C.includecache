@@ -14,7 +14,7 @@ stdbool.h
 srslte/config.h
 ../lib/include/srslte/phy/dft/srslte/config.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/utils/test/dft_test.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/utils/test/dft_test.c
 stdio.h
 -
 stdlib.h
@@ -30,5 +30,5 @@ time.h
 complex.h
 -
 srslte/phy/dft/dft.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/utils/test/srslte/phy/dft/dft.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/utils/test/srslte/phy/dft/dft.h
 

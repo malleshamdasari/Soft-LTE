@@ -4,4 +4,4 @@
 lib/src/phy/utils/test/CMakeFiles/dft_test.dir/dft_test.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/dft/dft.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/utils/test/dft_test.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/utils/test/dft_test.c

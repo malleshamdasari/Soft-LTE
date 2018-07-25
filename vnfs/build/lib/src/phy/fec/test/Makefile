@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,8 +69,8 @@ test/fast: test
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -81,7 +81,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CPackSourceConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/mdasari/Lte-setup-bell/vnfs/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -92,7 +92,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -157,14 +157,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/fec/test/CMakeFiles/progress.marks
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/fec/test/CMakeFiles/progress.marks
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/clean
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/rule
 .PHONY : lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/rule
 
 # Convenience name for target.
@@ -199,12 +199,12 @@ rm_turbo_test: lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/rule
 
 # fast build rule for target.
 rm_turbo_test/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/build
 .PHONY : rm_turbo_test/fast
 
 # Convenience name for target.
 lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/rule
 .PHONY : lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ turbocoder_test: lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/rule
 
 # fast build rule for target.
 turbocoder_test/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/build
 .PHONY : turbocoder_test/fast
 
 # Convenience name for target.
 lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/rule
 .PHONY : lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/rule
 
 # Convenience name for target.
@@ -229,12 +229,12 @@ rm_conv_test: lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/rule
 
 # fast build rule for target.
 rm_conv_test/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/build
 .PHONY : rm_conv_test/fast
 
 # Convenience name for target.
 lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/rule
 .PHONY : lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ viterbi_test: lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/rule
 
 # fast build rule for target.
 viterbi_test/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/build
 .PHONY : viterbi_test/fast
 
 # Convenience name for target.
 lib/src/phy/fec/test/CMakeFiles/crc_test.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/CMakeFiles/crc_test.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/CMakeFiles/crc_test.dir/rule
 .PHONY : lib/src/phy/fec/test/CMakeFiles/crc_test.dir/rule
 
 # Convenience name for target.
@@ -259,12 +259,12 @@ crc_test: lib/src/phy/fec/test/CMakeFiles/crc_test.dir/rule
 
 # fast build rule for target.
 crc_test/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/crc_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/crc_test.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/crc_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/crc_test.dir/build
 .PHONY : crc_test/fast
 
 # Convenience name for target.
 lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/rule
 .PHONY : lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/rule
 
 # Convenience name for target.
@@ -274,7 +274,7 @@ turbodecoder_test: lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/rule
 
 # fast build rule for target.
 turbodecoder_test/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/build
 .PHONY : turbodecoder_test/fast
 
 crc_test.o: crc_test.c.o
@@ -283,7 +283,7 @@ crc_test.o: crc_test.c.o
 
 # target to build an object file
 crc_test.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/crc_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/crc_test.dir/crc_test.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/crc_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/crc_test.dir/crc_test.c.o
 .PHONY : crc_test.c.o
 
 crc_test.i: crc_test.c.i
@@ -292,7 +292,7 @@ crc_test.i: crc_test.c.i
 
 # target to preprocess a source file
 crc_test.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/crc_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/crc_test.dir/crc_test.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/crc_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/crc_test.dir/crc_test.c.i
 .PHONY : crc_test.c.i
 
 crc_test.s: crc_test.c.s
@@ -301,7 +301,7 @@ crc_test.s: crc_test.c.s
 
 # target to generate assembly for a file
 crc_test.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/crc_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/crc_test.dir/crc_test.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/crc_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/crc_test.dir/crc_test.c.s
 .PHONY : crc_test.c.s
 
 rm_conv_test.o: rm_conv_test.c.o
@@ -310,7 +310,7 @@ rm_conv_test.o: rm_conv_test.c.o
 
 # target to build an object file
 rm_conv_test.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/rm_conv_test.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/rm_conv_test.c.o
 .PHONY : rm_conv_test.c.o
 
 rm_conv_test.i: rm_conv_test.c.i
@@ -319,7 +319,7 @@ rm_conv_test.i: rm_conv_test.c.i
 
 # target to preprocess a source file
 rm_conv_test.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/rm_conv_test.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/rm_conv_test.c.i
 .PHONY : rm_conv_test.c.i
 
 rm_conv_test.s: rm_conv_test.c.s
@@ -328,7 +328,7 @@ rm_conv_test.s: rm_conv_test.c.s
 
 # target to generate assembly for a file
 rm_conv_test.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/rm_conv_test.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_conv_test.dir/rm_conv_test.c.s
 .PHONY : rm_conv_test.c.s
 
 rm_turbo_test.o: rm_turbo_test.c.o
@@ -337,7 +337,7 @@ rm_turbo_test.o: rm_turbo_test.c.o
 
 # target to build an object file
 rm_turbo_test.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/rm_turbo_test.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/rm_turbo_test.c.o
 .PHONY : rm_turbo_test.c.o
 
 rm_turbo_test.i: rm_turbo_test.c.i
@@ -346,7 +346,7 @@ rm_turbo_test.i: rm_turbo_test.c.i
 
 # target to preprocess a source file
 rm_turbo_test.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/rm_turbo_test.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/rm_turbo_test.c.i
 .PHONY : rm_turbo_test.c.i
 
 rm_turbo_test.s: rm_turbo_test.c.s
@@ -355,7 +355,7 @@ rm_turbo_test.s: rm_turbo_test.c.s
 
 # target to generate assembly for a file
 rm_turbo_test.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/rm_turbo_test.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/rm_turbo_test.dir/rm_turbo_test.c.s
 .PHONY : rm_turbo_test.c.s
 
 turbocoder_test.o: turbocoder_test.c.o
@@ -364,7 +364,7 @@ turbocoder_test.o: turbocoder_test.c.o
 
 # target to build an object file
 turbocoder_test.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/turbocoder_test.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/turbocoder_test.c.o
 .PHONY : turbocoder_test.c.o
 
 turbocoder_test.i: turbocoder_test.c.i
@@ -373,7 +373,7 @@ turbocoder_test.i: turbocoder_test.c.i
 
 # target to preprocess a source file
 turbocoder_test.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/turbocoder_test.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/turbocoder_test.c.i
 .PHONY : turbocoder_test.c.i
 
 turbocoder_test.s: turbocoder_test.c.s
@@ -382,7 +382,7 @@ turbocoder_test.s: turbocoder_test.c.s
 
 # target to generate assembly for a file
 turbocoder_test.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/turbocoder_test.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbocoder_test.dir/turbocoder_test.c.s
 .PHONY : turbocoder_test.c.s
 
 turbodecoder_test.o: turbodecoder_test.c.o
@@ -391,7 +391,7 @@ turbodecoder_test.o: turbodecoder_test.c.o
 
 # target to build an object file
 turbodecoder_test.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/turbodecoder_test.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/turbodecoder_test.c.o
 .PHONY : turbodecoder_test.c.o
 
 turbodecoder_test.i: turbodecoder_test.c.i
@@ -400,7 +400,7 @@ turbodecoder_test.i: turbodecoder_test.c.i
 
 # target to preprocess a source file
 turbodecoder_test.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/turbodecoder_test.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/turbodecoder_test.c.i
 .PHONY : turbodecoder_test.c.i
 
 turbodecoder_test.s: turbodecoder_test.c.s
@@ -409,7 +409,7 @@ turbodecoder_test.s: turbodecoder_test.c.s
 
 # target to generate assembly for a file
 turbodecoder_test.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/turbodecoder_test.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/turbodecoder_test.c.s
 .PHONY : turbodecoder_test.c.s
 
 viterbi_test.o: viterbi_test.c.o
@@ -418,7 +418,7 @@ viterbi_test.o: viterbi_test.c.o
 
 # target to build an object file
 viterbi_test.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/viterbi_test.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/viterbi_test.c.o
 .PHONY : viterbi_test.c.o
 
 viterbi_test.i: viterbi_test.c.i
@@ -427,7 +427,7 @@ viterbi_test.i: viterbi_test.c.i
 
 # target to preprocess a source file
 viterbi_test.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/viterbi_test.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/viterbi_test.c.i
 .PHONY : viterbi_test.c.i
 
 viterbi_test.s: viterbi_test.c.s
@@ -436,7 +436,7 @@ viterbi_test.s: viterbi_test.c.s
 
 # target to generate assembly for a file
 viterbi_test.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/viterbi_test.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/build.make lib/src/phy/fec/test/CMakeFiles/viterbi_test.dir/viterbi_test.c.s
 .PHONY : viterbi_test.c.s
 
 # Help Target
@@ -489,6 +489,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

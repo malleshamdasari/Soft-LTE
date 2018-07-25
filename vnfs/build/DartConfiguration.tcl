@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
-BuildDirectory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+SourceDirectory: /home/mdasari/Lte-setup-bell/vnfs
+BuildDirectory: /home/mdasari/Lte-setup-bell/vnfs/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: mdasari
+Site: lt-bd-6430-1
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -33,7 +33,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 GMT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs"
+ConfigureCommand: "/usr/bin/cmake" "/home/mdasari/Lte-setup-bell/vnfs"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -46,7 +46,7 @@ CVSCommand: CVSCOMMAND-NOTFOUND
 CVSUpdateOptions: -d -A -P
 
 # Subversion options
-SVNCommand: SVNCOMMAND-NOTFOUND
+SVNCommand: /usr/bin/svn
 SVNOptions: 
 SVNUpdateOptions: 
 

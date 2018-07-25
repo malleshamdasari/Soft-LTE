@@ -1238,13 +1238,13 @@ srslte/upper/rlc_interface.h
 srslte/asn1/liblte_rrc.h
 ../lib/include/srslte/upper/srslte/asn1/liblte_rrc.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/upper/rlc_am_control_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/upper/rlc_am_control_test.cc
 assert.h
 -
 iostream
 -
 srslte/upper/rlc_am.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/upper/srslte/upper/rlc_am.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/upper/srslte/upper/rlc_am.h
 
 lib/include/srslte/version.h
 srslte/config.h

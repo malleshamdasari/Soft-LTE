@@ -1494,7 +1494,7 @@ srsepc/hdr/hss/hss.h
 mme_gtpc.h
 ../srsepc/hdr/mme/mme_gtpc.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/mme.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/mme.cc
 iostream
 -
 arpa/inet.h
@@ -1506,23 +1506,23 @@ sys/socket.h
 netinet/sctp.h
 -
 srsepc/hdr/mme/mme.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srsepc/hdr/mme/mme.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srsepc/hdr/mme/mme.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/mme_gtpc.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/mme_gtpc.cc
 iostream
 -
 inttypes.h
 -
 srslte/asn1/gtpc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srslte/asn1/gtpc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srslte/asn1/gtpc.h
 srsepc/hdr/mme/mme_gtpc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srsepc/hdr/mme/mme_gtpc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srsepc/hdr/mme/mme_gtpc.h
 srsepc/hdr/mme/s1ap.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap.h
 srsepc/hdr/spgw/spgw.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srsepc/hdr/spgw/spgw.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srsepc/hdr/spgw/spgw.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap.cc
 iostream
 -
 cmath
@@ -1530,35 +1530,35 @@ cmath
 inttypes.h
 -
 srslte/common/bcd_helpers.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srslte/common/bcd_helpers.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srslte/common/bcd_helpers.h
 srsepc/hdr/mme/s1ap.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap.h
 srslte/asn1/gtpc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srslte/asn1/gtpc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srslte/asn1/gtpc.h
 srslte/common/liblte_security.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srslte/common/liblte_security.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srslte/common/liblte_security.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc
 srslte/common/bcd_helpers.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srslte/common/bcd_helpers.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srslte/common/bcd_helpers.h
 srsepc/hdr/mme/s1ap.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap.h
 srsepc/hdr/mme/s1ap_ctx_mngmt_proc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap_ctx_mngmt_proc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap_ctx_mngmt_proc.h
 srslte/common/liblte_security.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srslte/common/liblte_security.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srslte/common/liblte_security.h
 iostream
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_mngmt_proc.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_mngmt_proc.cc
 srslte/common/bcd_helpers.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srslte/common/bcd_helpers.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srslte/common/bcd_helpers.h
 srsepc/hdr/mme/s1ap.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap.h
 srsepc/hdr/mme/s1ap_mngmt_proc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap_mngmt_proc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap_mngmt_proc.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_nas_transport.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_nas_transport.cc
 iostream
 -
 cmath
@@ -1566,13 +1566,13 @@ cmath
 inttypes.h
 -
 srsepc/hdr/mme/s1ap.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap.h
 srsepc/hdr/mme/s1ap_nas_transport.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap_nas_transport.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srsepc/hdr/mme/s1ap_nas_transport.h
 srslte/common/security.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srslte/common/security.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srslte/common/security.h
 srslte/common/liblte_security.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/srslte/common/liblte_security.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/srslte/common/liblte_security.h
 
 lib/include/srslte/version.h
 srslte/config.h

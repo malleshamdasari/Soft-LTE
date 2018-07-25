@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/test
-# Build directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/phch/test
+# Source directory: /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/test
+# Build directory: /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/phch/test
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
@@ -98,12 +98,12 @@ add_test(pdsch_test_multiplex2cw_p1_100 "pdsch_test" "-x" "multiplex" "-a" "2" "
 add_test(pmch_test_qpsk "pmch_test" "-m" "6" "-n" "50")
 add_test(pmch_test_qam16 "pmch_test" "-m" "15" "-n" "100")
 add_test(pmch_test_qam64 "pmch_test" "-m" "25" "-n" "100")
-add_test(pbch_file_test "pbch_file_test" "-i" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/test/signal.1.92M.dat")
-add_test(pcfich_file_test "pcfich_file_test" "-c" "150" "-n" "50" "-p" "2" "-i" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/test/signal.10M.dat")
-add_test(phich_file_test "phich_file_test" "-c" "150" "-n" "50" "-p" "2" "-i" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/test/signal.10M.dat")
-add_test(pdcch_file_test "pdcch_file_test" "-c" "1" "-f" "3" "-n" "6" "-p" "1" "-i" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/test/signal.1.92M.amar.dat")
-add_test(pdsch_pdcch_file_test "pdsch_pdcch_file_test" "-c" "1" "-f" "3" "-n" "6" "-p" "1" "-i" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/test/signal.1.92M.amar.dat")
-add_test(pmch_file_test "pmch_file_test" "-i" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/test/pmch_100prbs_MCS2_SR0.bin")
+add_test(pbch_file_test "pbch_file_test" "-i" "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/test/signal.1.92M.dat")
+add_test(pcfich_file_test "pcfich_file_test" "-c" "150" "-n" "50" "-p" "2" "-i" "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/test/signal.10M.dat")
+add_test(phich_file_test "phich_file_test" "-c" "150" "-n" "50" "-p" "2" "-i" "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/test/signal.10M.dat")
+add_test(pdcch_file_test "pdcch_file_test" "-c" "1" "-f" "3" "-n" "6" "-p" "1" "-i" "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/test/signal.1.92M.amar.dat")
+add_test(pdsch_pdcch_file_test "pdsch_pdcch_file_test" "-c" "1" "-f" "3" "-n" "6" "-p" "1" "-i" "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/test/signal.1.92M.amar.dat")
+add_test(pmch_file_test "pmch_file_test" "-i" "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/test/pmch_100prbs_MCS2_SR0.bin")
 add_test(pusch_test "pusch_test")
 add_test(pucch_test "pucch_test")
 add_test(pucch_test_uci_cqi_decoder "pucch_test" "-q")

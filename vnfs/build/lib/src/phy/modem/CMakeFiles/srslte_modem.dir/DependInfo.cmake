@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/modem/demod_hard.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/modem/CMakeFiles/srslte_modem.dir/demod_hard.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/modem/demod_soft.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/modem/CMakeFiles/srslte_modem.dir/demod_soft.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/modem/hard_demod_lte.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/modem/CMakeFiles/srslte_modem.dir/hard_demod_lte.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/modem/lte_tables.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/modem/CMakeFiles/srslte_modem.dir/lte_tables.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/modem/mod.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/modem/CMakeFiles/srslte_modem.dir/mod.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/modem/modem_table.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/modem/CMakeFiles/srslte_modem.dir/modem_table.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/modem/demod_hard.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/modem/CMakeFiles/srslte_modem.dir/demod_hard.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/modem/demod_soft.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/modem/CMakeFiles/srslte_modem.dir/demod_soft.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/modem/hard_demod_lte.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/modem/CMakeFiles/srslte_modem.dir/hard_demod_lte.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/modem/lte_tables.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/modem/CMakeFiles/srslte_modem.dir/lte_tables.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/modem/mod.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/modem/CMakeFiles/srslte_modem.dir/mod.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/modem/modem_table.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/modem/CMakeFiles/srslte_modem.dir/modem_table.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -20,6 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/usr/include/SoapySDR"
   "lib/include"
   "../lib/include"
   )

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 # Include any dependencies generated for this target.
 include srsue/src/CMakeFiles/srsue.dir/depend.make
@@ -59,16 +59,16 @@ include srsue/src/CMakeFiles/srsue.dir/flags.make
 
 srsue/src/CMakeFiles/srsue.dir/main.cc.o: srsue/src/CMakeFiles/srsue.dir/flags.make
 srsue/src/CMakeFiles/srsue.dir/main.cc.o: ../srsue/src/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/CMakeFiles/srsue.dir/main.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue.dir/main.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/CMakeFiles/srsue.dir/main.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue.dir/main.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/srsue/src/main.cc
 
 srsue/src/CMakeFiles/srsue.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue.dir/main.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/main.cc > CMakeFiles/srsue.dir/main.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/srsue/src/main.cc > CMakeFiles/srsue.dir/main.cc.i
 
 srsue/src/CMakeFiles/srsue.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsue.dir/main.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/main.cc -o CMakeFiles/srsue.dir/main.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/srsue/src/main.cc -o CMakeFiles/srsue.dir/main.cc.s
 
 srsue/src/CMakeFiles/srsue.dir/main.cc.o.requires:
 
@@ -83,16 +83,16 @@ srsue/src/CMakeFiles/srsue.dir/main.cc.o.provides.build: srsue/src/CMakeFiles/sr
 
 srsue/src/CMakeFiles/srsue.dir/ue_base.cc.o: srsue/src/CMakeFiles/srsue.dir/flags.make
 srsue/src/CMakeFiles/srsue.dir/ue_base.cc.o: ../srsue/src/ue_base.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsue/src/CMakeFiles/srsue.dir/ue_base.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue.dir/ue_base.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/ue_base.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsue/src/CMakeFiles/srsue.dir/ue_base.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue.dir/ue_base.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/srsue/src/ue_base.cc
 
 srsue/src/CMakeFiles/srsue.dir/ue_base.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue.dir/ue_base.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/ue_base.cc > CMakeFiles/srsue.dir/ue_base.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/srsue/src/ue_base.cc > CMakeFiles/srsue.dir/ue_base.cc.i
 
 srsue/src/CMakeFiles/srsue.dir/ue_base.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsue.dir/ue_base.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/ue_base.cc -o CMakeFiles/srsue.dir/ue_base.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/srsue/src/ue_base.cc -o CMakeFiles/srsue.dir/ue_base.cc.s
 
 srsue/src/CMakeFiles/srsue.dir/ue_base.cc.o.requires:
 
@@ -107,16 +107,16 @@ srsue/src/CMakeFiles/srsue.dir/ue_base.cc.o.provides.build: srsue/src/CMakeFiles
 
 srsue/src/CMakeFiles/srsue.dir/ue.cc.o: srsue/src/CMakeFiles/srsue.dir/flags.make
 srsue/src/CMakeFiles/srsue.dir/ue.cc.o: ../srsue/src/ue.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsue/src/CMakeFiles/srsue.dir/ue.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue.dir/ue.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/ue.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsue/src/CMakeFiles/srsue.dir/ue.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue.dir/ue.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/srsue/src/ue.cc
 
 srsue/src/CMakeFiles/srsue.dir/ue.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue.dir/ue.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/ue.cc > CMakeFiles/srsue.dir/ue.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/srsue/src/ue.cc > CMakeFiles/srsue.dir/ue.cc.i
 
 srsue/src/CMakeFiles/srsue.dir/ue.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsue.dir/ue.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/ue.cc -o CMakeFiles/srsue.dir/ue.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/srsue/src/ue.cc -o CMakeFiles/srsue.dir/ue.cc.s
 
 srsue/src/CMakeFiles/srsue.dir/ue.cc.o.requires:
 
@@ -131,16 +131,16 @@ srsue/src/CMakeFiles/srsue.dir/ue.cc.o.provides.build: srsue/src/CMakeFiles/srsu
 
 srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o: srsue/src/CMakeFiles/srsue.dir/flags.make
 srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o: ../srsue/src/metrics_stdout.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue.dir/metrics_stdout.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/metrics_stdout.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue.dir/metrics_stdout.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/srsue/src/metrics_stdout.cc
 
 srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue.dir/metrics_stdout.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/metrics_stdout.cc > CMakeFiles/srsue.dir/metrics_stdout.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/srsue/src/metrics_stdout.cc > CMakeFiles/srsue.dir/metrics_stdout.cc.i
 
 srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsue.dir/metrics_stdout.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/metrics_stdout.cc -o CMakeFiles/srsue.dir/metrics_stdout.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/srsue/src/metrics_stdout.cc -o CMakeFiles/srsue.dir/metrics_stdout.cc.s
 
 srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o.requires:
 
@@ -155,16 +155,16 @@ srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o.provides.build: srsue/src/CMa
 
 srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o: srsue/src/CMakeFiles/srsue.dir/flags.make
 srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o: ../srsue/src/metrics_csv.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue.dir/metrics_csv.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/metrics_csv.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue.dir/metrics_csv.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/srsue/src/metrics_csv.cc
 
 srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue.dir/metrics_csv.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/metrics_csv.cc > CMakeFiles/srsue.dir/metrics_csv.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/srsue/src/metrics_csv.cc > CMakeFiles/srsue.dir/metrics_csv.cc.i
 
 srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsue.dir/metrics_csv.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/metrics_csv.cc -o CMakeFiles/srsue.dir/metrics_csv.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/srsue/src/metrics_csv.cc -o CMakeFiles/srsue.dir/metrics_csv.cc.s
 
 srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o.requires:
 
@@ -211,9 +211,10 @@ srsue/src/srsue: lib/src/phy/libsrslte_phy.a
 srsue/src/srsue: /usr/lib/x86_64-linux-gnu/libfftw3f.so
 srsue/src/srsue: /usr/lib/x86_64-linux-gnu/libuhd.so
 srsue/src/srsue: /usr/lib/x86_64-linux-gnu/libbladeRF.so
+srsue/src/srsue: /usr/lib/x86_64-linux-gnu/libSoapySDR.so
 srsue/src/srsue: srsue/src/CMakeFiles/srsue.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable srsue"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srsue.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable srsue"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srsue.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 srsue/src/CMakeFiles/srsue.dir/build: srsue/src/srsue
@@ -229,10 +230,10 @@ srsue/src/CMakeFiles/srsue.dir/requires: srsue/src/CMakeFiles/srsue.dir/metrics_
 .PHONY : srsue/src/CMakeFiles/srsue.dir/requires
 
 srsue/src/CMakeFiles/srsue.dir/clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src && $(CMAKE_COMMAND) -P CMakeFiles/srsue.dir/cmake_clean.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src && $(CMAKE_COMMAND) -P CMakeFiles/srsue.dir/cmake_clean.cmake
 .PHONY : srsue/src/CMakeFiles/srsue.dir/clean
 
 srsue/src/CMakeFiles/srsue.dir/depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src/CMakeFiles/srsue.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mdasari/Lte-setup-bell/vnfs /home/mdasari/Lte-setup-bell/vnfs/srsue/src /home/mdasari/Lte-setup-bell/vnfs/build /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src/CMakeFiles/srsue.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srsue/src/CMakeFiles/srsue.dir/depend
 

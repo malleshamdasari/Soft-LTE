@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -80,8 +80,8 @@ package/fast: package
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CPackSourceConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/mdasari/Lte-setup-bell/vnfs/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/sync/CMakeFiles/progress.marks
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/sync/CMakeFiles/progress.marks
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/clean
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/sync/CMakeFiles/srslte_sync.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/CMakeFiles/srslte_sync.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/CMakeFiles/srslte_sync.dir/rule
 .PHONY : lib/src/phy/sync/CMakeFiles/srslte_sync.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ srslte_sync: lib/src/phy/sync/CMakeFiles/srslte_sync.dir/rule
 
 # fast build rule for target.
 srslte_sync/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build
 .PHONY : srslte_sync/fast
 
 cfo.o: cfo.c.o
@@ -208,7 +208,7 @@ cfo.o: cfo.c.o
 
 # target to build an object file
 cfo.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cfo.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cfo.c.o
 .PHONY : cfo.c.o
 
 cfo.i: cfo.c.i
@@ -217,7 +217,7 @@ cfo.i: cfo.c.i
 
 # target to preprocess a source file
 cfo.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cfo.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cfo.c.i
 .PHONY : cfo.c.i
 
 cfo.s: cfo.c.s
@@ -226,7 +226,7 @@ cfo.s: cfo.c.s
 
 # target to generate assembly for a file
 cfo.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cfo.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cfo.c.s
 .PHONY : cfo.c.s
 
 cp.o: cp.c.o
@@ -235,7 +235,7 @@ cp.o: cp.c.o
 
 # target to build an object file
 cp.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cp.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cp.c.o
 .PHONY : cp.c.o
 
 cp.i: cp.c.i
@@ -244,7 +244,7 @@ cp.i: cp.c.i
 
 # target to preprocess a source file
 cp.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cp.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cp.c.i
 .PHONY : cp.c.i
 
 cp.s: cp.c.s
@@ -253,7 +253,7 @@ cp.s: cp.c.s
 
 # target to generate assembly for a file
 cp.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cp.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cp.c.s
 .PHONY : cp.c.s
 
 find_sss.o: find_sss.c.o
@@ -262,7 +262,7 @@ find_sss.o: find_sss.c.o
 
 # target to build an object file
 find_sss.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/find_sss.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/find_sss.c.o
 .PHONY : find_sss.c.o
 
 find_sss.i: find_sss.c.i
@@ -271,7 +271,7 @@ find_sss.i: find_sss.c.i
 
 # target to preprocess a source file
 find_sss.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/find_sss.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/find_sss.c.i
 .PHONY : find_sss.c.i
 
 find_sss.s: find_sss.c.s
@@ -280,7 +280,7 @@ find_sss.s: find_sss.c.s
 
 # target to generate assembly for a file
 find_sss.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/find_sss.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/find_sss.c.s
 .PHONY : find_sss.c.s
 
 gen_sss.o: gen_sss.c.o
@@ -289,7 +289,7 @@ gen_sss.o: gen_sss.c.o
 
 # target to build an object file
 gen_sss.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/gen_sss.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/gen_sss.c.o
 .PHONY : gen_sss.c.o
 
 gen_sss.i: gen_sss.c.i
@@ -298,7 +298,7 @@ gen_sss.i: gen_sss.c.i
 
 # target to preprocess a source file
 gen_sss.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/gen_sss.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/gen_sss.c.i
 .PHONY : gen_sss.c.i
 
 gen_sss.s: gen_sss.c.s
@@ -307,7 +307,7 @@ gen_sss.s: gen_sss.c.s
 
 # target to generate assembly for a file
 gen_sss.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/gen_sss.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/gen_sss.c.s
 .PHONY : gen_sss.c.s
 
 pss.o: pss.c.o
@@ -316,7 +316,7 @@ pss.o: pss.c.o
 
 # target to build an object file
 pss.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/pss.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/pss.c.o
 .PHONY : pss.c.o
 
 pss.i: pss.c.i
@@ -325,7 +325,7 @@ pss.i: pss.c.i
 
 # target to preprocess a source file
 pss.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/pss.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/pss.c.i
 .PHONY : pss.c.i
 
 pss.s: pss.c.s
@@ -334,7 +334,7 @@ pss.s: pss.c.s
 
 # target to generate assembly for a file
 pss.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/pss.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/pss.c.s
 .PHONY : pss.c.s
 
 sfo.o: sfo.c.o
@@ -343,7 +343,7 @@ sfo.o: sfo.c.o
 
 # target to build an object file
 sfo.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sfo.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sfo.c.o
 .PHONY : sfo.c.o
 
 sfo.i: sfo.c.i
@@ -352,7 +352,7 @@ sfo.i: sfo.c.i
 
 # target to preprocess a source file
 sfo.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sfo.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sfo.c.i
 .PHONY : sfo.c.i
 
 sfo.s: sfo.c.s
@@ -361,7 +361,7 @@ sfo.s: sfo.c.s
 
 # target to generate assembly for a file
 sfo.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sfo.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sfo.c.s
 .PHONY : sfo.c.s
 
 sss.o: sss.c.o
@@ -370,7 +370,7 @@ sss.o: sss.c.o
 
 # target to build an object file
 sss.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sss.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sss.c.o
 .PHONY : sss.c.o
 
 sss.i: sss.c.i
@@ -379,7 +379,7 @@ sss.i: sss.c.i
 
 # target to preprocess a source file
 sss.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sss.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sss.c.i
 .PHONY : sss.c.i
 
 sss.s: sss.c.s
@@ -388,7 +388,7 @@ sss.s: sss.c.s
 
 # target to generate assembly for a file
 sss.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sss.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sss.c.s
 .PHONY : sss.c.s
 
 sync.o: sync.c.o
@@ -397,7 +397,7 @@ sync.o: sync.c.o
 
 # target to build an object file
 sync.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sync.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sync.c.o
 .PHONY : sync.c.o
 
 sync.i: sync.c.i
@@ -406,7 +406,7 @@ sync.i: sync.c.i
 
 # target to preprocess a source file
 sync.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sync.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sync.c.i
 .PHONY : sync.c.i
 
 sync.s: sync.c.s
@@ -415,7 +415,7 @@ sync.s: sync.c.s
 
 # target to generate assembly for a file
 sync.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sync.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/CMakeFiles/srslte_sync.dir/build.make lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sync.c.s
 .PHONY : sync.c.s
 
 # Help Target
@@ -469,6 +469,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

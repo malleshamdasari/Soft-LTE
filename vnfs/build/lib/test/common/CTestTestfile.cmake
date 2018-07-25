@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common
-# Build directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/test/common
+# Source directory: /home/mdasari/Lte-setup-bell/vnfs/lib/test/common
+# Build directory: /home/mdasari/Lte-setup-bell/vnfs/build/lib/test/common
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

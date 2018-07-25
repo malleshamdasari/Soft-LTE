@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 # Include any dependencies generated for this target.
 include lib/src/asn1/CMakeFiles/srslte_asn1.dir/depend.make
@@ -59,16 +59,16 @@ include lib/src/asn1/CMakeFiles/srslte_asn1.dir/flags.make
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_common.cc.o: lib/src/asn1/CMakeFiles/srslte_asn1.dir/flags.make
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_common.cc.o: ../lib/src/asn1/liblte_common.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_common.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslte_asn1.dir/liblte_common.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_common.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_common.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslte_asn1.dir/liblte_common.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_common.cc
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_common.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslte_asn1.dir/liblte_common.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_common.cc > CMakeFiles/srslte_asn1.dir/liblte_common.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_common.cc > CMakeFiles/srslte_asn1.dir/liblte_common.cc.i
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_common.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srslte_asn1.dir/liblte_common.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_common.cc -o CMakeFiles/srslte_asn1.dir/liblte_common.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_common.cc -o CMakeFiles/srslte_asn1.dir/liblte_common.cc.s
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_common.cc.o.requires:
 
@@ -83,16 +83,16 @@ lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_common.cc.o.provides.build: lib/s
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.o: lib/src/asn1/CMakeFiles/srslte_asn1.dir/flags.make
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.o: ../lib/src/asn1/liblte_rrc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_rrc.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_rrc.cc
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_rrc.cc > CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_rrc.cc > CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.i
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_rrc.cc -o CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_rrc.cc -o CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.s
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.o.requires:
 
@@ -107,16 +107,16 @@ lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_rrc.cc.o.provides.build: lib/src/
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_mme.cc.o: lib/src/asn1/CMakeFiles/srslte_asn1.dir/flags.make
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_mme.cc.o: ../lib/src/asn1/liblte_mme.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_mme.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslte_asn1.dir/liblte_mme.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_mme.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_mme.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslte_asn1.dir/liblte_mme.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_mme.cc
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_mme.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslte_asn1.dir/liblte_mme.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_mme.cc > CMakeFiles/srslte_asn1.dir/liblte_mme.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_mme.cc > CMakeFiles/srslte_asn1.dir/liblte_mme.cc.i
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_mme.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srslte_asn1.dir/liblte_mme.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_mme.cc -o CMakeFiles/srslte_asn1.dir/liblte_mme.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_mme.cc -o CMakeFiles/srslte_asn1.dir/liblte_mme.cc.s
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_mme.cc.o.requires:
 
@@ -131,16 +131,16 @@ lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_mme.cc.o.provides.build: lib/src/
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.o: lib/src/asn1/CMakeFiles/srslte_asn1.dir/flags.make
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.o: ../lib/src/asn1/liblte_s1ap.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_s1ap.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_s1ap.cc
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_s1ap.cc > CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_s1ap.cc > CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.i
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_s1ap.cc -o CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_s1ap.cc -o CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.s
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.o.requires:
 
@@ -155,16 +155,16 @@ lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_s1ap.cc.o.provides.build: lib/src
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/gtpc.cc.o: lib/src/asn1/CMakeFiles/srslte_asn1.dir/flags.make
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/gtpc.cc.o: ../lib/src/asn1/gtpc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/src/asn1/CMakeFiles/srslte_asn1.dir/gtpc.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslte_asn1.dir/gtpc.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/gtpc.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/src/asn1/CMakeFiles/srslte_asn1.dir/gtpc.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslte_asn1.dir/gtpc.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/gtpc.cc
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/gtpc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslte_asn1.dir/gtpc.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/gtpc.cc > CMakeFiles/srslte_asn1.dir/gtpc.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/gtpc.cc > CMakeFiles/srslte_asn1.dir/gtpc.cc.i
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/gtpc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srslte_asn1.dir/gtpc.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/gtpc.cc -o CMakeFiles/srslte_asn1.dir/gtpc.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/gtpc.cc -o CMakeFiles/srslte_asn1.dir/gtpc.cc.s
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/gtpc.cc.o.requires:
 
@@ -195,9 +195,9 @@ lib/src/asn1/libsrslte_asn1.a: lib/src/asn1/CMakeFiles/srslte_asn1.dir/liblte_s1
 lib/src/asn1/libsrslte_asn1.a: lib/src/asn1/CMakeFiles/srslte_asn1.dir/gtpc.cc.o
 lib/src/asn1/libsrslte_asn1.a: lib/src/asn1/CMakeFiles/srslte_asn1.dir/build.make
 lib/src/asn1/libsrslte_asn1.a: lib/src/asn1/CMakeFiles/srslte_asn1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsrslte_asn1.a"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && $(CMAKE_COMMAND) -P CMakeFiles/srslte_asn1.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srslte_asn1.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsrslte_asn1.a"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && $(CMAKE_COMMAND) -P CMakeFiles/srslte_asn1.dir/cmake_clean_target.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srslte_asn1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/build: lib/src/asn1/libsrslte_asn1.a
@@ -213,10 +213,10 @@ lib/src/asn1/CMakeFiles/srslte_asn1.dir/requires: lib/src/asn1/CMakeFiles/srslte
 .PHONY : lib/src/asn1/CMakeFiles/srslte_asn1.dir/requires
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 && $(CMAKE_COMMAND) -P CMakeFiles/srslte_asn1.dir/cmake_clean.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 && $(CMAKE_COMMAND) -P CMakeFiles/srslte_asn1.dir/cmake_clean.cmake
 .PHONY : lib/src/asn1/CMakeFiles/srslte_asn1.dir/clean
 
 lib/src/asn1/CMakeFiles/srslte_asn1.dir/depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1 /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1 /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/asn1/CMakeFiles/srslte_asn1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mdasari/Lte-setup-bell/vnfs /home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1 /home/mdasari/Lte-setup-bell/vnfs/build /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1 /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/asn1/CMakeFiles/srslte_asn1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/src/asn1/CMakeFiles/srslte_asn1.dir/depend
 

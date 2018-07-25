@@ -83,7 +83,7 @@ lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_cell_search.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_cell_search.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_cell_search.c
  lib/include/srslte/version.h
 lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_dl.c.o
  ../lib/include/srslte/config.h
@@ -167,7 +167,7 @@ lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_dl.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_dl.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_dl.c
  lib/include/srslte/version.h
 lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_mib.c.o
  ../lib/include/srslte/config.h
@@ -207,7 +207,7 @@ lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_mib.c.o
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/filter.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_mib.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_mib.c
 lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_sync.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/agc/agc.h
@@ -290,7 +290,7 @@ lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_sync.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_sync.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_sync.c
  lib/include/srslte/version.h
 lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_ul.c.o
  ../lib/include/srslte/config.h
@@ -340,4 +340,4 @@ lib/src/phy/ue/CMakeFiles/srslte_ue.dir/ue_ul.c.o
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/filter.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ue/ue_ul.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ue/ue_ul.c

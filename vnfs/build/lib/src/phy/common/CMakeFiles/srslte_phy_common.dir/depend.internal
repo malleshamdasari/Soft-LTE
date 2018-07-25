@@ -5,7 +5,7 @@ lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/phy_common.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/phy_common.h
  ../lib/include/srslte/phy/common/sequence.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/common/phy_common.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/common/phy_common.c
 lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/phy_logger.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/agc/agc.h
@@ -88,7 +88,7 @@ lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/phy_logger.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/common/phy_logger.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/common/phy_logger.c
  lib/include/srslte/version.h
 lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/sequence.c.o
  ../lib/include/srslte/config.h
@@ -96,8 +96,8 @@ lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/sequence.c.o
  ../lib/include/srslte/phy/common/sequence.h
  ../lib/include/srslte/phy/utils/bit.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/common/sequence.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/common/sequence.c
 lib/src/phy/common/CMakeFiles/srslte_phy_common.dir/timestamp.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/timestamp.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/common/timestamp.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/common/timestamp.c

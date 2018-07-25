@@ -30,9 +30,9 @@ string
 srslte/asn1/liblte_rrc.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/bcd_helpers_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/bcd_helpers_test.cc
 assert.h
 -
 srslte/common/bcd_helpers.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/srslte/common/bcd_helpers.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/srslte/common/bcd_helpers.h
 

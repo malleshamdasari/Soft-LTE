@@ -1252,13 +1252,13 @@ map
 queue
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/upper/rlc_um_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/upper/rlc_um_test.cc
 iostream
 -
 srslte/common/log_filter.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/upper/srslte/common/log_filter.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/upper/srslte/common/log_filter.h
 srslte/upper/rlc_um.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/upper/srslte/upper/rlc_um.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/upper/srslte/upper/rlc_um.h
 assert.h
 -
 

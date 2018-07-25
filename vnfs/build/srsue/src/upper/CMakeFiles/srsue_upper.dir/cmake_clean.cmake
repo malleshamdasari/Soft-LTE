@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/srsue_upper.dir/nas.cc.o"
-  "CMakeFiles/srsue_upper.dir/usim.cc.o"
   "CMakeFiles/srsue_upper.dir/gw.cc.o"
+  "CMakeFiles/srsue_upper.dir/usim.cc.o"
   "CMakeFiles/srsue_upper.dir/rrc.cc.o"
   "libsrsue_upper.pdb"
   "libsrsue_upper.a"

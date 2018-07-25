@@ -1156,7 +1156,7 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/asn1/rrc_meas_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/asn1/rrc_meas_test.cc
 assert.h
 -
 iostream
@@ -1164,9 +1164,9 @@ iostream
 srslte/srslte.h
 -
 srslte/common/log_filter.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/asn1/srslte/common/log_filter.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/asn1/srslte/common/log_filter.h
 srslte/asn1/liblte_rrc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/asn1/srslte/asn1/liblte_rrc.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/asn1/srslte/asn1/liblte_rrc.h
 
 lib/include/srslte/version.h
 srslte/config.h

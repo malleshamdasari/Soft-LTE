@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -81,7 +81,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CPackSourceConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/mdasari/Lte-setup-bell/vnfs/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -102,8 +102,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -157,14 +157,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src/phy/CMakeFiles/progress.marks
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/phy/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles /home/mdasari/Lte-setup-bell/vnfs/build/srsue/src/phy/CMakeFiles/progress.marks
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/phy/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/phy/clean
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/phy/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/phy/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/phy/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/phy/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/phy/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 srsue/src/phy/CMakeFiles/srsue_phy.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/phy/CMakeFiles/srsue_phy.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsue/src/phy/CMakeFiles/srsue_phy.dir/rule
 .PHONY : srsue/src/phy/CMakeFiles/srsue_phy.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ srsue_phy: srsue/src/phy/CMakeFiles/srsue_phy.dir/rule
 
 # fast build rule for target.
 srsue_phy/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/build
 .PHONY : srsue_phy/fast
 
 phch_common.o: phch_common.cc.o
@@ -208,7 +208,7 @@ phch_common.o: phch_common.cc.o
 
 # target to build an object file
 phch_common.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_common.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_common.cc.o
 .PHONY : phch_common.cc.o
 
 phch_common.i: phch_common.cc.i
@@ -217,7 +217,7 @@ phch_common.i: phch_common.cc.i
 
 # target to preprocess a source file
 phch_common.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_common.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_common.cc.i
 .PHONY : phch_common.cc.i
 
 phch_common.s: phch_common.cc.s
@@ -226,7 +226,7 @@ phch_common.s: phch_common.cc.s
 
 # target to generate assembly for a file
 phch_common.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_common.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_common.cc.s
 .PHONY : phch_common.cc.s
 
 phch_recv.o: phch_recv.cc.o
@@ -235,7 +235,7 @@ phch_recv.o: phch_recv.cc.o
 
 # target to build an object file
 phch_recv.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_recv.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_recv.cc.o
 .PHONY : phch_recv.cc.o
 
 phch_recv.i: phch_recv.cc.i
@@ -244,7 +244,7 @@ phch_recv.i: phch_recv.cc.i
 
 # target to preprocess a source file
 phch_recv.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_recv.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_recv.cc.i
 .PHONY : phch_recv.cc.i
 
 phch_recv.s: phch_recv.cc.s
@@ -253,7 +253,7 @@ phch_recv.s: phch_recv.cc.s
 
 # target to generate assembly for a file
 phch_recv.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_recv.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_recv.cc.s
 .PHONY : phch_recv.cc.s
 
 phch_worker.o: phch_worker.cc.o
@@ -262,7 +262,7 @@ phch_worker.o: phch_worker.cc.o
 
 # target to build an object file
 phch_worker.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_worker.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_worker.cc.o
 .PHONY : phch_worker.cc.o
 
 phch_worker.i: phch_worker.cc.i
@@ -271,7 +271,7 @@ phch_worker.i: phch_worker.cc.i
 
 # target to preprocess a source file
 phch_worker.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_worker.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_worker.cc.i
 .PHONY : phch_worker.cc.i
 
 phch_worker.s: phch_worker.cc.s
@@ -280,7 +280,7 @@ phch_worker.s: phch_worker.cc.s
 
 # target to generate assembly for a file
 phch_worker.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_worker.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_worker.cc.s
 .PHONY : phch_worker.cc.s
 
 phy.o: phy.cc.o
@@ -289,7 +289,7 @@ phy.o: phy.cc.o
 
 # target to build an object file
 phy.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.o
 .PHONY : phy.cc.o
 
 phy.i: phy.cc.i
@@ -298,7 +298,7 @@ phy.i: phy.cc.i
 
 # target to preprocess a source file
 phy.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.i
 .PHONY : phy.cc.i
 
 phy.s: phy.cc.s
@@ -307,7 +307,7 @@ phy.s: phy.cc.s
 
 # target to generate assembly for a file
 phy.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.s
 .PHONY : phy.cc.s
 
 prach.o: prach.cc.o
@@ -316,7 +316,7 @@ prach.o: prach.cc.o
 
 # target to build an object file
 prach.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.o
 .PHONY : prach.cc.o
 
 prach.i: prach.cc.i
@@ -325,7 +325,7 @@ prach.i: prach.cc.i
 
 # target to preprocess a source file
 prach.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.i
 .PHONY : prach.cc.i
 
 prach.s: prach.cc.s
@@ -334,7 +334,7 @@ prach.s: prach.cc.s
 
 # target to generate assembly for a file
 prach.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsue/src/phy/CMakeFiles/srsue_phy.dir/build.make srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.s
 .PHONY : prach.cc.s
 
 # Help Target
@@ -379,6 +379,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

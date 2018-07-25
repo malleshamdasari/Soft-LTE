@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/dft_fftw.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_fftw.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/dft_precoding.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_precoding.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/ofdm.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/dft/CMakeFiles/srslte_dft.dir/ofdm.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/dft_fftw.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_fftw.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/dft_precoding.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_precoding.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/ofdm.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/dft/CMakeFiles/srslte_dft.dir/ofdm.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -17,6 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/usr/include/SoapySDR"
   "lib/include"
   "../lib/include"
   )

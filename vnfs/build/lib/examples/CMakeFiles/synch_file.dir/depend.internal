@@ -83,5 +83,5 @@ lib/examples/CMakeFiles/synch_file.dir/synch_file.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/synch_file.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/examples/synch_file.c
  lib/include/srslte/version.h

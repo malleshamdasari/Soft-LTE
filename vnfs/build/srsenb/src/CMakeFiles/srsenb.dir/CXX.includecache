@@ -1966,29 +1966,29 @@ s1ap_metrics.h
 
 ../srsenb/hdr/upper/s1ap_metrics.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/enb.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/enb.cc
 boost/algorithm/string.hpp
 -
 srsenb/hdr/enb.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srsenb/hdr/enb.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srsenb/hdr/enb.h
 iostream
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/enb_cfg_parser.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/enb_cfg_parser.cc
 srslte/asn1/liblte_common.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srslte/asn1/liblte_common.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srslte/asn1/liblte_common.h
 srslte/asn1/liblte_rrc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srslte/asn1/liblte_rrc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srslte/asn1/liblte_rrc.h
 srsenb/hdr/cfg_parser.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srsenb/hdr/cfg_parser.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srsenb/hdr/cfg_parser.h
 srslte/srslte.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srslte/srslte.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srslte/srslte.h
 srsenb/hdr/parser.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srsenb/hdr/parser.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srsenb/hdr/parser.h
 enb_cfg_parser.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/enb_cfg_parser.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/enb_cfg_parser.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/enb_cfg_parser.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/enb_cfg_parser.h
 string
 -
 stdlib.h
@@ -2002,13 +2002,13 @@ string.h
 iostream
 -
 srsenb/hdr/parser.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srsenb/hdr/parser.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srsenb/hdr/parser.h
 srsenb/hdr/upper/rrc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srsenb/hdr/upper/rrc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srsenb/hdr/upper/rrc.h
 srslte/asn1/liblte_rrc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srslte/asn1/liblte_rrc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srslte/asn1/liblte_rrc.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/main.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/main.cc
 unistd.h
 -
 stdio.h
@@ -2030,15 +2030,15 @@ boost/program_options.hpp
 boost/program_options/parsers.hpp
 -
 srsenb/hdr/enb.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srsenb/hdr/enb.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srsenb/hdr/enb.h
 srsenb/hdr/metrics_stdout.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srsenb/hdr/metrics_stdout.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srsenb/hdr/metrics_stdout.h
 srsenb/hdr/controller_if.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srsenb/hdr/controller_if.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srsenb/hdr/controller_if.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/metrics_stdout.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/metrics_stdout.cc
 srsenb/hdr/metrics_stdout.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srsenb/hdr/metrics_stdout.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srsenb/hdr/metrics_stdout.h
 unistd.h
 -
 sstream
@@ -2058,9 +2058,9 @@ stdio.h
 string.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/parser.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/parser.cc
 srsenb/hdr/parser.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/srsenb/hdr/parser.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/src/srsenb/hdr/parser.h
 iostream
 -
 

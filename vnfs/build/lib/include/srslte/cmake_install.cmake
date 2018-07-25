@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/include/srslte
+# Install script for directory: /home/mdasari/Lte-setup-bell/vnfs/lib/include/srslte
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/srslte" TYPE FILE FILES "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/include/srslte/version.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/srslte" TYPE FILE FILES "/home/mdasari/Lte-setup-bell/vnfs/build/lib/include/srslte/version.h")
 endif()
 

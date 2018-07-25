@@ -1126,7 +1126,7 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/cell_measurement.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/examples/cell_measurement.c
 stdio.h
 -
 stdlib.h
@@ -1148,11 +1148,11 @@ assert.h
 signal.h
 -
 srslte/srslte.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/srslte/srslte.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/examples/srslte/srslte.h
 srslte/phy/rf/rf.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/srslte/phy/rf/rf.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/examples/srslte/phy/rf/rf.h
 srslte/phy/rf/rf_utils.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/srslte/phy/rf/rf_utils.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/examples/srslte/phy/rf/rf_utils.h
 
 lib/include/srslte/version.h
 srslte/config.h

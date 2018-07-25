@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -81,7 +81,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CPackSourceConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/mdasari/Lte-setup-bell/vnfs/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -102,8 +102,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -157,14 +157,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/dft/test/CMakeFiles/progress.marks
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/dft/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/dft/test/CMakeFiles/progress.marks
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/dft/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/dft/test/clean
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/dft/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/dft/test/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/dft/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/dft/test/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/dft/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/rule
 .PHONY : lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ ofdm_test: lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/rule
 
 # fast build rule for target.
 ofdm_test/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/build.make lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/build.make lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/build
 .PHONY : ofdm_test/fast
 
 ofdm_test.o: ofdm_test.c.o
@@ -208,7 +208,7 @@ ofdm_test.o: ofdm_test.c.o
 
 # target to build an object file
 ofdm_test.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/build.make lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/ofdm_test.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/build.make lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/ofdm_test.c.o
 .PHONY : ofdm_test.c.o
 
 ofdm_test.i: ofdm_test.c.i
@@ -217,7 +217,7 @@ ofdm_test.i: ofdm_test.c.i
 
 # target to preprocess a source file
 ofdm_test.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/build.make lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/ofdm_test.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/build.make lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/ofdm_test.c.i
 .PHONY : ofdm_test.c.i
 
 ofdm_test.s: ofdm_test.c.s
@@ -226,7 +226,7 @@ ofdm_test.s: ofdm_test.c.s
 
 # target to generate assembly for a file
 ofdm_test.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/build.make lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/ofdm_test.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/build.make lib/src/phy/dft/test/CMakeFiles/ofdm_test.dir/ofdm_test.c.s
 .PHONY : ofdm_test.c.s
 
 # Help Target
@@ -259,6 +259,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

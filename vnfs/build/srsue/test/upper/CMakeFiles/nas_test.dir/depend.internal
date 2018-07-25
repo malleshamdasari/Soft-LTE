@@ -134,5 +134,5 @@ srsue/test/upper/CMakeFiles/nas_test.dir/nas_test.cc.o
  ../srsue/hdr/mac/ul_harq.h
  ../srsue/hdr/mac/ul_sps.h
  ../srsue/hdr/upper/rrc_common.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/upper/nas_test.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/test/upper/nas_test.cc
  lib/include/srslte/version.h

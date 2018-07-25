@@ -1218,13 +1218,13 @@ srslte/phy/sync/cp.h
 srslte/asn1/liblte_rrc.h
 ../lib/include/srslte/upper/srslte/asn1/liblte_rrc.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/upper/usim_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/upper/usim_test.cc
 iostream
 -
 srsue/hdr/upper/usim.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/upper/srsue/hdr/upper/usim.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/upper/srsue/hdr/upper/usim.h
 srslte/common/log_filter.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/upper/srslte/common/log_filter.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/upper/srslte/common/log_filter.h
 assert.h
 -
 

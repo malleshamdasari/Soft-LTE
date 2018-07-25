@@ -132,5 +132,5 @@ srsenb/test/mac/CMakeFiles/scheduler_test.dir/scheduler_test.cc.o
  ../srsenb/hdr/phy/prach_worker.h
  ../srsenb/hdr/phy/txrx.h
  ../srsenb/hdr/upper/common_enb.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/mac/scheduler_test.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsenb/test/mac/scheduler_test.cc
  lib/include/srslte/version.h

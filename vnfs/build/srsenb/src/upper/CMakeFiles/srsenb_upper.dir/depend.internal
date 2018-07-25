@@ -98,7 +98,7 @@ srsenb/src/upper/CMakeFiles/srsenb_upper.dir/gtpu.cc.o
  ../lib/include/srslte/srslte.h
  ../lib/include/srslte/upper/rlc_interface.h
  ../srsenb/hdr/upper/common_enb.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/gtpu.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/gtpu.cc
  lib/include/srslte/version.h
 srsenb/src/upper/CMakeFiles/srsenb_upper.dir/pdcp.cc.o
  ..//srsenb/hdr/upper/common_enb.h
@@ -201,7 +201,7 @@ srsenb/src/upper/CMakeFiles/srsenb_upper.dir/pdcp.cc.o
  ../lib/include/srslte/upper/pdcp.h
  ../lib/include/srslte/upper/pdcp_entity.h
  ../lib/include/srslte/upper/rlc_interface.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/pdcp.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/pdcp.cc
  lib/include/srslte/version.h
 srsenb/src/upper/CMakeFiles/srsenb_upper.dir/rlc.cc.o
  ..//srsenb/hdr/upper/common_enb.h
@@ -309,7 +309,7 @@ srsenb/src/upper/CMakeFiles/srsenb_upper.dir/rlc.cc.o
  ../lib/include/srslte/upper/rlc_metrics.h
  ../lib/include/srslte/upper/rlc_tm.h
  ../lib/include/srslte/upper/rlc_um.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/rlc.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/rlc.cc
  lib/include/srslte/version.h
 srsenb/src/upper/CMakeFiles/srsenb_upper.dir/rrc.cc.o
  ..//srsenb/hdr/upper/rrc.h
@@ -412,7 +412,7 @@ srsenb/src/upper/CMakeFiles/srsenb_upper.dir/rrc.cc.o
  ../lib/include/srslte/upper/rlc_interface.h
  ../srsenb/hdr/upper/common_enb.h
  ../srsenb/hdr/upper/rrc_metrics.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/rrc.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/rrc.cc
  lib/include/srslte/version.h
 srsenb/src/upper/CMakeFiles/srsenb_upper.dir/s1ap.cc.o
  ..//srsenb/hdr/upper/common_enb.h
@@ -514,5 +514,5 @@ srsenb/src/upper/CMakeFiles/srsenb_upper.dir/s1ap.cc.o
  ../lib/include/srslte/upper/rlc_interface.h
  ../srsenb/hdr/upper/common_enb.h
  ../srsenb/hdr/upper/s1ap_metrics.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/upper/s1ap.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsenb/src/upper/s1ap.cc
  lib/include/srslte/version.h

@@ -7,4 +7,4 @@ lib/src/phy/agc/CMakeFiles/srslte_agc.dir/agc.c.o
  ../lib/include/srslte/phy/common/phy_logger.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/agc/agc.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/agc/agc.c

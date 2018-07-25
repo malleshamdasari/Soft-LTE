@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/upper
+# Install script for directory: /home/mdasari/Lte-setup-bell/vnfs/lib/src/upper
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/upper/libsrslte_upper.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/upper/libsrslte_upper.a")
 endif()
 

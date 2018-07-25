@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/enb/enb_dl.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/enb/CMakeFiles/srslte_enb.dir/enb_dl.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/enb/enb_ul.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/enb/CMakeFiles/srslte_enb.dir/enb_ul.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/enb/enb_dl.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/enb/CMakeFiles/srslte_enb.dir/enb_dl.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/enb/enb_ul.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/enb/CMakeFiles/srslte_enb.dir/enb_ul.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -16,6 +16,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/usr/include/SoapySDR"
   "lib/include"
   "../lib/include"
   )

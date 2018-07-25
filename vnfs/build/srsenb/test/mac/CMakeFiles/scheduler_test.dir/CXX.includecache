@@ -1558,23 +1558,23 @@ prach_worker.h
 stdint.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/mac/scheduler_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/test/mac/scheduler_test.cc
 unistd.h
 -
 srsenb/hdr/mac/mac.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/mac/srsenb/hdr/mac/mac.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/test/mac/srsenb/hdr/mac/mac.h
 srsenb/hdr/phy/phy.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/mac/srsenb/hdr/phy/phy.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/test/mac/srsenb/hdr/phy/phy.h
 srslte/interfaces/enb_interfaces.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/mac/srslte/interfaces/enb_interfaces.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/test/mac/srslte/interfaces/enb_interfaces.h
 srslte/interfaces/sched_interface.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/mac/srslte/interfaces/sched_interface.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/test/mac/srslte/interfaces/sched_interface.h
 srslte/common/log_filter.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/mac/srslte/common/log_filter.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/test/mac/srslte/common/log_filter.h
 srslte/radio/radio.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/mac/srslte/radio/radio.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/test/mac/srslte/radio/radio.h
 srslte/phy/utils/debug.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/mac/srslte/phy/utils/debug.h
+/home/mdasari/Lte-setup-bell/vnfs/srsenb/test/mac/srslte/phy/utils/debug.h
 
 lib/include/srslte/version.h
 srslte/config.h

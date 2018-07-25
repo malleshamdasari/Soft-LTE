@@ -84,5 +84,5 @@ lib/examples/CMakeFiles/usrp_capture.dir/usrp_capture.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/usrp_capture.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/examples/usrp_capture.c
  lib/include/srslte/version.h

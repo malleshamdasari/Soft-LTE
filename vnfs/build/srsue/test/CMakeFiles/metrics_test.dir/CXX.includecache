@@ -1192,9 +1192,9 @@ phy/phy_metrics.h
 
 ../srsue/hdr/upper/gw_metrics.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/metrics_csv.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/metrics_csv.cc
 srsue/hdr/metrics_csv.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/srsue/hdr/metrics_csv.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/srsue/hdr/metrics_csv.h
 unistd.h
 -
 sstream
@@ -1212,9 +1212,9 @@ iostream
 stdio.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/metrics_stdout.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/metrics_stdout.cc
 srsue/hdr/metrics_stdout.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/srsue/hdr/metrics_stdout.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/srsue/hdr/metrics_stdout.h
 unistd.h
 -
 sstream
@@ -1232,7 +1232,7 @@ iostream
 stdio.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/metrics_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/metrics_test.cc
 iostream
 -
 stdio.h
@@ -1244,13 +1244,13 @@ strings.h
 unistd.h
 -
 srsue/hdr/ue_metrics_interface.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/srsue/hdr/ue_metrics_interface.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/srsue/hdr/ue_metrics_interface.h
 srslte/common/metrics_hub.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/srslte/common/metrics_hub.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/srslte/common/metrics_hub.h
 srsue/hdr/metrics_stdout.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/srsue/hdr/metrics_stdout.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/srsue/hdr/metrics_stdout.h
 srsue/hdr/metrics_csv.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/srsue/hdr/metrics_csv.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/test/srsue/hdr/metrics_csv.h
 
 lib/include/srslte/version.h
 srslte/config.h

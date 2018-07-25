@@ -83,7 +83,7 @@ lib/src/phy/enb/CMakeFiles/srslte_enb.dir/enb_dl.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/enb/enb_dl.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/enb/enb_dl.c
  lib/include/srslte/version.h
 lib/src/phy/enb/CMakeFiles/srslte_enb.dir/enb_ul.c.o
  ../lib/include/srslte/config.h
@@ -128,4 +128,4 @@ lib/src/phy/enb/CMakeFiles/srslte_enb.dir/enb_ul.c.o
  ../lib/include/srslte/phy/scrambling/scrambling.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/enb/enb_ul.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/enb/enb_ul.c

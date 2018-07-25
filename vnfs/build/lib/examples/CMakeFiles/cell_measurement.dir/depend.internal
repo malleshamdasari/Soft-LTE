@@ -85,5 +85,5 @@ lib/examples/CMakeFiles/cell_measurement.dir/cell_measurement.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/cell_measurement.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/examples/cell_measurement.c
  lib/include/srslte/version.h

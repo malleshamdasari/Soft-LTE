@@ -83,5 +83,5 @@ lib/src/phy/sync/test/CMakeFiles/sync_test.dir/sync_test.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/test/sync_test.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/test/sync_test.c
  lib/include/srslte/version.h

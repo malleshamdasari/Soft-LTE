@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 # Utility rule file for gen_build_info.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
 include lib/src/common/CMakeFiles/gen_build_info.dir/progress.make
 
 lib/src/common/CMakeFiles/gen_build_info:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/common && cmake -P /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/SRSLTEbuildinfo.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/common && cmake -P /home/mdasari/Lte-setup-bell/vnfs/build/SRSLTEbuildinfo.cmake
 
 gen_build_info: lib/src/common/CMakeFiles/gen_build_info
 gen_build_info: lib/src/common/CMakeFiles/gen_build_info.dir/build.make
@@ -67,10 +67,10 @@ lib/src/common/CMakeFiles/gen_build_info.dir/build: gen_build_info
 .PHONY : lib/src/common/CMakeFiles/gen_build_info.dir/build
 
 lib/src/common/CMakeFiles/gen_build_info.dir/clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/common && $(CMAKE_COMMAND) -P CMakeFiles/gen_build_info.dir/cmake_clean.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/common && $(CMAKE_COMMAND) -P CMakeFiles/gen_build_info.dir/cmake_clean.cmake
 .PHONY : lib/src/common/CMakeFiles/gen_build_info.dir/clean
 
 lib/src/common/CMakeFiles/gen_build_info.dir/depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/common /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/common /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/common/CMakeFiles/gen_build_info.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mdasari/Lte-setup-bell/vnfs /home/mdasari/Lte-setup-bell/vnfs/lib/src/common /home/mdasari/Lte-setup-bell/vnfs/build /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/common /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/common/CMakeFiles/gen_build_info.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/src/common/CMakeFiles/gen_build_info.dir/depend
 

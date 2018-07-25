@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/srsenb_mac.dir/mac.cc.o"
   "CMakeFiles/srsenb_mac.dir/scheduler_ue.cc.o"
+  "CMakeFiles/srsenb_mac.dir/ue.cc.o"
   "CMakeFiles/srsenb_mac.dir/scheduler_harq.cc.o"
   "CMakeFiles/srsenb_mac.dir/scheduler_metric.cc.o"
-  "CMakeFiles/srsenb_mac.dir/ue.cc.o"
+  "CMakeFiles/srsenb_mac.dir/mac.cc.o"
   "CMakeFiles/srsenb_mac.dir/scheduler.cc.o"
   "libsrsenb_mac.pdb"
   "libsrsenb_mac.a"

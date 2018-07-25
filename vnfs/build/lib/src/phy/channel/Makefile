@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -80,8 +80,8 @@ package/fast: package
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CPackSourceConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/mdasari/Lte-setup-bell/vnfs/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/channel/CMakeFiles/progress.marks
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/channel/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/channel/CMakeFiles/progress.marks
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/channel/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/channel/clean
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/channel/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/channel/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/channel/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/channel/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/channel/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/channel/CMakeFiles/srslte_channel.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/channel/CMakeFiles/srslte_channel.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/channel/CMakeFiles/srslte_channel.dir/rule
 .PHONY : lib/src/phy/channel/CMakeFiles/srslte_channel.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ srslte_channel: lib/src/phy/channel/CMakeFiles/srslte_channel.dir/rule
 
 # fast build rule for target.
 srslte_channel/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build
 .PHONY : srslte_channel/fast
 
 ch_awgn.o: ch_awgn.c.o
@@ -208,7 +208,7 @@ ch_awgn.o: ch_awgn.c.o
 
 # target to build an object file
 ch_awgn.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/ch_awgn.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/ch_awgn.c.o
 .PHONY : ch_awgn.c.o
 
 ch_awgn.i: ch_awgn.c.i
@@ -217,7 +217,7 @@ ch_awgn.i: ch_awgn.c.i
 
 # target to preprocess a source file
 ch_awgn.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/ch_awgn.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/ch_awgn.c.i
 .PHONY : ch_awgn.c.i
 
 ch_awgn.s: ch_awgn.c.s
@@ -226,7 +226,7 @@ ch_awgn.s: ch_awgn.c.s
 
 # target to generate assembly for a file
 ch_awgn.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/ch_awgn.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/ch_awgn.c.s
 .PHONY : ch_awgn.c.s
 
 gauss.o: gauss.c.o
@@ -235,7 +235,7 @@ gauss.o: gauss.c.o
 
 # target to build an object file
 gauss.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/gauss.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/gauss.c.o
 .PHONY : gauss.c.o
 
 gauss.i: gauss.c.i
@@ -244,7 +244,7 @@ gauss.i: gauss.c.i
 
 # target to preprocess a source file
 gauss.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/gauss.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/gauss.c.i
 .PHONY : gauss.c.i
 
 gauss.s: gauss.c.s
@@ -253,7 +253,7 @@ gauss.s: gauss.c.s
 
 # target to generate assembly for a file
 gauss.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/gauss.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/channel/CMakeFiles/srslte_channel.dir/build.make lib/src/phy/channel/CMakeFiles/srslte_channel.dir/gauss.c.s
 .PHONY : gauss.c.s
 
 # Help Target
@@ -289,6 +289,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

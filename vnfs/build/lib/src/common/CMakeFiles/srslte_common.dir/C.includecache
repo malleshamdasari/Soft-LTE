@@ -20,7 +20,7 @@ stdio.h
 
 ../lib/include/srslte/config.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/common/threads.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/common/threads.c
 errno.h
 -
 pthread.h
@@ -34,11 +34,11 @@ string.h
 sys/types.h
 -
 srslte/common/threads.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/common/srslte/common/threads.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/common/srslte/common/threads.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/common/version.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/common/version.c
 srslte/version.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/common/srslte/version.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/common/srslte/version.h
 
 lib/include/srslte/version.h
 srslte/config.h

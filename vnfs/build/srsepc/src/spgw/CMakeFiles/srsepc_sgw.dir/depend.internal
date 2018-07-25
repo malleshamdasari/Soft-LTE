@@ -102,5 +102,5 @@ srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/spgw.cc.o
  ../lib/include/srslte/srslte.h
  ../lib/include/srslte/upper/gtpu.h
  ../srsepc/hdr/mme/s1ap_common.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/spgw/spgw.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/spgw/spgw.cc
  lib/include/srslte/version.h

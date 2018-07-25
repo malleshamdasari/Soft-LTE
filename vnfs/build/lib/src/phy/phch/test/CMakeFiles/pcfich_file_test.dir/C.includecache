@@ -1108,7 +1108,7 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/test/pcfich_file_test.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/test/pcfich_file_test.c
 stdio.h
 -
 stdlib.h
@@ -1120,7 +1120,7 @@ strings.h
 unistd.h
 -
 srslte/srslte.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/test/srslte/srslte.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/test/srslte/srslte.h
 
 lib/include/srslte/version.h
 srslte/config.h

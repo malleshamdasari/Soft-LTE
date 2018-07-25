@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/cfo.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cfo.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/cp.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cp.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/find_sss.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/find_sss.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/gen_sss.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/gen_sss.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/pss.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/pss.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/sfo.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sfo.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/sss.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sss.c.o"
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/sync.c" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sync.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/cfo.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cfo.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/cp.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cp.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/find_sss.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/find_sss.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/gen_sss.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/gen_sss.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/pss.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/pss.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/sfo.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sfo.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/sss.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sss.c.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/sync.c" "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sync.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -22,6 +22,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/usr/include/SoapySDR"
   "lib/include"
   "../lib/include"
   )

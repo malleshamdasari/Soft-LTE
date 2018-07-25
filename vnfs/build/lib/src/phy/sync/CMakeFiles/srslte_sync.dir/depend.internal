@@ -83,7 +83,7 @@ lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cfo.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/cfo.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/cfo.c
  lib/include/srslte/version.h
 lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cp.c.o
  ../lib/include/srslte/config.h
@@ -167,7 +167,7 @@ lib/src/phy/sync/CMakeFiles/srslte_sync.dir/cp.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/cp.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/cp.c
  lib/include/srslte/version.h
 lib/src/phy/sync/CMakeFiles/srslte_sync.dir/find_sss.c.o
  ../lib/include/srslte/config.h
@@ -175,13 +175,13 @@ lib/src/phy/sync/CMakeFiles/srslte_sync.dir/find_sss.c.o
  ../lib/include/srslte/phy/dft/dft.h
  ../lib/include/srslte/phy/sync/sss.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/find_sss.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/find_sss.c
 lib/src/phy/sync/CMakeFiles/srslte_sync.dir/gen_sss.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/phy_common.h
  ../lib/include/srslte/phy/dft/dft.h
  ../lib/include/srslte/phy/sync/sss.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/gen_sss.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/gen_sss.c
 lib/src/phy/sync/CMakeFiles/srslte_sync.dir/pss.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/phy_common.h
@@ -192,11 +192,11 @@ lib/src/phy/sync/CMakeFiles/srslte_sync.dir/pss.c.o
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/filter.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/pss.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/pss.c
 lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sfo.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/sync/sfo.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/sfo.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/sfo.c
 lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sss.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/phy_common.h
@@ -204,7 +204,7 @@ lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sss.c.o
  ../lib/include/srslte/phy/sync/sss.h
  ../lib/include/srslte/phy/utils/convolution.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/sss.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/sss.c
 lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sync.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/agc/agc.h
@@ -287,5 +287,5 @@ lib/src/phy/sync/CMakeFiles/srslte_sync.dir/sync.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/sync/sync.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/sync/sync.c
  lib/include/srslte/version.h

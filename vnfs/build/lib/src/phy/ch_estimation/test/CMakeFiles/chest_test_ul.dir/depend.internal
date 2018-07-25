@@ -83,5 +83,5 @@ lib/src/phy/ch_estimation/test/CMakeFiles/chest_test_ul.dir/chest_test_ul.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/ch_estimation/test/chest_test_ul.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/ch_estimation/test/chest_test_ul.c
  lib/include/srslte/version.h

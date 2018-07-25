@@ -8,5 +8,5 @@ lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/pmi_select_test.c.o
  ../lib/include/srslte/phy/mimo/precoding.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/mimo/test/pmi_select_test.c
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/mimo/test/pmi_select_test.h
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/mimo/test/pmi_select_test.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/mimo/test/pmi_select_test.h

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o"
   "CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o"
-  "CMakeFiles/srsepc_mme.dir/mme.cc.o"
   "CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o"
-  "CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o"
+  "CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o"
   "CMakeFiles/srsepc_mme.dir/s1ap.cc.o"
+  "CMakeFiles/srsepc_mme.dir/mme.cc.o"
+  "CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o"
   "libsrsepc_mme.pdb"
   "libsrsepc_mme.a"
 )

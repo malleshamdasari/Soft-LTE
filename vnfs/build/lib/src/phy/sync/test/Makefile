@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -80,8 +80,8 @@ package/fast: package
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -147,7 +147,7 @@ install/local/fast: install/local
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CPackSourceConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/mdasari/Lte-setup-bell/vnfs/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/sync/test/CMakeFiles/progress.marks
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/sync/test/CMakeFiles/progress.marks
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/clean
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/rule
 .PHONY : lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/rule
 
 # Convenience name for target.
@@ -199,12 +199,12 @@ cfo_test: lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/rule
 
 # fast build rule for target.
 cfo_test/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/build
 .PHONY : cfo_test/fast
 
 # Convenience name for target.
 lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/rule
 .PHONY : lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ pss_usrp: lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/rule
 
 # fast build rule for target.
 pss_usrp/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/build
 .PHONY : pss_usrp/fast
 
 # Convenience name for target.
 lib/src/phy/sync/test/CMakeFiles/pss_file.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/CMakeFiles/pss_file.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/CMakeFiles/pss_file.dir/rule
 .PHONY : lib/src/phy/sync/test/CMakeFiles/pss_file.dir/rule
 
 # Convenience name for target.
@@ -229,12 +229,12 @@ pss_file: lib/src/phy/sync/test/CMakeFiles/pss_file.dir/rule
 
 # fast build rule for target.
 pss_file/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_file.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_file.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_file.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_file.dir/build
 .PHONY : pss_file/fast
 
 # Convenience name for target.
 lib/src/phy/sync/test/CMakeFiles/sync_test.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/CMakeFiles/sync_test.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/sync/test/CMakeFiles/sync_test.dir/rule
 .PHONY : lib/src/phy/sync/test/CMakeFiles/sync_test.dir/rule
 
 # Convenience name for target.
@@ -244,7 +244,7 @@ sync_test: lib/src/phy/sync/test/CMakeFiles/sync_test.dir/rule
 
 # fast build rule for target.
 sync_test/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/sync_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/sync_test.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/sync_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/sync_test.dir/build
 .PHONY : sync_test/fast
 
 cfo_test.o: cfo_test.c.o
@@ -253,7 +253,7 @@ cfo_test.o: cfo_test.c.o
 
 # target to build an object file
 cfo_test.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/cfo_test.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/cfo_test.c.o
 .PHONY : cfo_test.c.o
 
 cfo_test.i: cfo_test.c.i
@@ -262,7 +262,7 @@ cfo_test.i: cfo_test.c.i
 
 # target to preprocess a source file
 cfo_test.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/cfo_test.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/cfo_test.c.i
 .PHONY : cfo_test.c.i
 
 cfo_test.s: cfo_test.c.s
@@ -271,7 +271,7 @@ cfo_test.s: cfo_test.c.s
 
 # target to generate assembly for a file
 cfo_test.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/cfo_test.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/cfo_test.dir/cfo_test.c.s
 .PHONY : cfo_test.c.s
 
 pss_file.o: pss_file.c.o
@@ -280,7 +280,7 @@ pss_file.o: pss_file.c.o
 
 # target to build an object file
 pss_file.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_file.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_file.dir/pss_file.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_file.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_file.dir/pss_file.c.o
 .PHONY : pss_file.c.o
 
 pss_file.i: pss_file.c.i
@@ -289,7 +289,7 @@ pss_file.i: pss_file.c.i
 
 # target to preprocess a source file
 pss_file.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_file.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_file.dir/pss_file.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_file.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_file.dir/pss_file.c.i
 .PHONY : pss_file.c.i
 
 pss_file.s: pss_file.c.s
@@ -298,7 +298,7 @@ pss_file.s: pss_file.c.s
 
 # target to generate assembly for a file
 pss_file.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_file.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_file.dir/pss_file.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_file.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_file.dir/pss_file.c.s
 .PHONY : pss_file.c.s
 
 pss_usrp.o: pss_usrp.c.o
@@ -307,7 +307,7 @@ pss_usrp.o: pss_usrp.c.o
 
 # target to build an object file
 pss_usrp.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/pss_usrp.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/pss_usrp.c.o
 .PHONY : pss_usrp.c.o
 
 pss_usrp.i: pss_usrp.c.i
@@ -316,7 +316,7 @@ pss_usrp.i: pss_usrp.c.i
 
 # target to preprocess a source file
 pss_usrp.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/pss_usrp.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/pss_usrp.c.i
 .PHONY : pss_usrp.c.i
 
 pss_usrp.s: pss_usrp.c.s
@@ -325,7 +325,7 @@ pss_usrp.s: pss_usrp.c.s
 
 # target to generate assembly for a file
 pss_usrp.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/pss_usrp.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/build.make lib/src/phy/sync/test/CMakeFiles/pss_usrp.dir/pss_usrp.c.s
 .PHONY : pss_usrp.c.s
 
 sync_test.o: sync_test.c.o
@@ -334,7 +334,7 @@ sync_test.o: sync_test.c.o
 
 # target to build an object file
 sync_test.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/sync_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/sync_test.dir/sync_test.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/sync_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/sync_test.dir/sync_test.c.o
 .PHONY : sync_test.c.o
 
 sync_test.i: sync_test.c.i
@@ -343,7 +343,7 @@ sync_test.i: sync_test.c.i
 
 # target to preprocess a source file
 sync_test.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/sync_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/sync_test.dir/sync_test.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/sync_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/sync_test.dir/sync_test.c.i
 .PHONY : sync_test.c.i
 
 sync_test.s: sync_test.c.s
@@ -352,7 +352,7 @@ sync_test.s: sync_test.c.s
 
 # target to generate assembly for a file
 sync_test.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/sync_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/sync_test.dir/sync_test.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/sync/test/CMakeFiles/sync_test.dir/build.make lib/src/phy/sync/test/CMakeFiles/sync_test.dir/sync_test.c.s
 .PHONY : sync_test.c.s
 
 # Help Target
@@ -397,6 +397,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

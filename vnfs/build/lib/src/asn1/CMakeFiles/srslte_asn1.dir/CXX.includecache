@@ -1158,29 +1158,29 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/gtpc.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/gtpc.cc
 stdint.h
 -
 srslte/asn1/gtpc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/srslte/asn1/gtpc.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/srslte/asn1/gtpc.h
 srslte/common/common.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/srslte/common/common.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/srslte/common/common.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_common.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_common.cc
 srslte/asn1/liblte_common.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/srslte/asn1/liblte_common.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/srslte/asn1/liblte_common.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_mme.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_mme.cc
 srslte/asn1/liblte_mme.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/srslte/asn1/liblte_mme.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/srslte/asn1/liblte_mme.h
 srslte/common/liblte_security.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/srslte/common/liblte_security.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/srslte/common/liblte_security.h
 iostream
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_rrc.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_rrc.cc
 srslte/asn1/liblte_rrc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/srslte/asn1/liblte_rrc.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/srslte/asn1/liblte_rrc.h
 stdlib.h
 -
 stdio.h
@@ -1188,9 +1188,9 @@ stdio.h
 stdarg.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/liblte_s1ap.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/liblte_s1ap.cc
 srslte/asn1/liblte_s1ap.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/asn1/srslte/asn1/liblte_s1ap.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/asn1/srslte/asn1/liblte_s1ap.h
 stdio.h
 -
 stdarg.h

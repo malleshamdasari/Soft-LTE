@@ -111,7 +111,7 @@ srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phch_common.cc.o
  ../srsenb/hdr/phy/phch_common.h
  ../srsenb/hdr/phy/prach_worker.h
  ../srsenb/hdr/upper/common_enb.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/phy/phch_common.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsenb/src/phy/phch_common.cc
  lib/include/srslte/version.h
 srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phch_worker.cc.o
  ..//srsenb/hdr/mac/mac_metrics.h
@@ -222,7 +222,7 @@ srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phch_worker.cc.o
  ../lib/include/srslte/upper/rlc_metrics.h
  ../srsenb/hdr/phy/phch_common.h
  ../srsenb/hdr/upper/common_enb.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/phy/phch_worker.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsenb/src/phy/phch_worker.cc
  lib/include/srslte/version.h
 srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy.cc.o
  ..//srsenb/hdr/mac/mac_metrics.h
@@ -340,7 +340,7 @@ srsenb/src/phy/CMakeFiles/srsenb_phy.dir/phy.cc.o
  ../srsenb/hdr/phy/prach_worker.h
  ../srsenb/hdr/phy/txrx.h
  ../srsenb/hdr/upper/common_enb.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/phy/phy.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsenb/src/phy/phy.cc
  lib/include/srslte/version.h
 srsenb/src/phy/CMakeFiles/srsenb_phy.dir/prach_worker.cc.o
  ..//srsenb/hdr/phy/prach_worker.h
@@ -437,7 +437,7 @@ srsenb/src/phy/CMakeFiles/srsenb_phy.dir/prach_worker.cc.o
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
  ../lib/include/srslte/upper/rlc_interface.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/phy/prach_worker.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsenb/src/phy/prach_worker.cc
  lib/include/srslte/version.h
 srsenb/src/phy/CMakeFiles/srsenb_phy.dir/txrx.cc.o
  ..//srsenb/hdr/mac/mac_metrics.h
@@ -550,5 +550,5 @@ srsenb/src/phy/CMakeFiles/srsenb_phy.dir/txrx.cc.o
  ../srsenb/hdr/phy/phch_common.h
  ../srsenb/hdr/phy/prach_worker.h
  ../srsenb/hdr/upper/common_enb.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/src/phy/txrx.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsenb/src/phy/txrx.cc
  lib/include/srslte/version.h

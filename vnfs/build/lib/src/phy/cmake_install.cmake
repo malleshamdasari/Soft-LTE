@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy
+# Install script for directory: /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,28 +33,28 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/libsrslte_phy.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/libsrslte_phy.a")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/agc/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/ch_estimation/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/common/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/fec/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/mimo/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/phch/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/sync/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/utils/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/channel/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/dft/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/io/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/modem/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/resampling/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/scrambling/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/ue/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/enb/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/agc/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/ch_estimation/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/common/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/fec/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/mimo/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/phch/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/sync/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/utils/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/channel/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/dft/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/io/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/modem/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/resampling/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/scrambling/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/ue/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/enb/cmake_install.cmake")
 
 endif()
 

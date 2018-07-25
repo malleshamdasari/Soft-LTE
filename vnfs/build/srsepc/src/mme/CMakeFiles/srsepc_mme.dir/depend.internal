@@ -107,7 +107,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o
  ../srsepc/hdr/mme/s1ap_ctx_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/mme.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/mme.cc
  lib/include/srslte/version.h
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o
  ..//srsepc/hdr/hss/hss.h
@@ -216,7 +216,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o
  ../srsepc/hdr/mme/s1ap_ctx_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/mme_gtpc.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/mme_gtpc.cc
  lib/include/srslte/version.h
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o
  ..//srsepc/hdr/hss/hss.h
@@ -326,7 +326,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o
  ../srsepc/hdr/mme/s1ap_ctx_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap.cc
  lib/include/srslte/version.h
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o
  ..//srsepc/hdr/hss/hss.h
@@ -437,7 +437,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o
  ../srsepc/hdr/mme/s1ap_ctx_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc
  lib/include/srslte/version.h
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o
  ..//srsepc/hdr/hss/hss.h
@@ -547,7 +547,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o
  ../srsepc/hdr/mme/s1ap_ctx_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_mngmt_proc.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_mngmt_proc.cc
  lib/include/srslte/version.h
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o
  ..//srsepc/hdr/hss/hss.h
@@ -656,5 +656,5 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o
  ../srsepc/hdr/mme/s1ap_ctx_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_mngmt_proc.h
  ../srsepc/hdr/mme/s1ap_nas_transport.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_nas_transport.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_nas_transport.cc
  lib/include/srslte/version.h

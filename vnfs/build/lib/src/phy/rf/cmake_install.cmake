@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf
+# Install script for directory: /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrslte_rf.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf/libsrslte_rf.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf/libsrslte_rf.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrslte_rf.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsrslte_rf.so")
     if(CMAKE_INSTALL_DO_STRIP)

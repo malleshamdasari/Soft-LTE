@@ -97,7 +97,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_common.cc.o
  ../lib/include/srslte/srslte.h
  ../lib/include/srslte/upper/rlc_interface.h
  ../srsue/hdr/phy/phy_metrics.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/phy/phch_common.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/src/phy/phch_common.cc
  lib/include/srslte/version.h
 srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_recv.cc.o
  ..//srsue/hdr/phy/phch_recv.h
@@ -204,7 +204,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_recv.cc.o
  ../srsue/hdr/phy/phch_worker.h
  ../srsue/hdr/phy/phy_metrics.h
  ../srsue/hdr/phy/prach.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/phy/phch_recv.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/src/phy/phch_recv.cc
  lib/include/srslte/version.h
 srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_worker.cc.o
  ..//srsue/hdr/phy/phch_worker.h
@@ -305,7 +305,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/phch_worker.cc.o
  ../lib/include/srslte/upper/rlc_interface.h
  ../srsue/hdr/phy/phch_common.h
  ../srsue/hdr/phy/phy_metrics.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/phy/phch_worker.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/src/phy/phch_worker.cc
  lib/include/srslte/version.h
 srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.o
  ..//srsue/hdr/phy/phy.h
@@ -416,7 +416,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.o
  ../srsue/hdr/phy/phch_worker.h
  ../srsue/hdr/phy/phy_metrics.h
  ../srsue/hdr/phy/prach.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/phy/phy.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/src/phy/phy.cc
  lib/include/srslte/version.h
 srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.o
  ..//srsue/hdr/phy/phy.h
@@ -528,5 +528,5 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.o
  ../srsue/hdr/phy/phch_worker.h
  ../srsue/hdr/phy/phy_metrics.h
  ../srsue/hdr/phy/prach.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/phy/prach.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/src/phy/prach.cc
  lib/include/srslte/version.h

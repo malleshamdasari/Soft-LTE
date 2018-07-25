@@ -1120,13 +1120,13 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/timeout_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/timeout_test.cc
 pthread.h
 -
 stdio.h
 -
 srslte/common/timeout.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/srslte/common/timeout.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/srslte/common/timeout.h
 
 lib/include/srslte/version.h
 srslte/config.h

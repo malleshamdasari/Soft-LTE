@@ -74,11 +74,11 @@ stdint.h
 srslte/config.h
 ../lib/include/srslte/phy/common/srslte/config.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/log_filter_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/log_filter_test.cc
 stdio.h
 -
 srslte/common/log_filter.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/srslte/common/log_filter.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/srslte/common/log_filter.h
 srslte/common/logger_file.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/srslte/common/logger_file.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/srslte/common/logger_file.h
 

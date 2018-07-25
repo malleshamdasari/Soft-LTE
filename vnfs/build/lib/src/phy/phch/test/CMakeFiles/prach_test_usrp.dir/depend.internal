@@ -84,5 +84,5 @@ lib/src/phy/phch/test/CMakeFiles/prach_test_usrp.dir/prach_test_usrp.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/test/prach_test_usrp.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/test/prach_test_usrp.c
  lib/include/srslte/version.h

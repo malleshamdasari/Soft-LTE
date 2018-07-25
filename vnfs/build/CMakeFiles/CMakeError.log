@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5b816/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5b816.dir/build.make CMakeFiles/cmTC_5b816.dir/build
-make[1]: Entering directory '/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5b816.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_5b816.dir/CheckSymbolExists.c.o   -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_5b816
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b816.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_5b816.dir/CheckSymbolExists.c.o  -o cmTC_5b816 -rdynamic 
-CMakeFiles/cmTC_5b816.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_f4d81/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f4d81.dir/build.make CMakeFiles/cmTC_f4d81.dir/build
+make[1]: Entering directory '/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4d81.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f4d81.dir/CheckSymbolExists.c.o   -c /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f4d81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4d81.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f4d81.dir/CheckSymbolExists.c.o  -o cmTC_f4d81 -rdynamic 
+CMakeFiles/cmTC_f4d81.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5b816.dir/build.make:97: recipe for target 'cmTC_5b816' failed
-make[1]: *** [cmTC_5b816] Error 1
-make[1]: Leaving directory '/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_5b816/fast' failed
-make: *** [cmTC_5b816/fast] Error 2
+CMakeFiles/cmTC_f4d81.dir/build.make:97: recipe for target 'cmTC_f4d81' failed
+make[1]: *** [cmTC_f4d81] Error 1
+make[1]: Leaving directory '/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f4d81/fast' failed
+make: *** [cmTC_f4d81/fast] Error 2
 
-File /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,37 +34,37 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e1129/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e1129.dir/build.make CMakeFiles/cmTC_e1129.dir/build
-make[1]: Entering directory '/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e1129.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e1129.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e1129
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1129.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e1129.dir/CheckFunctionExists.c.o  -o cmTC_e1129 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_57419/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57419.dir/build.make CMakeFiles/cmTC_57419.dir/build
+make[1]: Entering directory '/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57419.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_57419.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_57419
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57419.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_57419.dir/CheckFunctionExists.c.o  -o cmTC_57419 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_e1129.dir/build.make:97: recipe for target 'cmTC_e1129' failed
-make[1]: *** [cmTC_e1129] Error 1
-make[1]: Leaving directory '/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_e1129/fast' failed
-make: *** [cmTC_e1129/fast] Error 2
+CMakeFiles/cmTC_57419.dir/build.make:97: recipe for target 'cmTC_57419' failed
+make[1]: *** [cmTC_57419] Error 1
+make[1]: Leaving directory '/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_57419/fast' failed
+make: *** [cmTC_57419/fast] Error 2
 
 
 Performing C SOURCE FILE Test HAVE_AVX2 failed with the following output:
-Change Dir: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_43106/fast"
-/usr/bin/make -f CMakeFiles/cmTC_43106.dir/build.make CMakeFiles/cmTC_43106.dir/build
-make[1]: Entering directory '/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_43106.dir/src.c.o
-/usr/bin/cc    -DHAVE_AVX2 -mavx2   -o CMakeFiles/cmTC_43106.dir/src.c.o   -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_43106
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43106.dir/link.txt --verbose=1
-/usr/bin/cc   -DHAVE_AVX2 -mavx2    CMakeFiles/cmTC_43106.dir/src.c.o  -o cmTC_43106 -rdynamic 
-make[1]: Leaving directory '/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_fffd8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fffd8.dir/build.make CMakeFiles/cmTC_fffd8.dir/build
+make[1]: Entering directory '/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fffd8.dir/src.c.o
+/usr/bin/cc    -DHAVE_AVX2 -mavx2   -o CMakeFiles/cmTC_fffd8.dir/src.c.o   -c /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fffd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fffd8.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_AVX2 -mavx2    CMakeFiles/cmTC_fffd8.dir/src.c.o  -o cmTC_fffd8 -rdynamic 
+make[1]: Leaving directory '/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp'
 
 Return value: FAILED_TO_RUN
 Source file was:
@@ -88,17 +88,17 @@ Source file was:
             return 0;
           }
 Performing C SOURCE FILE Test HAVE_FMA failed with the following output:
-Change Dir: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bde97/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bde97.dir/build.make CMakeFiles/cmTC_bde97.dir/build
-make[1]: Entering directory '/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bde97.dir/src.c.o
-/usr/bin/cc    -DHAVE_FMA -mfma   -o CMakeFiles/cmTC_bde97.dir/src.c.o   -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_bde97
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bde97.dir/link.txt --verbose=1
-/usr/bin/cc   -DHAVE_FMA -mfma    CMakeFiles/cmTC_bde97.dir/src.c.o  -o cmTC_bde97 -rdynamic 
-make[1]: Leaving directory '/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1006c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1006c.dir/build.make CMakeFiles/cmTC_1006c.dir/build
+make[1]: Entering directory '/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1006c.dir/src.c.o
+/usr/bin/cc    -DHAVE_FMA -mfma   -o CMakeFiles/cmTC_1006c.dir/src.c.o   -c /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1006c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1006c.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_FMA -mfma    CMakeFiles/cmTC_1006c.dir/src.c.o  -o cmTC_1006c -rdynamic 
+make[1]: Leaving directory '/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp'
 
 Return value: FAILED_TO_RUN
 Source file was:
@@ -123,17 +123,17 @@ Source file was:
               return 0;
             }
 Performing C SOURCE FILE Test HAVE_AVX512 failed with the following output:
-Change Dir: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_08718/fast"
-/usr/bin/make -f CMakeFiles/cmTC_08718.dir/build.make CMakeFiles/cmTC_08718.dir/build
-make[1]: Entering directory '/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_08718.dir/src.c.o
-/usr/bin/cc    -DHAVE_AVX512 -mavx512f   -o CMakeFiles/cmTC_08718.dir/src.c.o   -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_08718
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08718.dir/link.txt --verbose=1
-/usr/bin/cc   -DHAVE_AVX512 -mavx512f    CMakeFiles/cmTC_08718.dir/src.c.o  -o cmTC_08718 -rdynamic 
-make[1]: Leaving directory '/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_17eb4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17eb4.dir/build.make CMakeFiles/cmTC_17eb4.dir/build
+make[1]: Entering directory '/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17eb4.dir/src.c.o
+/usr/bin/cc    -DHAVE_AVX512 -mavx512f   -o CMakeFiles/cmTC_17eb4.dir/src.c.o   -c /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_17eb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17eb4.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_AVX512 -mavx512f    CMakeFiles/cmTC_17eb4.dir/src.c.o  -o cmTC_17eb4 -rdynamic 
+make[1]: Leaving directory '/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp'
 
 Return value: FAILED_TO_RUN
 Source file was:
@@ -157,18 +157,18 @@ Source file was:
             return 0;
           }
 Performing C++ SOURCE FILE Test HAVE_VISIBILITY_HIDDEN failed with the following output:
-Change Dir: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp
+Change Dir: /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ac399/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ac399.dir/build.make CMakeFiles/cmTC_ac399.dir/build
-make[1]: Entering directory '/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ac399.dir/src.cxx.o
-/usr/bin/c++     -march=native -Wall -Wno-comment -Wno-reorder -Wno-unused-but-set-variable -Wno-unused-variable -Wformat -Wtype-limits -std=c++03 -mfpmath=sse -mavx -DLV_HAVE_AVX -DLV_HAVE_SSE -O3 -DBUILD_TYPE_RELEASE -DHAVE_VISIBILITY_HIDDEN  -march=native -Wall -Wno-comment -Wno-write-strings -Winline -Wno-unused-result -Wformat -Wtype-limits -std=c99 -D_GNU_SOURCE -O3 -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx -DLV_HAVE_AVX -DLV_HAVE_SSE -Ofast -funroll-loops   -fvisibility=hidden -o CMakeFiles/cmTC_ac399.dir/src.cxx.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command:"/usr/bin/make" "cmTC_4e453/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e453.dir/build.make CMakeFiles/cmTC_4e453.dir/build
+make[1]: Entering directory '/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4e453.dir/src.cxx.o
+/usr/bin/c++     -march=native -Wall -Wno-comment -Wno-reorder -Wno-unused-but-set-variable -Wno-unused-variable -Wformat -Wtype-limits -std=c++03 -mfpmath=sse -mavx -DLV_HAVE_AVX -DLV_HAVE_SSE -O3 -DBUILD_TYPE_RELEASE -DHAVE_VISIBILITY_HIDDEN  -march=native -Wall -Wno-comment -Wno-write-strings -Winline -Wno-unused-result -Wformat -Wtype-limits -std=c99 -D_GNU_SOURCE -O3 -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx -DLV_HAVE_AVX -DLV_HAVE_SSE -Ofast -funroll-loops   -fvisibility=hidden -o CMakeFiles/cmTC_4e453.dir/src.cxx.o -c /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: warning: command line option '-std=c99' is valid for C/ObjC but not for C++
-Linking CXX executable cmTC_ac399
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac399.dir/link.txt --verbose=1
-/usr/bin/c++    -march=native -Wall -Wno-comment -Wno-reorder -Wno-unused-but-set-variable -Wno-unused-variable -Wformat -Wtype-limits -std=c++03 -mfpmath=sse -mavx -DLV_HAVE_AVX -DLV_HAVE_SSE -O3 -DBUILD_TYPE_RELEASE -DHAVE_VISIBILITY_HIDDEN  -march=native -Wall -Wno-comment -Wno-write-strings -Winline -Wno-unused-result -Wformat -Wtype-limits -std=c99 -D_GNU_SOURCE -O3 -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx -DLV_HAVE_AVX -DLV_HAVE_SSE -Ofast -funroll-loops    CMakeFiles/cmTC_ac399.dir/src.cxx.o  -o cmTC_ac399 -rdynamic 
-make[1]: Leaving directory '/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_4e453
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e453.dir/link.txt --verbose=1
+/usr/bin/c++    -march=native -Wall -Wno-comment -Wno-reorder -Wno-unused-but-set-variable -Wno-unused-variable -Wformat -Wtype-limits -std=c++03 -mfpmath=sse -mavx -DLV_HAVE_AVX -DLV_HAVE_SSE -O3 -DBUILD_TYPE_RELEASE -DHAVE_VISIBILITY_HIDDEN  -march=native -Wall -Wno-comment -Wno-write-strings -Winline -Wno-unused-result -Wformat -Wtype-limits -std=c99 -D_GNU_SOURCE -O3 -DBUILD_TYPE_RELEASE -mfpmath=sse -mavx -DLV_HAVE_AVX -DLV_HAVE_SSE -Ofast -funroll-loops    CMakeFiles/cmTC_4e453.dir/src.cxx.o  -o cmTC_4e453 -rdynamic 
+make[1]: Leaving directory '/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles/CMakeTmp'
 
 Source file was:
 int main() { return 0; }

@@ -6,5 +6,5 @@ C_FLAGS =  -march=native -Wall -Wno-comment -Wno-write-strings -Winline -Wno-unu
 
 C_DEFINES = -DDISABLE_GRAPHICS -DHAVE_MBEDTLS
 
-C_INCLUDES = -I/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/include -I/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/include 
+C_INCLUDES = -I/usr/include/SoapySDR -I/home/mdasari/Lte-setup-bell/vnfs/build/lib/include -I/home/mdasari/Lte-setup-bell/vnfs/lib/include 
 

@@ -20,7 +20,7 @@ string.h
 srslte/asn1/liblte_common.h
 ../lib/include/srslte/common/srslte/asn1/liblte_common.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/test_eea1.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/test_eea1.cc
 stdlib.h
 -
 stdio.h
@@ -28,5 +28,5 @@ stdio.h
 assert.h
 -
 srslte/common/liblte_security.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/srslte/common/liblte_security.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/srslte/common/liblte_security.h
 

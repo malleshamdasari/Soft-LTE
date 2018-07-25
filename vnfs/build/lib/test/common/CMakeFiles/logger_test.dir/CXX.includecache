@@ -36,11 +36,11 @@ unistd.h
 stdio.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/logger_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/logger_test.cc
 stdlib.h
 -
 stdio.h
 -
 srslte/common/logger_file.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/srslte/common/logger_file.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/srslte/common/logger_file.h
 

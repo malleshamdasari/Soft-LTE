@@ -84,5 +84,5 @@ lib/test/common/CMakeFiles/timeout_test.dir/timeout_test.cc.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/timeout_test.cc
+ /home/mdasari/Lte-setup-bell/vnfs/lib/test/common/timeout_test.cc
  lib/include/srslte/version.h

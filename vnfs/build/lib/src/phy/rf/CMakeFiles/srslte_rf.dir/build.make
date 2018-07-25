@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 # Include any dependencies generated for this target.
 include lib/src/phy/rf/CMakeFiles/srslte_rf.dir/depend.make
@@ -59,16 +59,16 @@ include lib/src/phy/rf/CMakeFiles/srslte_rf.dir/flags.make
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.o: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/flags.make
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.o: ../lib/src/phy/rf/rf_imp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srslte_rf.dir/rf_imp.c.o   -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/rf_imp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srslte_rf.dir/rf_imp.c.o   -c /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_imp.c
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srslte_rf.dir/rf_imp.c.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/rf_imp.c > CMakeFiles/srslte_rf.dir/rf_imp.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_imp.c > CMakeFiles/srslte_rf.dir/rf_imp.c.i
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srslte_rf.dir/rf_imp.c.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/rf_imp.c -o CMakeFiles/srslte_rf.dir/rf_imp.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_imp.c -o CMakeFiles/srslte_rf.dir/rf_imp.c.s
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.o.requires:
 
@@ -83,16 +83,16 @@ lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c.o.provides.build: lib/src/phy/r
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/flags.make
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o: ../lib/src/phy/rf/rf_uhd_imp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o   -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/rf_uhd_imp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o   -c /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_uhd_imp.c
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/rf_uhd_imp.c > CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_uhd_imp.c > CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.i
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/rf_uhd_imp.c -o CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_uhd_imp.c -o CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.s
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o.requires:
 
@@ -107,16 +107,16 @@ lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o.provides.build: lib/src/p
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/flags.make
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o: ../lib/src/phy/rf/uhd_c_api.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/uhd_c_api.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o -c /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/uhd_c_api.cpp
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/uhd_c_api.cpp > CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/uhd_c_api.cpp > CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.i
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/uhd_c_api.cpp -o CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/uhd_c_api.cpp -o CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.s
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o.requires:
 
@@ -131,16 +131,16 @@ lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o.provides.build: lib/src/
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/flags.make
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o: ../lib/src/phy/rf/rf_blade_imp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o   -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/rf_blade_imp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o   -c /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_blade_imp.c
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srslte_rf.dir/rf_blade_imp.c.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/rf_blade_imp.c > CMakeFiles/srslte_rf.dir/rf_blade_imp.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_blade_imp.c > CMakeFiles/srslte_rf.dir/rf_blade_imp.c.i
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srslte_rf.dir/rf_blade_imp.c.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf/rf_blade_imp.c -o CMakeFiles/srslte_rf.dir/rf_blade_imp.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_blade_imp.c -o CMakeFiles/srslte_rf.dir/rf_blade_imp.c.s
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o.requires:
 
@@ -153,12 +153,37 @@ lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o.provides: lib/src/phy/r
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o.provides.build: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o
 
 
+lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/flags.make
+lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o: ../lib/src/phy/rf/rf_soapy_imp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o   -c /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_soapy_imp.c
+
+lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.i"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_soapy_imp.c > CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.i
+
+lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.s"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf/rf_soapy_imp.c -o CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.s
+
+lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o.requires:
+
+.PHONY : lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o.requires
+
+lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o.provides: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o.requires
+	$(MAKE) -f lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o.provides.build
+.PHONY : lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o.provides
+
+lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o.provides.build: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o
+
+
 # Object files for target srslte_rf
 srslte_rf_OBJECTS = \
 "CMakeFiles/srslte_rf.dir/rf_imp.c.o" \
 "CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o" \
 "CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o" \
-"CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o"
+"CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o" \
+"CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o"
 
 # External object files for target srslte_rf
 srslte_rf_EXTERNAL_OBJECTS =
@@ -167,15 +192,17 @@ lib/src/phy/rf/libsrslte_rf.so: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_imp.c
 lib/src/phy/rf/libsrslte_rf.so: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o
 lib/src/phy/rf/libsrslte_rf.so: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o
 lib/src/phy/rf/libsrslte_rf.so: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o
+lib/src/phy/rf/libsrslte_rf.so: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o
 lib/src/phy/rf/libsrslte_rf.so: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build.make
 lib/src/phy/rf/libsrslte_rf.so: lib/src/phy/rf/libsrslte_rf_utils.a
 lib/src/phy/rf/libsrslte_rf.so: lib/src/phy/libsrslte_phy.a
 lib/src/phy/rf/libsrslte_rf.so: /usr/lib/x86_64-linux-gnu/libuhd.so
 lib/src/phy/rf/libsrslte_rf.so: /usr/lib/x86_64-linux-gnu/libbladeRF.so
+lib/src/phy/rf/libsrslte_rf.so: /usr/lib/x86_64-linux-gnu/libSoapySDR.so
 lib/src/phy/rf/libsrslte_rf.so: /usr/lib/x86_64-linux-gnu/libfftw3f.so
 lib/src/phy/rf/libsrslte_rf.so: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libsrslte_rf.so"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srslte_rf.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libsrslte_rf.so"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srslte_rf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/build: lib/src/phy/rf/libsrslte_rf.so
@@ -186,14 +213,15 @@ lib/src/phy/rf/CMakeFiles/srslte_rf.dir/requires: lib/src/phy/rf/CMakeFiles/srsl
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/requires: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o.requires
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/requires: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o.requires
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/requires: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o.requires
+lib/src/phy/rf/CMakeFiles/srslte_rf.dir/requires: lib/src/phy/rf/CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o.requires
 
 .PHONY : lib/src/phy/rf/CMakeFiles/srslte_rf.dir/requires
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf && $(CMAKE_COMMAND) -P CMakeFiles/srslte_rf.dir/cmake_clean.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf && $(CMAKE_COMMAND) -P CMakeFiles/srslte_rf.dir/cmake_clean.cmake
 .PHONY : lib/src/phy/rf/CMakeFiles/srslte_rf.dir/clean
 
 lib/src/phy/rf/CMakeFiles/srslte_rf.dir/depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/rf /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf/CMakeFiles/srslte_rf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mdasari/Lte-setup-bell/vnfs /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/rf /home/mdasari/Lte-setup-bell/vnfs/build /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf/CMakeFiles/srslte_rf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/src/phy/rf/CMakeFiles/srslte_rf.dir/depend
 

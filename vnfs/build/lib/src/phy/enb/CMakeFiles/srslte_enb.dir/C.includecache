@@ -1108,9 +1108,9 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/enb/enb_dl.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/enb/enb_dl.c
 srslte/phy/enb/enb_dl.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/enb/srslte/phy/enb/enb_dl.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/enb/srslte/phy/enb/enb_dl.h
 complex.h
 -
 math.h
@@ -1122,9 +1122,9 @@ srslte/phy/common/phy_common.h
 srslte/srslte.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/enb/enb_ul.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/enb/enb_ul.c
 srslte/phy/enb/enb_ul.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/enb/srslte/phy/enb/enb_ul.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/enb/srslte/phy/enb/enb_ul.h
 complex.h
 -
 math.h

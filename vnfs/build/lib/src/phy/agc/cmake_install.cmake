@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/agc
+# Install script for directory: /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/agc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

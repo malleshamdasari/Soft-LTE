@@ -94,5 +94,5 @@ srsepc/src/hss/CMakeFiles/srsepc_hss.dir/hss.cc.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/hss/hss.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/hss/hss.cc
  lib/include/srslte/version.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src
+# Install script for directory: /home/mdasari/Lte-setup-bell/vnfs/srsue/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/srsue"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src/srsue")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/mdasari/Lte-setup-bell/vnfs/build/srsue/src/srsue")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/srsue" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/srsue")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/srsue"
-         OLD_RPATH "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf:"
+         OLD_RPATH "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/srsue")
@@ -59,12 +59,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/srsue"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src/srsue")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/mdasari/Lte-setup-bell/vnfs/build/srsue/src/srsue")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/srsue" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/srsue")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/srsue"
-         OLD_RPATH "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/rf:"
+         OLD_RPATH "/home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/rf:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/srsue")
@@ -74,9 +74,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src/phy/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src/mac/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsue/src/upper/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/srsue/src/phy/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/srsue/src/mac/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/srsue/src/upper/cmake_install.cmake")
 
 endif()
 

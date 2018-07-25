@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/srslte_channel.dir/ch_awgn.c.o"
   "CMakeFiles/srslte_channel.dir/gauss.c.o"
+  "CMakeFiles/srslte_channel.dir/ch_awgn.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

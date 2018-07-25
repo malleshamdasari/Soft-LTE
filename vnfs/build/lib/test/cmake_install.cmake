@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test
+# Install script for directory: /home/mdasari/Lte-setup-bell/vnfs/lib/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/test/asn1/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/test/common/cmake_install.cmake")
-  include("/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/test/upper/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/test/asn1/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/test/common/cmake_install.cmake")
+  include("/home/mdasari/Lte-setup-bell/vnfs/build/lib/test/upper/cmake_install.cmake")
 
 endif()
 

@@ -1274,7 +1274,7 @@ srslte/asn1/liblte_mme.h
 netinet/sctp.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/spgw/spgw.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/spgw/spgw.cc
 iostream
 -
 algorithm
@@ -1296,11 +1296,11 @@ linux/ip.h
 inttypes.h
 -
 srsepc/hdr/spgw/spgw.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/spgw/srsepc/hdr/spgw/spgw.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/spgw/srsepc/hdr/spgw/spgw.h
 srsepc/hdr/mme/mme_gtpc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/spgw/srsepc/hdr/mme/mme_gtpc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/spgw/srsepc/hdr/mme/mme_gtpc.h
 srslte/upper/gtpu.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/spgw/srslte/upper/gtpu.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/spgw/srslte/upper/gtpu.h
 
 lib/include/srslte/version.h
 srslte/config.h

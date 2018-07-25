@@ -1122,11 +1122,11 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/msg_queue_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/msg_queue_test.cc
 stdio.h
 -
 srslte/common/msg_queue.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/srslte/common/msg_queue.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/common/srslte/common/msg_queue.h
 
 lib/include/srslte/version.h
 srslte/config.h

@@ -1120,7 +1120,7 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/usrp_txrx.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/examples/usrp_txrx.c
 stdio.h
 -
 stdlib.h
@@ -1136,9 +1136,9 @@ time.h
 complex.h
 -
 srslte/phy/rf/rf.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/srslte/phy/rf/rf.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/examples/srslte/phy/rf/rf.h
 srslte/srslte.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/examples/srslte/srslte.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/examples/srslte/srslte.h
 
 lib/include/srslte/version.h
 srslte/config.h

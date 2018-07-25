@@ -106,5 +106,5 @@ lib/test/upper/CMakeFiles/rlc_am_stress_test.dir/rlc_am_stress_test.cc.o
  ../lib/include/srslte/upper/rlc_metrics.h
  ../lib/include/srslte/upper/rlc_tm.h
  ../lib/include/srslte/upper/rlc_um.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/upper/rlc_am_stress_test.cc
+ /home/mdasari/Lte-setup-bell/vnfs/lib/test/upper/rlc_am_stress_test.cc
  lib/include/srslte/version.h

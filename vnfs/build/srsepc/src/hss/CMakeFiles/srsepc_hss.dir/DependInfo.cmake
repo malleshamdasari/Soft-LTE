@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/hss/hss.cc" "/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/hss/CMakeFiles/srsepc_hss.dir/hss.cc.o"
+  "/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/hss/hss.cc" "/home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/hss/CMakeFiles/srsepc_hss.dir/hss.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,6 +15,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/include/SoapySDR"
   "lib/include"
   "../lib/include"
   "../"

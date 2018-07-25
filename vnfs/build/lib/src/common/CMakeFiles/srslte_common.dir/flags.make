@@ -7,11 +7,11 @@ C_FLAGS =  -march=native -Wall -Wno-comment -Wno-write-strings -Winline -Wno-unu
 
 C_DEFINES = -DHAVE_MBEDTLS
 
-C_INCLUDES = -I/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/include -I/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/include 
+C_INCLUDES = -I/usr/include/SoapySDR -I/home/mdasari/Lte-setup-bell/vnfs/build/lib/include -I/home/mdasari/Lte-setup-bell/vnfs/lib/include 
 
 CXX_FLAGS =  -march=native -Wall -Wno-comment -Wno-reorder -Wno-unused-but-set-variable -Wno-unused-variable -Wformat -Wtype-limits -std=c++03 -mfpmath=sse -mavx -DLV_HAVE_AVX -DLV_HAVE_SSE -O3 -DBUILD_TYPE_RELEASE -O3 -DNDEBUG -fPIC   -Werror=incompatible-pointer-types
 
 CXX_DEFINES = -DHAVE_MBEDTLS
 
-CXX_INCLUDES = -I/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/include -I/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/include 
+CXX_INCLUDES = -I/usr/include/SoapySDR -I/home/mdasari/Lte-setup-bell/vnfs/build/lib/include -I/home/mdasari/Lte-setup-bell/vnfs/lib/include 
 

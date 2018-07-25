@@ -96,5 +96,5 @@ srsue/test/upper/CMakeFiles/usim_test.dir/usim_test.cc.o
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
  ../lib/include/srslte/upper/rlc_interface.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/upper/usim_test.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/test/upper/usim_test.cc
  lib/include/srslte/version.h

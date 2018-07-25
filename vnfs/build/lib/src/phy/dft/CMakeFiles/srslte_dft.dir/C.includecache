@@ -1108,7 +1108,7 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/dft_fftw.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/dft_fftw.c
 math.h
 -
 complex.h
@@ -1120,11 +1120,11 @@ string.h
 srslte/srslte.h
 -
 srslte/phy/dft/dft.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/srslte/phy/dft/dft.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/srslte/phy/dft/dft.h
 srslte/phy/utils/vector.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/srslte/phy/utils/vector.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/srslte/phy/utils/vector.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/dft_precoding.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/dft_precoding.c
 stdint.h
 -
 stdio.h
@@ -1142,17 +1142,17 @@ assert.h
 math.h
 -
 srslte/phy/common/phy_common.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/srslte/phy/common/phy_common.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/srslte/phy/common/phy_common.h
 srslte/phy/utils/debug.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/srslte/phy/utils/debug.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/srslte/phy/utils/debug.h
 srslte/phy/utils/vector.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/srslte/phy/utils/vector.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/srslte/phy/utils/vector.h
 srslte/phy/dft/dft.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/srslte/phy/dft/dft.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/srslte/phy/dft/dft.h
 srslte/phy/dft/dft_precoding.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/srslte/phy/dft/dft_precoding.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/srslte/phy/dft/dft_precoding.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/ofdm.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/ofdm.c
 string.h
 -
 strings.h
@@ -1166,15 +1166,15 @@ math.h
 srslte/srslte.h
 -
 srslte/phy/common/phy_common.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/srslte/phy/common/phy_common.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/srslte/phy/common/phy_common.h
 srslte/phy/dft/dft.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/srslte/phy/dft/dft.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/srslte/phy/dft/dft.h
 srslte/phy/dft/ofdm.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/srslte/phy/dft/ofdm.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/srslte/phy/dft/ofdm.h
 srslte/phy/utils/debug.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/srslte/phy/utils/debug.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/srslte/phy/utils/debug.h
 srslte/phy/utils/vector.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/srslte/phy/utils/vector.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/srslte/phy/utils/vector.h
 
 lib/include/srslte/version.h
 srslte/config.h

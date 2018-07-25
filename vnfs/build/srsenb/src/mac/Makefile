@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -80,8 +80,8 @@ package/fast: package
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CPackSourceConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/mdasari/Lte-setup-bell/vnfs/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsenb/src/mac/CMakeFiles/progress.marks
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/mac/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles /home/mdasari/Lte-setup-bell/vnfs/build/srsenb/src/mac/CMakeFiles/progress.marks
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/mac/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/mac/clean
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/mac/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/mac/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/mac/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/mac/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/mac/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 srsenb/src/mac/CMakeFiles/srsenb_mac.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/mac/CMakeFiles/srsenb_mac.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 srsenb/src/mac/CMakeFiles/srsenb_mac.dir/rule
 .PHONY : srsenb/src/mac/CMakeFiles/srsenb_mac.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ srsenb_mac: srsenb/src/mac/CMakeFiles/srsenb_mac.dir/rule
 
 # fast build rule for target.
 srsenb_mac/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build
 .PHONY : srsenb_mac/fast
 
 mac.o: mac.cc.o
@@ -208,7 +208,7 @@ mac.o: mac.cc.o
 
 # target to build an object file
 mac.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/mac.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/mac.cc.o
 .PHONY : mac.cc.o
 
 mac.i: mac.cc.i
@@ -217,7 +217,7 @@ mac.i: mac.cc.i
 
 # target to preprocess a source file
 mac.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/mac.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/mac.cc.i
 .PHONY : mac.cc.i
 
 mac.s: mac.cc.s
@@ -226,7 +226,7 @@ mac.s: mac.cc.s
 
 # target to generate assembly for a file
 mac.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/mac.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/mac.cc.s
 .PHONY : mac.cc.s
 
 scheduler.o: scheduler.cc.o
@@ -235,7 +235,7 @@ scheduler.o: scheduler.cc.o
 
 # target to build an object file
 scheduler.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler.cc.o
 .PHONY : scheduler.cc.o
 
 scheduler.i: scheduler.cc.i
@@ -244,7 +244,7 @@ scheduler.i: scheduler.cc.i
 
 # target to preprocess a source file
 scheduler.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler.cc.i
 .PHONY : scheduler.cc.i
 
 scheduler.s: scheduler.cc.s
@@ -253,7 +253,7 @@ scheduler.s: scheduler.cc.s
 
 # target to generate assembly for a file
 scheduler.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler.cc.s
 .PHONY : scheduler.cc.s
 
 scheduler_harq.o: scheduler_harq.cc.o
@@ -262,7 +262,7 @@ scheduler_harq.o: scheduler_harq.cc.o
 
 # target to build an object file
 scheduler_harq.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_harq.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_harq.cc.o
 .PHONY : scheduler_harq.cc.o
 
 scheduler_harq.i: scheduler_harq.cc.i
@@ -271,7 +271,7 @@ scheduler_harq.i: scheduler_harq.cc.i
 
 # target to preprocess a source file
 scheduler_harq.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_harq.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_harq.cc.i
 .PHONY : scheduler_harq.cc.i
 
 scheduler_harq.s: scheduler_harq.cc.s
@@ -280,7 +280,7 @@ scheduler_harq.s: scheduler_harq.cc.s
 
 # target to generate assembly for a file
 scheduler_harq.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_harq.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_harq.cc.s
 .PHONY : scheduler_harq.cc.s
 
 scheduler_metric.o: scheduler_metric.cc.o
@@ -289,7 +289,7 @@ scheduler_metric.o: scheduler_metric.cc.o
 
 # target to build an object file
 scheduler_metric.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_metric.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_metric.cc.o
 .PHONY : scheduler_metric.cc.o
 
 scheduler_metric.i: scheduler_metric.cc.i
@@ -298,7 +298,7 @@ scheduler_metric.i: scheduler_metric.cc.i
 
 # target to preprocess a source file
 scheduler_metric.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_metric.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_metric.cc.i
 .PHONY : scheduler_metric.cc.i
 
 scheduler_metric.s: scheduler_metric.cc.s
@@ -307,7 +307,7 @@ scheduler_metric.s: scheduler_metric.cc.s
 
 # target to generate assembly for a file
 scheduler_metric.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_metric.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_metric.cc.s
 .PHONY : scheduler_metric.cc.s
 
 scheduler_ue.o: scheduler_ue.cc.o
@@ -316,7 +316,7 @@ scheduler_ue.o: scheduler_ue.cc.o
 
 # target to build an object file
 scheduler_ue.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_ue.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_ue.cc.o
 .PHONY : scheduler_ue.cc.o
 
 scheduler_ue.i: scheduler_ue.cc.i
@@ -325,7 +325,7 @@ scheduler_ue.i: scheduler_ue.cc.i
 
 # target to preprocess a source file
 scheduler_ue.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_ue.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_ue.cc.i
 .PHONY : scheduler_ue.cc.i
 
 scheduler_ue.s: scheduler_ue.cc.s
@@ -334,7 +334,7 @@ scheduler_ue.s: scheduler_ue.cc.s
 
 # target to generate assembly for a file
 scheduler_ue.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_ue.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/scheduler_ue.cc.s
 .PHONY : scheduler_ue.cc.s
 
 ue.o: ue.cc.o
@@ -343,7 +343,7 @@ ue.o: ue.cc.o
 
 # target to build an object file
 ue.cc.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/ue.cc.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/ue.cc.o
 .PHONY : ue.cc.o
 
 ue.i: ue.cc.i
@@ -352,7 +352,7 @@ ue.i: ue.cc.i
 
 # target to preprocess a source file
 ue.cc.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/ue.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/ue.cc.i
 .PHONY : ue.cc.i
 
 ue.s: ue.cc.s
@@ -361,7 +361,7 @@ ue.s: ue.cc.s
 
 # target to generate assembly for a file
 ue.cc.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/ue.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f srsenb/src/mac/CMakeFiles/srsenb_mac.dir/build.make srsenb/src/mac/CMakeFiles/srsenb_mac.dir/ue.cc.s
 .PHONY : ue.cc.s
 
 # Help Target
@@ -409,6 +409,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

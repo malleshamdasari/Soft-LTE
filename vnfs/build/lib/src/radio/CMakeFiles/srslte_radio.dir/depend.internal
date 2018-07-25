@@ -86,7 +86,7 @@ lib/src/radio/CMakeFiles/srslte_radio.dir/radio.cc.o
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/radio/radio.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/radio/radio.cc
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/radio/radio.cc
  lib/include/srslte/version.h
 lib/src/radio/CMakeFiles/srslte_radio.dir/radio_multi.cc.o
  ../lib/include/srslte/common/trace.h
@@ -174,5 +174,5 @@ lib/src/radio/CMakeFiles/srslte_radio.dir/radio_multi.cc.o
  ../lib/include/srslte/radio/radio.h
  ../lib/include/srslte/radio/radio_multi.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/radio/radio_multi.cc
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/radio/radio_multi.cc
  lib/include/srslte/version.h

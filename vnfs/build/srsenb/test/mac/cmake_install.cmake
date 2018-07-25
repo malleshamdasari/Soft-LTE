@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/mac
+# Install script for directory: /home/mdasari/Lte-setup-bell/vnfs/srsenb/test/mac
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

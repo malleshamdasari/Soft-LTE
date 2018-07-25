@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/phy
+# Install script for directory: /home/mdasari/Lte-setup-bell/vnfs/srsue/test/phy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

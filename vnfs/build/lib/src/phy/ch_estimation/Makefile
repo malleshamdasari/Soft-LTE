@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -80,8 +80,8 @@ package/fast: package
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CPackSourceConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/mdasari/Lte-setup-bell/vnfs/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/ch_estimation/CMakeFiles/progress.marks
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ch_estimation/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/ch_estimation/CMakeFiles/progress.marks
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ch_estimation/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ch_estimation/clean
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ch_estimation/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ch_estimation/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ch_estimation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ch_estimation/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ch_estimation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/rule
 .PHONY : lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ srslte_ch_estimation: lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.
 
 # fast build rule for target.
 srslte_ch_estimation/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build
 .PHONY : srslte_ch_estimation/fast
 
 chest_common.o: chest_common.c.o
@@ -208,7 +208,7 @@ chest_common.o: chest_common.c.o
 
 # target to build an object file
 chest_common.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_common.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_common.c.o
 .PHONY : chest_common.c.o
 
 chest_common.i: chest_common.c.i
@@ -217,7 +217,7 @@ chest_common.i: chest_common.c.i
 
 # target to preprocess a source file
 chest_common.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_common.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_common.c.i
 .PHONY : chest_common.c.i
 
 chest_common.s: chest_common.c.s
@@ -226,7 +226,7 @@ chest_common.s: chest_common.c.s
 
 # target to generate assembly for a file
 chest_common.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_common.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_common.c.s
 .PHONY : chest_common.c.s
 
 chest_dl.o: chest_dl.c.o
@@ -235,7 +235,7 @@ chest_dl.o: chest_dl.c.o
 
 # target to build an object file
 chest_dl.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_dl.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_dl.c.o
 .PHONY : chest_dl.c.o
 
 chest_dl.i: chest_dl.c.i
@@ -244,7 +244,7 @@ chest_dl.i: chest_dl.c.i
 
 # target to preprocess a source file
 chest_dl.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_dl.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_dl.c.i
 .PHONY : chest_dl.c.i
 
 chest_dl.s: chest_dl.c.s
@@ -253,7 +253,7 @@ chest_dl.s: chest_dl.c.s
 
 # target to generate assembly for a file
 chest_dl.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_dl.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_dl.c.s
 .PHONY : chest_dl.c.s
 
 chest_ul.o: chest_ul.c.o
@@ -262,7 +262,7 @@ chest_ul.o: chest_ul.c.o
 
 # target to build an object file
 chest_ul.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_ul.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_ul.c.o
 .PHONY : chest_ul.c.o
 
 chest_ul.i: chest_ul.c.i
@@ -271,7 +271,7 @@ chest_ul.i: chest_ul.c.i
 
 # target to preprocess a source file
 chest_ul.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_ul.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_ul.c.i
 .PHONY : chest_ul.c.i
 
 chest_ul.s: chest_ul.c.s
@@ -280,7 +280,7 @@ chest_ul.s: chest_ul.c.s
 
 # target to generate assembly for a file
 chest_ul.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_ul.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/chest_ul.c.s
 .PHONY : chest_ul.c.s
 
 refsignal_dl.o: refsignal_dl.c.o
@@ -289,7 +289,7 @@ refsignal_dl.o: refsignal_dl.c.o
 
 # target to build an object file
 refsignal_dl.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/refsignal_dl.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/refsignal_dl.c.o
 .PHONY : refsignal_dl.c.o
 
 refsignal_dl.i: refsignal_dl.c.i
@@ -298,7 +298,7 @@ refsignal_dl.i: refsignal_dl.c.i
 
 # target to preprocess a source file
 refsignal_dl.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/refsignal_dl.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/refsignal_dl.c.i
 .PHONY : refsignal_dl.c.i
 
 refsignal_dl.s: refsignal_dl.c.s
@@ -307,7 +307,7 @@ refsignal_dl.s: refsignal_dl.c.s
 
 # target to generate assembly for a file
 refsignal_dl.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/refsignal_dl.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/refsignal_dl.c.s
 .PHONY : refsignal_dl.c.s
 
 refsignal_ul.o: refsignal_ul.c.o
@@ -316,7 +316,7 @@ refsignal_ul.o: refsignal_ul.c.o
 
 # target to build an object file
 refsignal_ul.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/refsignal_ul.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/refsignal_ul.c.o
 .PHONY : refsignal_ul.c.o
 
 refsignal_ul.i: refsignal_ul.c.i
@@ -325,7 +325,7 @@ refsignal_ul.i: refsignal_ul.c.i
 
 # target to preprocess a source file
 refsignal_ul.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/refsignal_ul.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/refsignal_ul.c.i
 .PHONY : refsignal_ul.c.i
 
 refsignal_ul.s: refsignal_ul.c.s
@@ -334,7 +334,7 @@ refsignal_ul.s: refsignal_ul.c.s
 
 # target to generate assembly for a file
 refsignal_ul.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/refsignal_ul.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/build.make lib/src/phy/ch_estimation/CMakeFiles/srslte_ch_estimation.dir/refsignal_ul.c.s
 .PHONY : refsignal_ul.c.s
 
 # Help Target
@@ -379,6 +379,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

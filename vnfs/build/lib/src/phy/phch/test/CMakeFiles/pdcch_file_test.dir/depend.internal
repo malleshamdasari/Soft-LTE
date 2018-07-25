@@ -83,5 +83,5 @@ lib/src/phy/phch/test/CMakeFiles/pdcch_file_test.dir/pdcch_file_test.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/test/pdcch_file_test.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/test/pdcch_file_test.c
  lib/include/srslte/version.h

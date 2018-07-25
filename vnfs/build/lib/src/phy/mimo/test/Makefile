@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -136,7 +136,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CPackSourceConfig.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/mdasari/Lte-setup-bell/vnfs/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -146,8 +146,8 @@ package_source/fast: package_source
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -157,14 +157,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/lib/src/phy/mimo/test/CMakeFiles/progress.marks
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles /home/mdasari/Lte-setup-bell/vnfs/build/lib/src/phy/mimo/test/CMakeFiles/progress.marks
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/clean
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/preinstall
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/rule
 .PHONY : lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/rule
 
 # Convenience name for target.
@@ -199,12 +199,12 @@ pmi_select_test: lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/rule
 
 # fast build rule for target.
 pmi_select_test/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/build
 .PHONY : pmi_select_test/fast
 
 # Convenience name for target.
 lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/rule
 .PHONY : lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ layermap_test: lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/rule
 
 # fast build rule for target.
 layermap_test/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/build
 .PHONY : layermap_test/fast
 
 # Convenience name for target.
 lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/rule:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/rule
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/rule
 .PHONY : lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/rule
 
 # Convenience name for target.
@@ -229,7 +229,7 @@ precoding_test: lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/rule
 
 # fast build rule for target.
 precoding_test/fast:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/build
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/build
 .PHONY : precoding_test/fast
 
 layermap_test.o: layermap_test.c.o
@@ -238,7 +238,7 @@ layermap_test.o: layermap_test.c.o
 
 # target to build an object file
 layermap_test.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/layermap_test.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/layermap_test.c.o
 .PHONY : layermap_test.c.o
 
 layermap_test.i: layermap_test.c.i
@@ -247,7 +247,7 @@ layermap_test.i: layermap_test.c.i
 
 # target to preprocess a source file
 layermap_test.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/layermap_test.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/layermap_test.c.i
 .PHONY : layermap_test.c.i
 
 layermap_test.s: layermap_test.c.s
@@ -256,7 +256,7 @@ layermap_test.s: layermap_test.c.s
 
 # target to generate assembly for a file
 layermap_test.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/layermap_test.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/layermap_test.dir/layermap_test.c.s
 .PHONY : layermap_test.c.s
 
 pmi_select_test.o: pmi_select_test.c.o
@@ -265,7 +265,7 @@ pmi_select_test.o: pmi_select_test.c.o
 
 # target to build an object file
 pmi_select_test.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/pmi_select_test.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/pmi_select_test.c.o
 .PHONY : pmi_select_test.c.o
 
 pmi_select_test.i: pmi_select_test.c.i
@@ -274,7 +274,7 @@ pmi_select_test.i: pmi_select_test.c.i
 
 # target to preprocess a source file
 pmi_select_test.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/pmi_select_test.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/pmi_select_test.c.i
 .PHONY : pmi_select_test.c.i
 
 pmi_select_test.s: pmi_select_test.c.s
@@ -283,7 +283,7 @@ pmi_select_test.s: pmi_select_test.c.s
 
 # target to generate assembly for a file
 pmi_select_test.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/pmi_select_test.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/pmi_select_test.dir/pmi_select_test.c.s
 .PHONY : pmi_select_test.c.s
 
 precoder_test.o: precoder_test.c.o
@@ -292,7 +292,7 @@ precoder_test.o: precoder_test.c.o
 
 # target to build an object file
 precoder_test.c.o:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/precoder_test.c.o
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/precoder_test.c.o
 .PHONY : precoder_test.c.o
 
 precoder_test.i: precoder_test.c.i
@@ -301,7 +301,7 @@ precoder_test.i: precoder_test.c.i
 
 # target to preprocess a source file
 precoder_test.c.i:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/precoder_test.c.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/precoder_test.c.i
 .PHONY : precoder_test.c.i
 
 precoder_test.s: precoder_test.c.s
@@ -310,7 +310,7 @@ precoder_test.s: precoder_test.c.s
 
 # target to generate assembly for a file
 precoder_test.c.s:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/precoder_test.c.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(MAKE) -f lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/build.make lib/src/phy/mimo/test/CMakeFiles/precoding_test.dir/precoder_test.c.s
 .PHONY : precoder_test.c.s
 
 # Help Target
@@ -351,6 +351,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

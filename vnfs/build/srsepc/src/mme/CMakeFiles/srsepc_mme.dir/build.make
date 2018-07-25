@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs
+CMAKE_SOURCE_DIR = /home/mdasari/Lte-setup-bell/vnfs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build
+CMAKE_BINARY_DIR = /home/mdasari/Lte-setup-bell/vnfs/build
 
 # Include any dependencies generated for this target.
 include srsepc/src/mme/CMakeFiles/srsepc_mme.dir/depend.make
@@ -57,42 +57,18 @@ include srsepc/src/mme/CMakeFiles/srsepc_mme.dir/progress.make
 # Include the compile flags for this target's objects.
 include srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o: ../srsepc/src/mme/s1ap_mngmt_proc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_mngmt_proc.cc
-
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_mngmt_proc.cc > CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.i
-
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_mngmt_proc.cc -o CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.s
-
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.requires:
-
-.PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.requires
-
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.provides: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.requires
-	$(MAKE) -f srsepc/src/mme/CMakeFiles/srsepc_mme.dir/build.make srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.provides.build
-.PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.provides
-
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.provides.build: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o
-
-
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o: ../srsepc/src/mme/s1ap_ctx_mngmt_proc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc > CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc > CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.i
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc -o CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc -o CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.s
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o.requires:
 
@@ -105,42 +81,18 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o.provides: srse
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o.provides.build: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o
 
 
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o: ../srsepc/src/mme/mme.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/mme.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/mme.cc
-
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/mme.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/mme.cc > CMakeFiles/srsepc_mme.dir/mme.cc.i
-
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsepc_mme.dir/mme.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/mme.cc -o CMakeFiles/srsepc_mme.dir/mme.cc.s
-
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.requires:
-
-.PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.requires
-
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.provides: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.requires
-	$(MAKE) -f srsepc/src/mme/CMakeFiles/srsepc_mme.dir/build.make srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.provides.build
-.PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.provides
-
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.provides.build: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o
-
-
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o: ../srsepc/src/mme/s1ap_nas_transport.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_nas_transport.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_nas_transport.cc
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_nas_transport.cc > CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_nas_transport.cc > CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.i
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap_nas_transport.cc -o CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_nas_transport.cc -o CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.s
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o.requires:
 
@@ -153,42 +105,42 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o.provides: srsep
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o.provides.build: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o
 
 
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o: ../srsepc/src/mme/mme_gtpc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/mme_gtpc.cc
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o: ../srsepc/src/mme/s1ap_mngmt_proc.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_mngmt_proc.cc
 
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/mme_gtpc.cc > CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.i
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.i"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_mngmt_proc.cc > CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.i
 
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/mme_gtpc.cc -o CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.s
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.s"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap_mngmt_proc.cc -o CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.s
 
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.requires:
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.requires:
 
-.PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.requires
+.PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.requires
 
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.provides: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.requires
-	$(MAKE) -f srsepc/src/mme/CMakeFiles/srsepc_mme.dir/build.make srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.provides.build
-.PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.provides
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.provides: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.requires
+	$(MAKE) -f srsepc/src/mme/CMakeFiles/srsepc_mme.dir/build.make srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.provides.build
+.PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.provides
 
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.provides.build: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.provides.build: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o
 
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o: ../srsepc/src/mme/s1ap.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap.cc.o -c /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap.cc
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/s1ap.cc.i"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap.cc > CMakeFiles/srsepc_mme.dir/s1ap.cc.i
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap.cc > CMakeFiles/srsepc_mme.dir/s1ap.cc.i
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsepc_mme.dir/s1ap.cc.s"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme/s1ap.cc -o CMakeFiles/srsepc_mme.dir/s1ap.cc.s
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/s1ap.cc -o CMakeFiles/srsepc_mme.dir/s1ap.cc.s
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o.requires:
 
@@ -201,49 +153,97 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o.provides: srsepc/src/mme/CMak
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o.provides.build: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o
 
 
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o: ../srsepc/src/mme/mme.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/mme.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/mme.cc
+
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/mme.cc.i"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/mme.cc > CMakeFiles/srsepc_mme.dir/mme.cc.i
+
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsepc_mme.dir/mme.cc.s"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/mme.cc -o CMakeFiles/srsepc_mme.dir/mme.cc.s
+
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.requires:
+
+.PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.requires
+
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.provides: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.requires
+	$(MAKE) -f srsepc/src/mme/CMakeFiles/srsepc_mme.dir/build.make srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.provides.build
+.PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.provides
+
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.provides.build: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o
+
+
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o: ../srsepc/src/mme/mme_gtpc.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o -c /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/mme_gtpc.cc
+
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.i"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/mme_gtpc.cc > CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.i
+
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.s"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme/mme_gtpc.cc -o CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.s
+
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.requires:
+
+.PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.requires
+
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.provides: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.requires
+	$(MAKE) -f srsepc/src/mme/CMakeFiles/srsepc_mme.dir/build.make srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.provides.build
+.PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.provides
+
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.provides.build: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o
+
+
 # Object files for target srsepc_mme
 srsepc_mme_OBJECTS = \
-"CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o" \
 "CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o" \
-"CMakeFiles/srsepc_mme.dir/mme.cc.o" \
 "CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o" \
-"CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o" \
-"CMakeFiles/srsepc_mme.dir/s1ap.cc.o"
+"CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o" \
+"CMakeFiles/srsepc_mme.dir/s1ap.cc.o" \
+"CMakeFiles/srsepc_mme.dir/mme.cc.o" \
+"CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o"
 
 # External object files for target srsepc_mme
 srsepc_mme_EXTERNAL_OBJECTS =
 
-srsepc/src/mme/libsrsepc_mme.a: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o
 srsepc/src/mme/libsrsepc_mme.a: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o
-srsepc/src/mme/libsrsepc_mme.a: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o
 srsepc/src/mme/libsrsepc_mme.a: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o
-srsepc/src/mme/libsrsepc_mme.a: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o
+srsepc/src/mme/libsrsepc_mme.a: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o
 srsepc/src/mme/libsrsepc_mme.a: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o
+srsepc/src/mme/libsrsepc_mme.a: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o
+srsepc/src/mme/libsrsepc_mme.a: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o
 srsepc/src/mme/libsrsepc_mme.a: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/build.make
 srsepc/src/mme/libsrsepc_mme.a: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libsrsepc_mme.a"
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && $(CMAKE_COMMAND) -P CMakeFiles/srsepc_mme.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srsepc_mme.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mdasari/Lte-setup-bell/vnfs/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libsrsepc_mme.a"
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && $(CMAKE_COMMAND) -P CMakeFiles/srsepc_mme.dir/cmake_clean_target.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srsepc_mme.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/build: srsepc/src/mme/libsrsepc_mme.a
 
 .PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/build
 
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/requires: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.requires
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/requires: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o.requires
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/requires: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.requires
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/requires: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o.requires
-srsepc/src/mme/CMakeFiles/srsepc_mme.dir/requires: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.requires
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/requires: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o.requires
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/requires: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o.requires
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/requires: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o.requires
+srsepc/src/mme/CMakeFiles/srsepc_mme.dir/requires: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o.requires
 
 .PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/requires
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/clean:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme && $(CMAKE_COMMAND) -P CMakeFiles/srsepc_mme.dir/cmake_clean.cmake
+	cd /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme && $(CMAKE_COMMAND) -P CMakeFiles/srsepc_mme.dir/cmake_clean.cmake
 .PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/clean
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/depend:
-	cd /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/mme /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mdasari/Lte-setup-bell/vnfs/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mdasari/Lte-setup-bell/vnfs /home/mdasari/Lte-setup-bell/vnfs/srsepc/src/mme /home/mdasari/Lte-setup-bell/vnfs/build /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme /home/mdasari/Lte-setup-bell/vnfs/build/srsepc/src/mme/CMakeFiles/srsepc_mme.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srsepc/src/mme/CMakeFiles/srsepc_mme.dir/depend
 

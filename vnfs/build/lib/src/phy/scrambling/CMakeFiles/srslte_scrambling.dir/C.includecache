@@ -50,7 +50,7 @@ stdint.h
 srslte/config.h
 ../lib/include/srslte/phy/utils/srslte/config.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/scrambling/scrambling.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/scrambling/scrambling.c
 stdio.h
 -
 stdlib.h
@@ -60,9 +60,9 @@ string.h
 assert.h
 -
 srslte/phy/utils/bit.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/scrambling/srslte/phy/utils/bit.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/scrambling/srslte/phy/utils/bit.h
 srslte/phy/utils/vector.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/scrambling/srslte/phy/utils/vector.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/scrambling/srslte/phy/utils/vector.h
 srslte/phy/scrambling/scrambling.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/scrambling/srslte/phy/scrambling/scrambling.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/scrambling/srslte/phy/scrambling/scrambling.h
 

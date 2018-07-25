@@ -83,6 +83,6 @@ lib/src/phy/fec/test/CMakeFiles/turbodecoder_test.dir/turbodecoder_test.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/fec/test/turbodecoder_test.c
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/fec/test/turbodecoder_test.h
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/fec/test/turbodecoder_test.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/fec/test/turbodecoder_test.h
  lib/include/srslte/version.h

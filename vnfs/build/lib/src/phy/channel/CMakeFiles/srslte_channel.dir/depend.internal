@@ -4,7 +4,7 @@
 lib/src/phy/channel/CMakeFiles/srslte_channel.dir/ch_awgn.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/channel/ch_awgn.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/channel/ch_awgn.c
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/channel/gauss.h
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/channel/ch_awgn.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/channel/gauss.h
 lib/src/phy/channel/CMakeFiles/srslte_channel.dir/gauss.c.o
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/channel/gauss.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/channel/gauss.c

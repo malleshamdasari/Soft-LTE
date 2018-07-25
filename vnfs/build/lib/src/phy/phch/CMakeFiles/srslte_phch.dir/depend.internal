@@ -9,7 +9,7 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/cqi.c.o
  ../lib/include/srslte/phy/utils/bit.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/cqi.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/cqi.c
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/dci.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/phy_common.h
@@ -19,8 +19,8 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/dci.c.o
  ../lib/include/srslte/phy/utils/bit.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/dci.c
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/dci_sz_table.h
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/dci.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/dci_sz_table.h
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pbch.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/agc/agc.h
@@ -103,8 +103,8 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pbch.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/pbch.c
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/prb_dl.h
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/pbch.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/prb_dl.h
  lib/include/srslte/version.h
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pcfich.c.o
  ../lib/include/srslte/config.h
@@ -122,7 +122,7 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pcfich.c.o
  ../lib/include/srslte/phy/utils/bit.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/pcfich.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/pcfich.c
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pdcch.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/phy_common.h
@@ -145,7 +145,7 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pdcch.c.o
  ../lib/include/srslte/phy/utils/bit.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/pdcch.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/pdcch.c
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pdsch.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/agc/agc.h
@@ -228,8 +228,8 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pdsch.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/pdsch.c
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/prb_dl.h
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/pdsch.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/prb_dl.h
  lib/include/srslte/version.h
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/phich.c.o
  ../lib/include/srslte/config.h
@@ -247,7 +247,7 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/phich.c.o
  ../lib/include/srslte/phy/utils/bit.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/phich.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/phich.c
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pmch.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/phy_common.h
@@ -281,8 +281,8 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pmch.c.o
  ../lib/include/srslte/phy/utils/bit.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/pmch.c
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/prb_dl.h
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/pmch.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/prb_dl.h
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/prach.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/agc/agc.h
@@ -365,13 +365,13 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/prach.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/prach.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/prach.c
  lib/include/srslte/version.h
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/prb_dl.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/phy_common.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/prb_dl.c
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/prb_dl.h
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/prb_dl.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/prb_dl.h
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pucch.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/agc/agc.h
@@ -454,7 +454,7 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pucch.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/pucch.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/pucch.c
  lib/include/srslte/version.h
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pusch.c.o
  ../lib/include/srslte/config.h
@@ -538,7 +538,7 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/pusch.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/pusch.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/pusch.c
  lib/include/srslte/version.h
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/ra.c.o
  ../lib/include/srslte/config.h
@@ -548,15 +548,15 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/ra.c.o
  ../lib/include/srslte/phy/utils/bit.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/ra.c
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/tbs_tables.h
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/ra.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/tbs_tables.h
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/regs.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/phy_common.h
  ../lib/include/srslte/phy/common/phy_logger.h
  ../lib/include/srslte/phy/phch/regs.h
  ../lib/include/srslte/phy/utils/debug.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/regs.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/regs.c
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/sch.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/phy_common.h
@@ -591,12 +591,12 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/sch.c.o
  ../lib/include/srslte/phy/utils/bit.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/sch.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/sch.c
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/sequences.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/phy_common.h
  ../lib/include/srslte/phy/common/sequence.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/sequences.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/sequences.c
 lib/src/phy/phch/CMakeFiles/srslte_phch.dir/uci.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/common/phy_common.h
@@ -614,4 +614,4 @@ lib/src/phy/phch/CMakeFiles/srslte_phch.dir/uci.c.o
  ../lib/include/srslte/phy/utils/bit.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/phch/uci.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/phch/uci.c

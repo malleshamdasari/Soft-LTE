@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/srslte_rf.dir/rf_uhd_imp.c.o"
   "CMakeFiles/srslte_rf.dir/uhd_c_api.cpp.o"
   "CMakeFiles/srslte_rf.dir/rf_blade_imp.c.o"
+  "CMakeFiles/srslte_rf.dir/rf_soapy_imp.c.o"
   "libsrslte_rf.pdb"
   "libsrslte_rf.so"
 )

@@ -30,7 +30,7 @@ stdint.h
 srslte/config.h
 ../lib/include/srslte/phy/utils/srslte/config.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/utils/test/mat_test.c
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/utils/test/mat_test.c
 stdio.h
 -
 stdlib.h
@@ -44,9 +44,9 @@ stdbool.h
 sys/time.h
 -
 srslte/phy/utils/mat.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/utils/test/srslte/phy/utils/mat.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/utils/test/srslte/phy/utils/mat.h
 srslte/phy/utils/simd.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/utils/test/srslte/phy/utils/simd.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/utils/test/srslte/phy/utils/simd.h
 srslte/phy/utils/vector.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/utils/test/srslte/phy/utils/vector.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/utils/test/srslte/phy/utils/vector.h
 

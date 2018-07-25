@@ -1266,15 +1266,15 @@ srslte/upper/rlc_interface.h
 srslte/asn1/liblte_rrc.h
 ../lib/include/srslte/upper/srslte/asn1/liblte_rrc.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/upper/rlc_am_test.cc
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/upper/rlc_am_test.cc
 iostream
 -
 srslte/common/log_filter.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/upper/srslte/common/log_filter.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/upper/srslte/common/log_filter.h
 srslte/common/logger_stdout.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/upper/srslte/common/logger_stdout.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/upper/srslte/common/logger_stdout.h
 srslte/upper/rlc_am.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/upper/srslte/upper/rlc_am.h
+/home/mdasari/Lte-setup-bell/vnfs/lib/test/upper/srslte/upper/rlc_am.h
 assert.h
 -
 

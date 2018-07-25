@@ -83,7 +83,7 @@ lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_fftw.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/dft_fftw.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/dft_fftw.c
  lib/include/srslte/version.h
 lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_precoding.c.o
  ../lib/include/srslte/config.h
@@ -93,7 +93,7 @@ lib/src/phy/dft/CMakeFiles/srslte_dft.dir/dft_precoding.c.o
  ../lib/include/srslte/phy/dft/dft_precoding.h
  ../lib/include/srslte/phy/utils/debug.h
  ../lib/include/srslte/phy/utils/vector.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/dft_precoding.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/dft_precoding.c
 lib/src/phy/dft/CMakeFiles/srslte_dft.dir/ofdm.c.o
  ../lib/include/srslte/config.h
  ../lib/include/srslte/phy/agc/agc.h
@@ -176,5 +176,5 @@ lib/src/phy/dft/CMakeFiles/srslte_dft.dir/ofdm.c.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/src/phy/dft/ofdm.c
+ /home/mdasari/Lte-setup-bell/vnfs/lib/src/phy/dft/ofdm.c
  lib/include/srslte/version.h

@@ -89,5 +89,5 @@ lib/test/asn1/CMakeFiles/rrc_meas_test.dir/rrc_meas_test.cc.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/asn1/rrc_meas_test.cc
+ /home/mdasari/Lte-setup-bell/vnfs/lib/test/asn1/rrc_meas_test.cc
  lib/include/srslte/version.h

@@ -154,7 +154,7 @@ srsue/src/CMakeFiles/srsue.dir/main.cc.o
  ../srsue/hdr/upper/rrc.h
  ../srsue/hdr/upper/rrc_common.h
  ../srsue/hdr/upper/usim.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/main.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/src/main.cc
  lib/include/srslte/version.h
 srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o
  ..//srsue/hdr/metrics_csv.h
@@ -246,7 +246,7 @@ srsue/src/CMakeFiles/srsue.dir/metrics_csv.cc.o
  ../srsue/hdr/phy/phy_metrics.h
  ../srsue/hdr/ue_metrics_interface.h
  ../srsue/hdr/upper/gw_metrics.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/metrics_csv.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/src/metrics_csv.cc
  lib/include/srslte/version.h
 srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o
  ..//srsue/hdr/metrics_stdout.h
@@ -338,7 +338,7 @@ srsue/src/CMakeFiles/srsue.dir/metrics_stdout.cc.o
  ../srsue/hdr/phy/phy_metrics.h
  ../srsue/hdr/ue_metrics_interface.h
  ../srsue/hdr/upper/gw_metrics.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/metrics_stdout.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/src/metrics_stdout.cc
  lib/include/srslte/version.h
 srsue/src/CMakeFiles/srsue.dir/ue.cc.o
  ..//srsue/hdr/ue.h
@@ -491,7 +491,7 @@ srsue/src/CMakeFiles/srsue.dir/ue.cc.o
  ../srsue/hdr/upper/rrc.h
  ../srsue/hdr/upper/rrc_common.h
  ../srsue/hdr/upper/usim.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/ue.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/src/ue.cc
  lib/include/srslte/version.h
 srsue/src/CMakeFiles/srsue.dir/ue_base.cc.o
  ..//srsue/hdr/ue.h
@@ -645,6 +645,6 @@ srsue/src/CMakeFiles/srsue.dir/ue_base.cc.o
  ../srsue/hdr/upper/rrc.h
  ../srsue/hdr/upper/rrc_common.h
  ../srsue/hdr/upper/usim.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/ue_base.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/src/ue_base.cc
  lib/include/srslte/build_info.h
  lib/include/srslte/version.h

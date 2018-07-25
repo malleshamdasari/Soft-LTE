@@ -128,5 +128,5 @@ srsue/test/mac/CMakeFiles/mac_test.dir/mac_test.cc.o
  ../srsue/hdr/phy/phch_worker.h
  ../srsue/hdr/phy/phy_metrics.h
  ../srsue/hdr/phy/prach.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/test/mac/mac_test.cc
+ /home/mdasari/Lte-setup-bell/vnfs/srsue/test/mac/mac_test.cc
  lib/include/srslte/version.h

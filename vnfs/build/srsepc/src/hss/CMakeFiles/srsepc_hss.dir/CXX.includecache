@@ -1218,7 +1218,7 @@ srslte/phy/sync/cfo.h
 srslte/phy/sync/cp.h
 ../lib/include/srslte/srslte/phy/sync/cp.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/hss/hss.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/hss/hss.cc
 stdlib.h
 -
 time.h
@@ -1232,9 +1232,9 @@ iomanip
 inttypes.h
 -
 srsepc/hdr/hss/hss.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/hss/srsepc/hdr/hss/hss.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/hss/srsepc/hdr/hss/hss.h
 srslte/common/security.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsepc/src/hss/srslte/common/security.h
+/home/mdasari/Lte-setup-bell/vnfs/srsepc/src/hss/srslte/common/security.h
 
 lib/include/srslte/version.h
 srslte/config.h

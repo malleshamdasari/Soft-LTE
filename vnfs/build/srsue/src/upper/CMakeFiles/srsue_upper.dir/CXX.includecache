@@ -1320,9 +1320,9 @@ srslte/asn1/liblte_rrc.h
 
 ../srsue/hdr/upper/rrc_common.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/gw.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/gw.cc
 srsue/hdr/upper/gw.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/srsue/hdr/upper/gw.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srsue/hdr/upper/gw.h
 errno.h
 -
 unistd.h
@@ -1342,7 +1342,7 @@ sys/ioctl.h
 sys/socket.h
 -
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/nas.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/nas.cc
 unistd.h
 -
 iostream
@@ -1354,15 +1354,15 @@ fstream
 sstream
 -
 srslte/asn1/liblte_rrc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/srslte/asn1/liblte_rrc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srslte/asn1/liblte_rrc.h
 srsue/hdr/upper/nas.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/srsue/hdr/upper/nas.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srsue/hdr/upper/nas.h
 srslte/common/security.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/srslte/common/security.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srslte/common/security.h
 srslte/common/bcd_helpers.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/srslte/common/bcd_helpers.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srslte/common/bcd_helpers.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/rrc.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/rrc.cc
 unistd.h
 -
 iostream
@@ -1378,21 +1378,21 @@ inttypes.h
 srslte/asn1/liblte_rrc.h
 -
 srsue/hdr/upper/rrc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/srsue/hdr/upper/rrc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srsue/hdr/upper/rrc.h
 srslte/asn1/liblte_rrc.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/srslte/asn1/liblte_rrc.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srslte/asn1/liblte_rrc.h
 srslte/common/security.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/srslte/common/security.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srslte/common/security.h
 srslte/common/bcd_helpers.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/srslte/common/bcd_helpers.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srslte/common/bcd_helpers.h
 
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/usim.cc
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/usim.cc
 sstream
 -
 srsue/hdr/upper/usim.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/srsue/hdr/upper/usim.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srsue/hdr/upper/usim.h
 srslte/common/bcd_helpers.h
-/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsue/src/upper/srslte/common/bcd_helpers.h
+/home/mdasari/Lte-setup-bell/vnfs/srsue/src/upper/srslte/common/bcd_helpers.h
 
 lib/include/srslte/version.h
 srslte/config.h

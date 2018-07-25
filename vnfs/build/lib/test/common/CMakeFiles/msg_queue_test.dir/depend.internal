@@ -85,5 +85,5 @@ lib/test/common/CMakeFiles/msg_queue_test.dir/msg_queue_test.cc.o
  ../lib/include/srslte/phy/utils/ringbuffer.h
  ../lib/include/srslte/phy/utils/vector.h
  ../lib/include/srslte/srslte.h
- /home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/lib/test/common/msg_queue_test.cc
+ /home/mdasari/Lte-setup-bell/vnfs/lib/test/common/msg_queue_test.cc
  lib/include/srslte/version.h
