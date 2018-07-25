@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//srsenb/hdr/upper/common_enb.h
+stdint.h
+-
+
+../lib/include/srslte/asn1/liblte_common.h
+stdint.h
+-
+stddef.h
+-
+stdlib.h
+-
+string.h
+-
+
+../lib/include/srslte/asn1/liblte_rrc.h
+liblte_common.h
+../lib/include/srslte/asn1/liblte_common.h
+
+/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/upper/plmn_test.cc
+assert.h
+-
+srsenb/hdr/upper/common_enb.h
+/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/upper/srsenb/hdr/upper/common_enb.h
+srslte/asn1/liblte_rrc.h
+/home/ubuntu/Lte-setup-bell/eNodeB-Emulator/vnfs/srsenb/test/upper/srslte/asn1/liblte_rrc.h
+

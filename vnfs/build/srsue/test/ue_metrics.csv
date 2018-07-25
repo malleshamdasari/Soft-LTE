@@ -1,0 +1,4 @@
+time;rsrp;pl;cfo;dl_mcs;dl_snr;dl_turbo;dl_brate;dl_bler;ul_mcs;ul_buff;ul_brate;ul_bler;rf_o;rf_u;rf_l;is_attached
+0;-10;74;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;10;0.0;0.0;1.0
+1;-10;74;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;10;0.0;0.0;0.0
+#eof
